@@ -147,5 +147,6 @@ All module output screenshots are available in the `docs/` folder.
 **Thillak K**
 B.E. Computer Science & Engineering (IoT)
 Sri Krishna College of Technology, Coimbatore
+
 LinkedIn: [linkedin.com/in/thillak-k](https://linkedin.com/in/thillak-k)
 GitHub: [github.com/thillak19](https://github.com/thillak19)
