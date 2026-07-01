@@ -93,6 +93,24 @@ def train_models(X_train, X_test, y_train, y_test):
 
     return results, best_name
 
+from sklearn.model_selection import GridSearchCV
+
+def tune_random_forest(X_train, y_train):
+    preprocessor = build_preprocessor()
+    param_grid = {
+        "model__n_estimators": [100, 200],
+        "model__max_depth": [8, 10, 12],
+        "model__min_samples_split": [2, 5],
+    }
+    pipe = Pipeline([("preprocess", preprocessor),
+                     ("model", RandomForestClassifier(class_weight="balanced", random_state=42))])
+    grid = GridSearchCV(pipe, param_grid, cv=3, scoring="f1", n_jobs=-1, verbose=1)
+    grid.fit(X_train, y_train)
+    print(f"Best params: {grid.best_params_}")
+    print(f"Best CV F1: {grid.best_score_:.3f}")
+    joblib.dump(grid.best_estimator_, MODEL_DIR / "churn_tuned_model.pkl")
+    return grid.best_estimator_
+
 
 if __name__ == "__main__":
     print("Loading data...")
@@ -100,7 +118,8 @@ if __name__ == "__main__":
     print(f"Train size: {len(X_train)} | Test size: {len(X_test)} | Churn rate (train): {y_train.mean():.3f}\n")
 
     results, best_name = train_models(X_train, X_test, y_train, y_test)
-
+    print("\n--- Hyperparameter Tuning ---")
+    tune_random_forest(X_train, y_train)
     with open(MODEL_DIR / "churn_results.json", "w") as f:
         json.dump(results, f, indent=2)
 

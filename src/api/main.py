@@ -12,12 +12,27 @@ import pandas as pd
 from pathlib import Path
 from PIL import Image
 import io
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="NourishNet AI API",
     description="AI-powered food delivery intelligence platform",
     version="1.0.0"
 )
+
+from fastapi.responses import JSONResponse
+from fastapi.exceptions import RequestValidationError
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request, exc):
+    return JSONResponse(status_code=422, content={"error": "Invalid input", "details": str(exc)})
+
+@app.exception_handler(Exception)
+async def general_exception_handler(request, exc):
+    logger.error(f"Unexpected error: {exc}")
+    return JSONResponse(status_code=500, content={"error": "Internal server error"})
 
 MODEL_DIR = Path("models/saved")
 
@@ -123,6 +138,7 @@ def health():
 def predict_delivery_time(req: DeliveryRequest):
     df = pd.DataFrame([req.dict()])
     prediction = delivery_model.predict(df)[0]
+    logger.info(f"Delivery prediction: {round(float(prediction), 1)} min")
     return {"estimated_delivery_time_min": round(float(prediction), 1), "status": "success"}
 
 
