@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  nourishnet-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: nourishnet-ai
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../models/saved:/app/models/saved
+      - ../data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

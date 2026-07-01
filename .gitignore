@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.pkl
+*.keras
+*.pth
+data/raw/
+models/saved/
+.DS_Store
+*.zip
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
