@@ -24,7 +24,7 @@ NourishNet AI is a comprehensive machine learning project built to simulate real
 | REST API (MLOps) | FastAPI + Uvicorn | 6 live endpoints |
 
 ---
-
+```
 ## 📁 Project Structure
 nourishnet-ai/
 ├── src/
@@ -48,7 +48,7 @@ nourishnet-ai/
 │   └── nourishnet_recommendation_module.ipynb
 ├── docs/                              # Screenshots and outputs
 └── docker/
-
+```
 ---
 
 ## ⚙️ Setup & Installation
