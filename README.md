@@ -25,7 +25,7 @@ NourishNet AI is a comprehensive machine learning project built to simulate real
 
 ---
 ```
-## 📁 Project Structure
+📁 Project Structure
 nourishnet-ai/
 ├── src/
 │   ├── data/
