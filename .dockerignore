@@ -1,0 +1,24 @@
+# Ignore Python/Docker build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.*
+*.db
+*.sqlite3
+.env.local
+*.egg-info/
+build/
+dist/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# models
+models/saved/
