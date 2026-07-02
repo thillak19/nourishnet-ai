@@ -1,0 +1,2001 @@
+order_id,user_id,food_name,distance_km,restaurant_prep_time_min,hour_of_day,is_peak_hour,order_value_inr,customer_total_past_orders,customer_is_premium,customer_complaints_90d,cuisine_type,weather,traffic_level,vehicle_type,delivery_time_min,customer_rating,churned,rating
+1,user_065,Veg Fried Rice,3.07,28,8,1,243.49,69,1,3,Continental,Sunny,Low,Bicycle,42.5,1,0,5
+2,user_044,Paneer Tikka,9.81,5,10,0,1162.33,20,0,2,Chinese,Storm,Low,Scooter,50.7,2,0,4
+3,user_047,Veg Fried Rice,1.0,19,14,1,850.72,48,1,2,Indian,Rain,Medium,Bicycle,48.8,5,0,1
+4,user_088,Ice Cream Cone,10.46,17,10,0,489.16,46,1,2,Indian,Cloudy,Medium,Bike,57.3,3,0,5
+5,user_005,Sushi Roll,5.82,13,20,1,1485.33,71,1,2,Continental,Cloudy,High,Bicycle,62.7,1,0,3
+6,user_096,Veg Fried Rice,8.04,17,21,1,1338.56,58,1,1,Indian,Cloudy,High,Bicycle,67.5,5,0,5
+7,user_060,Veg Fried Rice,1.55,6,16,0,1305.54,19,0,3,Fast Food,Rain,Low,Bike,24.7,4,0,5
+8,user_098,Margherita Pizza,9.34,15,11,0,256.17,55,1,0,Indian,Sunny,High,Bicycle,61.6,3,0,3
+9,user_040,Margherita Pizza,6.7,29,9,0,1391.41,0,0,3,Continental,Cloudy,Low,Scooter,48.2,3,0,2
+10,user_078,Chocolate Donut,1.3,29,14,0,845.79,16,1,3,South Indian,Sunny,Low,Bicycle,36.2,2,0,5
+11,user_071,Margherita Pizza,8.22,16,15,0,713.34,66,0,1,Continental,Cloudy,High,Scooter,59.1,3,1,1
+12,user_032,Chocolate Donut,10.39,7,21,0,819.82,35,0,1,Indian,Sunny,Low,Bike,41.1,5,0,2
+13,user_025,Veg Fried Rice,5.23,28,22,0,175.84,12,1,2,Indian,Sunny,High,Scooter,59.5,1,0,2
+14,user_063,Chocolate Donut,11.12,19,14,1,1231.23,70,1,0,Fast Food,Cloudy,Medium,Scooter,72.9,2,0,4
+15,user_008,Veg Fried Rice,3.55,30,9,0,1199.18,36,0,3,Indian,Cloudy,Medium,Bike,48.8,3,0,3
+16,user_031,Chocolate Donut,10.31,10,11,0,179.63,65,1,1,Indian,Sunny,High,Scooter,55.2,1,0,5
+17,user_083,Sushi Roll,7.21,21,22,0,542.92,33,1,2,Chinese,Sunny,High,Bike,56.2,4,1,3
+18,user_021,Chocolate Donut,11.96,7,17,0,852.69,64,0,2,Indian,Sunny,Medium,Bicycle,54.1,2,0,5
+19,user_044,Margherita Pizza,8.13,9,16,1,470.25,13,0,1,Continental,Sunny,High,Bicycle,58.3,5,0,5
+20,user_055,Veg Fried Rice,10.04,6,8,0,104.96,16,0,2,Fast Food,Rain,Low,Bike,43.3,4,0,1
+21,user_086,Paneer Tikka,7.2,9,19,0,701.7,5,0,0,Indian,Cloudy,High,Bike,55.7,2,0,5
+22,user_090,Paneer Tikka,9.82,18,20,0,134.7,42,0,3,Fast Food,Cloudy,Low,Bike,53.0,2,0,1
+23,user_066,Chocolate Donut,9.94,12,18,1,412.09,24,0,2,Fast Food,Cloudy,Low,Scooter,57.4,3,0,1
+24,user_074,Margherita Pizza,3.55,8,16,0,935.2,44,0,2,Indian,Rain,Low,Bicycle,30.1,5,1,1
+25,user_085,Paneer Tikka,6.69,28,17,0,1416.37,25,0,0,Continental,Storm,Low,Bicycle,63.0,3,0,5
+26,user_001,Sushi Roll,6.88,11,17,0,688.62,48,0,1,Italian,Storm,Medium,Scooter,56.6,3,0,2
+27,user_097,Margherita Pizza,2.96,20,17,0,1211.23,21,0,2,Fast Food,Rain,Medium,Scooter,44.5,5,0,2
+28,user_032,Margherita Pizza,5.96,29,8,1,201.96,53,0,1,Chinese,Cloudy,Low,Bike,58.5,4,0,1
+29,user_097,Chocolate Donut,1.08,12,21,0,1384.46,15,0,3,Fast Food,Cloudy,Low,Bicycle,26.1,5,0,5
+30,user_031,Sushi Roll,9.15,25,18,0,488.24,66,0,1,Fast Food,Cloudy,High,Scooter,68.0,1,0,3
+31,user_050,Veg Fried Rice,8.48,27,8,1,399.53,53,0,3,South Indian,Sunny,Low,Bike,57.6,2,0,5
+32,user_004,Chocolate Donut,4.98,18,18,1,853.51,69,0,1,Fast Food,Storm,Low,Scooter,57.0,3,0,4
+33,user_034,Chocolate Donut,6.64,17,18,0,928.65,3,1,3,Continental,Cloudy,Medium,Bike,47.3,4,0,2
+34,user_009,Ice Cream Cone,11.44,18,9,1,453.18,10,0,0,Fast Food,Rain,Medium,Scooter,75.2,3,0,1
+35,user_096,Ice Cream Cone,1.95,26,11,1,260.15,27,0,2,Chinese,Cloudy,Low,Bicycle,46.7,2,0,2
+36,user_077,Paneer Tikka,7.12,17,9,0,655.32,25,1,1,Italian,Sunny,High,Bike,52.3,3,0,3
+37,user_056,Margherita Pizza,7.95,5,16,1,1289.41,62,1,2,South Indian,Storm,High,Scooter,71.2,4,0,5
+38,user_086,Chocolate Donut,7.31,15,18,0,1292.4,11,0,3,South Indian,Storm,Medium,Scooter,58.2,4,0,1
+39,user_098,Margherita Pizza,9.68,15,23,1,491.52,35,0,1,Fast Food,Rain,Low,Scooter,56.2,4,0,4
+40,user_090,Chocolate Donut,8.46,14,16,1,1029.54,47,0,2,Fast Food,Sunny,Low,Scooter,48.5,5,0,3
+41,user_068,Veg Fried Rice,1.87,22,17,1,1431.23,23,1,3,Italian,Cloudy,Low,Bicycle,40.7,5,0,1
+42,user_097,Chocolate Donut,0.66,22,11,1,277.22,5,0,2,Chinese,Rain,Low,Scooter,42.2,2,0,1
+43,user_088,Paneer Tikka,2.62,6,12,0,453.47,61,1,0,South Indian,Rain,Medium,Scooter,33.2,1,0,2
+44,user_076,Chocolate Donut,9.29,24,17,1,934.58,28,0,3,South Indian,Rain,Low,Bike,63.7,4,0,5
+45,user_058,Ice Cream Cone,9.27,25,23,1,395.44,10,1,1,South Indian,Sunny,High,Bicycle,74.0,2,1,3
+46,user_020,Sushi Roll,10.39,7,12,1,1062.34,33,0,1,Indian,Cloudy,Medium,Bicycle,59.4,5,0,1
+47,user_057,Paneer Tikka,7.05,14,9,0,714.81,59,0,3,Indian,Cloudy,Medium,Bicycle,51.1,5,0,4
+48,user_098,Margherita Pizza,3.13,26,23,1,1270.34,73,0,0,Continental,Rain,High,Scooter,68.0,3,0,5
+49,user_043,Chocolate Donut,5.51,20,23,0,1456.68,60,0,2,Continental,Storm,Medium,Bike,57.7,1,0,3
+50,user_007,Margherita Pizza,4.12,15,19,0,262.29,51,0,0,Continental,Storm,High,Bike,60.7,5,0,5
+51,user_071,Chocolate Donut,2.01,14,10,1,713.36,62,1,1,Fast Food,Storm,Low,Bike,48.1,3,0,2
+52,user_019,Chocolate Donut,6.23,27,14,0,508.61,34,0,3,Indian,Storm,Low,Bicycle,61.4,2,0,5
+53,user_075,Ice Cream Cone,10.33,15,23,0,1407.95,64,0,0,South Indian,Cloudy,Low,Scooter,49.0,3,0,2
+54,user_053,Paneer Tikka,6.75,19,18,0,1405.99,24,0,1,Fast Food,Storm,Medium,Scooter,61.6,2,0,4
+55,user_059,Paneer Tikka,8.0,9,12,0,793.46,4,1,2,Continental,Storm,Medium,Bicycle,59.5,4,1,4
+56,user_005,Veg Fried Rice,3.55,24,10,0,1069.79,10,0,3,Continental,Cloudy,Low,Scooter,42.4,4,0,2
+57,user_008,Sushi Roll,11.75,29,19,1,987.25,12,0,2,Continental,Rain,Low,Bicycle,76.1,1,0,3
+58,user_075,Margherita Pizza,8.34,10,15,0,337.98,10,0,3,Fast Food,Cloudy,Low,Bicycle,42.6,2,0,4
+59,user_055,Ice Cream Cone,10.84,19,16,0,1361.69,69,1,3,Continental,Rain,Medium,Scooter,66.1,5,0,4
+60,user_100,Ice Cream Cone,4.89,16,9,1,904.74,37,1,3,Italian,Cloudy,Medium,Scooter,51.1,5,0,5
+61,user_057,Paneer Tikka,4.55,25,19,0,366.18,32,0,1,Continental,Storm,Medium,Bike,60.6,1,0,2
+62,user_062,Sushi Roll,2.81,30,18,0,855.17,46,0,2,Indian,Rain,Medium,Bicycle,53.0,3,0,1
+63,user_048,Ice Cream Cone,8.83,17,16,0,1454.18,71,0,3,Fast Food,Sunny,Low,Bike,41.1,5,1,5
+64,user_015,Margherita Pizza,0.79,22,9,1,559.21,28,0,3,Fast Food,Rain,Low,Bicycle,43.8,3,0,1
+65,user_079,Chocolate Donut,6.68,17,16,1,735.1,69,0,1,Italian,Storm,Low,Bike,62.9,1,0,1
+66,user_016,Chocolate Donut,3.22,16,10,0,239.1,47,0,2,Continental,Rain,Low,Scooter,32.6,3,0,2
+67,user_019,Veg Fried Rice,1.95,23,8,1,387.29,70,1,1,Continental,Sunny,Low,Scooter,40.9,2,0,3
+68,user_007,Margherita Pizza,1.76,5,21,0,284.52,45,0,1,Chinese,Cloudy,High,Scooter,37.4,1,0,5
+69,user_083,Paneer Tikka,6.4,8,9,0,732.81,28,0,0,Indian,Sunny,Medium,Scooter,40.0,5,0,4
+70,user_071,Ice Cream Cone,10.96,7,18,0,1358.97,41,0,0,Fast Food,Storm,High,Bike,69.1,5,0,4
+71,user_059,Chocolate Donut,1.64,27,21,0,260.18,70,0,1,South Indian,Rain,Medium,Bicycle,45.6,2,0,1
+72,user_048,Margherita Pizza,11.47,26,9,1,1392.18,8,1,0,Italian,Storm,Medium,Bicycle,83.4,1,0,5
+73,user_020,Ice Cream Cone,10.55,29,23,0,692.11,6,0,2,South Indian,Rain,High,Bike,76.8,5,0,2
+74,user_035,Ice Cream Cone,3.7,12,17,1,1230.11,71,0,0,Indian,Rain,High,Scooter,57.3,3,1,3
+75,user_048,Sushi Roll,5.11,9,18,0,1137.36,3,1,1,Italian,Sunny,Low,Bike,28.3,4,0,5
+76,user_097,Veg Fried Rice,7.61,26,11,1,214.21,56,0,3,South Indian,Sunny,Low,Bike,55.9,4,0,3
+77,user_099,Margherita Pizza,6.1,26,16,0,531.79,28,0,0,Fast Food,Sunny,Medium,Bicycle,47.5,3,0,3
+78,user_059,Paneer Tikka,2.52,17,18,0,845.62,29,0,2,Italian,Sunny,Low,Scooter,25.6,1,0,5
+79,user_014,Margherita Pizza,1.82,5,21,0,1452.68,21,0,3,Fast Food,Storm,High,Bicycle,49.0,3,1,5
+80,user_083,Margherita Pizza,3.05,29,15,0,335.39,65,0,1,Fast Food,Sunny,Medium,Scooter,47.4,3,0,1
+81,user_080,Sushi Roll,9.24,25,18,0,205.49,63,0,3,Chinese,Rain,Low,Bike,57.7,5,0,2
+82,user_037,Paneer Tikka,9.66,23,10,0,178.64,64,1,3,Fast Food,Sunny,Medium,Scooter,57.0,1,0,5
+83,user_008,Chocolate Donut,9.61,6,11,0,729.63,73,0,2,South Indian,Storm,Medium,Bicycle,59.9,5,1,3
+84,user_100,Sushi Roll,3.35,19,9,1,1487.38,67,0,1,Continental,Sunny,High,Bicycle,53.9,3,0,3
+85,user_090,Ice Cream Cone,3.77,28,20,0,1292.19,19,0,1,Indian,Rain,Low,Bicycle,47.5,3,0,2
+86,user_024,Margherita Pizza,9.6,9,18,0,1038.16,67,1,3,South Indian,Sunny,Medium,Bicycle,47.4,1,0,4
+87,user_049,Margherita Pizza,10.21,8,13,1,810.77,69,0,0,Chinese,Cloudy,Low,Bike,54.1,5,0,2
+88,user_061,Margherita Pizza,4.69,28,19,1,432.54,56,0,3,Continental,Cloudy,High,Scooter,66.7,2,0,5
+89,user_014,Ice Cream Cone,5.31,10,11,0,1243.65,17,0,0,Fast Food,Storm,Medium,Scooter,52.1,3,0,3
+90,user_065,Sushi Roll,2.19,18,15,0,228.4,28,0,2,Indian,Cloudy,Medium,Scooter,41.7,4,1,4
+91,user_018,Ice Cream Cone,1.64,27,23,1,1009.94,18,1,2,Indian,Rain,Low,Bike,49.5,4,0,4
+92,user_054,Ice Cream Cone,10.1,22,22,1,1416.32,67,0,2,South Indian,Sunny,Low,Bike,57.1,1,1,1
+93,user_086,Paneer Tikka,6.43,12,19,1,1105.96,37,0,2,Indian,Storm,High,Bicycle,69.9,4,0,1
+94,user_095,Sushi Roll,4.95,16,12,1,455.11,2,0,0,South Indian,Sunny,Medium,Scooter,47.6,1,0,1
+95,user_026,Paneer Tikka,8.37,27,14,0,769.94,23,0,0,Italian,Rain,High,Bike,72.1,4,1,1
+96,user_048,Chocolate Donut,6.74,13,20,0,151.27,24,0,0,Italian,Rain,High,Scooter,59.1,3,0,4
+97,user_042,Paneer Tikka,4.72,30,10,0,826.99,10,0,0,Fast Food,Rain,Low,Scooter,48.4,2,0,3
+98,user_008,Paneer Tikka,5.4,27,20,0,721.47,57,1,2,Continental,Rain,Medium,Scooter,56.1,4,0,3
+99,user_020,Ice Cream Cone,8.3,19,22,0,148.72,8,1,2,South Indian,Cloudy,Low,Bike,47.2,5,1,3
+100,user_072,Paneer Tikka,4.72,15,16,1,1009.39,31,0,0,Italian,Storm,Low,Bicycle,55.7,4,0,3
+101,user_088,Sushi Roll,11.04,20,19,1,380.25,17,0,3,Continental,Storm,Low,Bicycle,71.6,4,0,1
+102,user_064,Paneer Tikka,11.16,25,19,0,343.73,46,0,0,South Indian,Rain,Medium,Bike,71.3,2,0,5
+103,user_041,Ice Cream Cone,10.67,7,10,1,533.01,61,0,3,South Indian,Rain,Medium,Bicycle,64.5,1,1,4
+104,user_091,Margherita Pizza,2.59,9,19,0,705.67,7,0,1,Fast Food,Rain,Low,Bicycle,27.6,2,0,5
+105,user_085,Veg Fried Rice,6.83,9,18,0,975.03,68,1,1,Italian,Sunny,Medium,Bike,40.9,5,1,5
+106,user_039,Chocolate Donut,9.37,13,15,0,1011.58,73,0,0,Indian,Sunny,Low,Bike,42.5,5,0,4
+107,user_045,Chocolate Donut,5.56,20,12,1,750.22,43,0,2,Italian,Storm,Low,Bicycle,62.1,3,0,3
+108,user_021,Sushi Roll,3.58,12,18,0,297.23,6,0,3,South Indian,Sunny,Medium,Bike,36.5,4,0,2
+109,user_037,Chocolate Donut,4.05,5,23,0,226.07,50,0,1,Chinese,Storm,High,Scooter,50.9,3,1,3
+110,user_037,Paneer Tikka,3.54,16,20,1,1169.4,46,1,0,South Indian,Sunny,Low,Scooter,38.5,2,0,5
+111,user_052,Veg Fried Rice,1.98,8,9,0,651.47,43,0,2,Fast Food,Rain,High,Bicycle,43.1,2,0,1
+112,user_039,Veg Fried Rice,6.47,9,18,0,948.76,65,1,2,Indian,Cloudy,High,Scooter,49.5,5,0,5
+113,user_034,Ice Cream Cone,9.88,16,15,1,563.74,14,0,2,South Indian,Storm,High,Bicycle,84.7,1,0,1
+114,user_020,Chocolate Donut,7.63,17,14,0,306.89,31,1,0,South Indian,Storm,Low,Bicycle,53.1,4,0,4
+115,user_044,Veg Fried Rice,2.09,11,19,1,885.24,61,0,2,South Indian,Storm,High,Bicycle,62.7,4,0,3
+116,user_093,Sushi Roll,3.93,14,17,1,1179.64,26,0,3,South Indian,Storm,Low,Bike,50.5,3,0,1
+117,user_069,Sushi Roll,9.75,14,16,0,158.89,10,0,3,South Indian,Storm,Medium,Scooter,66.1,4,0,2
+118,user_071,Margherita Pizza,6.61,25,21,0,425.97,12,0,3,Indian,Cloudy,Low,Bike,45.6,2,1,4
+119,user_023,Paneer Tikka,1.18,29,20,1,225.25,73,1,0,Fast Food,Cloudy,Medium,Scooter,54.7,2,0,4
+120,user_015,Sushi Roll,7.43,15,13,1,498.39,69,0,1,Chinese,Rain,Low,Bike,55.2,4,0,4
+121,user_052,Ice Cream Cone,4.38,14,11,1,894.89,24,1,3,Continental,Rain,High,Bike,61.7,5,0,2
+122,user_008,Ice Cream Cone,4.91,19,11,1,1155.26,42,0,0,Chinese,Storm,Medium,Bike,63.1,3,0,4
+123,user_018,Chocolate Donut,10.79,27,12,0,1177.78,15,0,2,Italian,Cloudy,Medium,Bicycle,66.1,2,0,4
+124,user_010,Veg Fried Rice,5.91,22,11,0,1222.79,27,0,0,Continental,Rain,Medium,Bicycle,53.3,5,0,1
+125,user_008,Chocolate Donut,4.27,21,12,1,718.58,26,0,3,South Indian,Cloudy,High,Bicycle,59.9,5,0,5
+126,user_055,Sushi Roll,8.24,14,10,0,1112.59,50,0,0,Fast Food,Storm,High,Bike,70.9,5,1,5
+127,user_088,Ice Cream Cone,2.57,9,12,1,1172.16,53,0,3,Indian,Sunny,Medium,Bike,37.4,4,0,3
+128,user_049,Margherita Pizza,8.87,12,15,0,1268.75,2,0,3,Indian,Cloudy,High,Scooter,60.6,5,0,4
+129,user_005,Chocolate Donut,8.84,8,9,0,145.1,53,0,0,Italian,Cloudy,Medium,Bike,47.1,1,1,2
+130,user_077,Ice Cream Cone,3.0,29,18,1,179.02,64,0,1,Continental,Sunny,Medium,Scooter,54.7,5,0,2
+131,user_007,Sushi Roll,3.96,6,20,1,879.41,75,0,1,Italian,Cloudy,High,Bicycle,51.9,4,0,5
+132,user_054,Veg Fried Rice,2.61,22,12,1,762.93,28,0,1,Italian,Storm,Medium,Bike,62.8,1,0,4
+133,user_010,Margherita Pizza,11.11,16,14,0,229.45,24,1,3,Chinese,Rain,Low,Scooter,56.0,5,1,4
+134,user_100,Sushi Roll,2.69,28,20,1,264.24,61,0,1,Chinese,Rain,Medium,Bike,56.7,2,0,4
+135,user_006,Veg Fried Rice,10.65,19,15,0,238.05,60,0,2,South Indian,Rain,Medium,Scooter,65.4,3,0,2
+136,user_063,Ice Cream Cone,5.3,9,23,0,374.67,29,0,1,Indian,Rain,High,Bicycle,50.5,3,0,4
+137,user_053,Margherita Pizza,6.12,22,15,0,1486.45,7,0,0,Chinese,Rain,Low,Bike,49.4,1,0,1
+138,user_003,Veg Fried Rice,4.79,24,16,0,992.82,61,0,0,Continental,Cloudy,Low,Bike,39.8,5,0,5
+139,user_046,Sushi Roll,9.77,10,20,0,249.82,12,0,1,Italian,Sunny,High,Bicycle,54.6,5,0,1
+140,user_061,Paneer Tikka,8.52,14,8,1,1057.66,10,0,0,Italian,Storm,Medium,Bicycle,67.7,4,0,2
+141,user_036,Veg Fried Rice,7.01,8,9,0,1352.71,5,1,3,Indian,Storm,Medium,Bicycle,52.8,1,0,2
+142,user_070,Sushi Roll,9.94,17,20,1,1400.42,38,1,1,Italian,Sunny,Low,Bicycle,55.2,4,0,2
+143,user_035,Chocolate Donut,1.12,18,23,0,425.0,9,0,3,Continental,Sunny,High,Bicycle,43.2,3,1,2
+144,user_082,Margherita Pizza,8.1,7,20,0,1181.03,37,0,0,Italian,Storm,Medium,Bike,53.6,2,0,3
+145,user_014,Paneer Tikka,5.61,29,10,0,477.67,16,1,3,Italian,Sunny,Low,Bike,44.0,5,0,3
+146,user_022,Margherita Pizza,10.43,5,16,0,508.59,49,0,1,South Indian,Sunny,High,Bicycle,55.0,2,0,3
+147,user_026,Chocolate Donut,3.67,14,11,1,777.92,9,0,1,Italian,Storm,Low,Bike,52.3,4,0,2
+148,user_026,Chocolate Donut,4.87,15,18,0,716.31,55,0,1,Italian,Sunny,Medium,Scooter,38.5,5,0,2
+149,user_070,Margherita Pizza,6.15,23,8,0,1194.76,41,0,3,Fast Food,Rain,Medium,Bicycle,53.7,5,0,4
+150,user_049,Paneer Tikka,1.3,30,22,0,1213.06,63,1,2,Continental,Cloudy,Medium,Scooter,43.7,2,0,5
+151,user_046,Margherita Pizza,10.5,18,9,0,861.1,46,0,0,Fast Food,Storm,High,Bicycle,75.5,2,0,5
+152,user_087,Veg Fried Rice,1.63,12,12,1,814.95,66,0,1,Continental,Storm,Medium,Scooter,51.1,4,0,3
+153,user_045,Chocolate Donut,11.56,8,11,0,1263.84,18,0,2,Indian,Storm,Low,Scooter,58.2,2,0,4
+154,user_071,Margherita Pizza,9.82,8,18,1,131.62,43,0,1,Continental,Storm,Medium,Bike,71.7,2,0,5
+155,user_091,Margherita Pizza,2.64,26,14,0,704.99,3,0,1,Fast Food,Storm,Low,Scooter,48.5,4,0,3
+156,user_079,Chocolate Donut,6.67,16,11,0,556.38,58,1,3,Continental,Sunny,High,Bike,53.0,3,0,3
+157,user_024,Sushi Roll,8.62,14,12,0,1386.16,75,1,1,Italian,Storm,High,Bike,69.2,2,0,5
+158,user_058,Veg Fried Rice,5.36,20,9,0,989.7,22,0,3,Fast Food,Storm,High,Bike,65.1,2,0,3
+159,user_011,Veg Fried Rice,11.58,21,8,0,1014.3,52,0,3,Indian,Storm,Low,Bike,68.9,4,0,2
+160,user_047,Veg Fried Rice,2.43,19,9,0,891.91,63,0,0,Italian,Sunny,Medium,Bike,36.8,3,0,4
+161,user_016,Margherita Pizza,8.02,12,14,0,516.79,4,0,2,South Indian,Cloudy,Medium,Bike,51.6,1,0,5
+162,user_042,Ice Cream Cone,2.41,9,17,0,1198.79,26,0,2,Continental,Rain,High,Bicycle,43.5,5,0,3
+163,user_092,Sushi Roll,2.06,29,15,0,1199.97,7,0,1,South Indian,Rain,High,Bicycle,57.7,2,0,4
+164,user_063,Sushi Roll,5.26,19,8,1,205.72,11,0,2,Fast Food,Cloudy,High,Bicycle,64.6,3,0,1
+165,user_044,Veg Fried Rice,10.28,30,12,0,848.19,27,0,1,Continental,Storm,High,Bicycle,85.7,3,0,5
+166,user_089,Margherita Pizza,7.7,19,17,1,122.79,20,0,0,Fast Food,Rain,High,Bike,74.5,4,0,2
+167,user_001,Margherita Pizza,4.78,25,23,1,331.74,50,0,1,Italian,Sunny,High,Scooter,62.0,1,0,1
+168,user_014,Paneer Tikka,0.59,15,18,0,1243.95,54,0,3,Chinese,Cloudy,High,Bicycle,38.4,4,1,3
+169,user_020,Chocolate Donut,8.29,7,22,0,842.71,1,0,1,Italian,Cloudy,Medium,Bike,46.3,2,0,2
+170,user_078,Sushi Roll,4.92,18,8,0,540.31,17,1,0,Indian,Sunny,Low,Bike,33.4,5,0,3
+171,user_002,Sushi Roll,1.13,30,18,1,1436.54,63,0,1,Chinese,Cloudy,High,Scooter,60.8,5,1,2
+172,user_051,Veg Fried Rice,9.27,29,17,0,202.19,75,1,2,Fast Food,Storm,Medium,Bicycle,72.8,1,0,5
+173,user_051,Veg Fried Rice,6.67,24,10,1,313.75,10,0,1,Fast Food,Storm,High,Scooter,83.3,2,0,3
+174,user_021,Chocolate Donut,1.49,18,19,1,262.38,7,0,1,Continental,Storm,High,Bike,61.0,2,0,5
+175,user_009,Sushi Roll,9.48,13,10,1,1126.11,15,0,0,South Indian,Rain,Low,Scooter,55.8,4,0,4
+176,user_002,Margherita Pizza,2.42,10,9,0,457.16,13,0,0,Fast Food,Rain,Low,Scooter,27.4,5,1,4
+177,user_010,Veg Fried Rice,10.36,22,19,0,1224.36,53,1,1,Italian,Storm,Low,Bike,64.8,3,0,1
+178,user_048,Margherita Pizza,11.79,17,17,0,196.5,59,0,2,South Indian,Sunny,Low,Bike,50.3,5,0,5
+179,user_070,Sushi Roll,6.17,29,8,0,1186.24,69,0,1,Italian,Cloudy,Medium,Scooter,54.6,4,1,3
+180,user_030,Veg Fried Rice,2.86,12,21,1,687.74,7,0,1,Indian,Storm,High,Bicycle,63.8,1,1,3
+181,user_051,Ice Cream Cone,7.83,17,18,0,204.76,72,1,1,Fast Food,Sunny,High,Bike,54.9,3,0,3
+182,user_046,Margherita Pizza,2.07,29,22,0,918.59,19,1,3,Fast Food,Rain,Low,Bike,41.3,4,1,3
+183,user_051,Veg Fried Rice,8.39,27,9,1,1075.63,5,1,2,Fast Food,Rain,Low,Bike,61.8,2,0,3
+184,user_029,Margherita Pizza,6.89,22,14,0,449.79,59,1,1,Italian,Cloudy,Low,Scooter,44.4,1,0,4
+185,user_043,Paneer Tikka,9.85,5,9,1,1496.03,25,0,3,Italian,Sunny,High,Bicycle,63.0,1,0,4
+186,user_020,Paneer Tikka,5.04,5,15,0,635.82,54,1,1,Indian,Cloudy,High,Scooter,47.5,3,0,3
+187,user_063,Sushi Roll,3.72,9,18,1,686.93,67,1,0,Fast Food,Storm,High,Scooter,65.5,3,0,4
+188,user_021,Paneer Tikka,0.84,30,15,0,1189.95,7,0,3,Italian,Cloudy,Low,Scooter,37.3,5,0,2
+189,user_004,Ice Cream Cone,9.67,16,19,0,1409.29,22,1,2,Italian,Sunny,Low,Bicycle,47.2,3,0,5
+190,user_068,Chocolate Donut,9.82,20,8,0,858.97,22,0,0,South Indian,Cloudy,High,Bike,64.9,5,0,3
+191,user_010,Sushi Roll,11.07,15,20,0,183.38,18,0,1,South Indian,Cloudy,Low,Scooter,53.8,5,0,5
+192,user_079,Sushi Roll,2.31,18,15,1,1208.58,62,0,1,Indian,Rain,Medium,Scooter,50.6,5,0,5
+193,user_079,Margherita Pizza,1.96,28,11,0,102.52,73,0,0,Chinese,Storm,Medium,Bicycle,53.6,3,0,4
+194,user_089,Paneer Tikka,11.8,10,19,1,990.66,11,0,2,Chinese,Rain,High,Bike,75.2,3,0,3
+195,user_074,Ice Cream Cone,5.33,10,15,0,1338.37,63,0,2,Indian,Sunny,Low,Scooter,30.6,1,0,2
+196,user_012,Sushi Roll,3.5,8,23,1,203.88,21,0,1,Fast Food,Sunny,Low,Scooter,33.7,5,0,1
+197,user_007,Chocolate Donut,1.66,11,23,1,1464.16,52,0,2,Fast Food,Cloudy,High,Scooter,49.8,3,0,2
+198,user_061,Paneer Tikka,9.97,25,17,1,940.3,25,1,1,Indian,Rain,Low,Scooter,64.4,3,0,4
+199,user_029,Sushi Roll,6.76,10,9,1,619.43,48,0,3,Fast Food,Storm,High,Scooter,68.2,4,0,2
+200,user_088,Chocolate Donut,6.73,29,15,1,925.62,70,1,3,Continental,Sunny,Low,Bicycle,57.0,4,0,4
+201,user_025,Margherita Pizza,7.07,21,9,1,1220.63,18,1,3,Italian,Sunny,Medium,Bicycle,55.4,2,0,4
+202,user_002,Ice Cream Cone,7.34,15,21,1,1375.13,8,1,3,Indian,Storm,Low,Bicycle,61.2,3,0,1
+203,user_034,Chocolate Donut,9.22,8,23,0,1394.9,72,0,2,Fast Food,Cloudy,Low,Bicycle,44.9,3,0,5
+204,user_035,Sushi Roll,2.15,24,8,1,1053.14,51,1,2,South Indian,Storm,Low,Bike,55.3,1,0,3
+205,user_012,Margherita Pizza,8.38,12,22,0,288.14,56,0,2,Italian,Rain,Medium,Scooter,51.0,4,0,2
+206,user_032,Paneer Tikka,6.43,10,22,0,191.86,64,0,0,Fast Food,Storm,High,Scooter,60.1,2,0,1
+207,user_061,Veg Fried Rice,6.31,25,19,0,1392.3,3,1,3,Italian,Cloudy,Medium,Scooter,54.8,2,0,3
+208,user_035,Ice Cream Cone,0.82,6,21,1,328.07,73,0,1,Chinese,Rain,High,Bicycle,47.4,2,0,5
+209,user_059,Sushi Roll,7.41,5,14,0,413.28,39,0,2,Indian,Sunny,Medium,Bike,38.6,4,0,4
+210,user_082,Sushi Roll,11.99,16,16,1,886.04,36,0,0,Italian,Storm,High,Bike,88.1,3,0,3
+211,user_034,Chocolate Donut,3.26,6,20,0,1227.6,51,0,1,Continental,Rain,Low,Bike,29.7,4,0,4
+212,user_022,Ice Cream Cone,9.88,15,13,0,1117.17,28,0,3,Continental,Sunny,High,Bicycle,62.6,3,0,3
+213,user_043,Sushi Roll,9.8,29,16,1,1377.67,42,0,1,Indian,Storm,Low,Bicycle,75.9,3,0,5
+214,user_053,Paneer Tikka,7.8,23,12,1,1422.02,9,0,1,Italian,Storm,Low,Scooter,67.6,4,0,2
+215,user_008,Paneer Tikka,11.85,9,22,0,542.94,23,0,3,Chinese,Rain,Medium,Bicycle,57.9,2,0,3
+216,user_005,Veg Fried Rice,9.28,7,14,0,281.17,55,0,3,Chinese,Cloudy,High,Bike,56.7,4,0,3
+217,user_009,Paneer Tikka,0.55,28,17,1,448.35,44,0,0,Indian,Rain,High,Bike,59.3,5,0,3
+218,user_017,Margherita Pizza,4.44,20,8,0,602.95,24,1,3,Fast Food,Rain,Medium,Bicycle,45.2,2,0,5
+219,user_084,Paneer Tikka,9.61,17,9,0,1327.16,32,0,0,South Indian,Cloudy,Low,Scooter,50.5,1,0,1
+220,user_090,Margherita Pizza,5.96,9,21,0,387.69,1,0,0,Fast Food,Storm,Medium,Bike,53.2,3,0,1
+221,user_006,Veg Fried Rice,6.22,24,23,0,379.65,33,0,1,South Indian,Sunny,Medium,Bike,48.5,4,0,2
+222,user_013,Sushi Roll,8.22,8,15,1,1269.33,63,1,0,Continental,Storm,Medium,Bike,66.8,1,0,4
+223,user_098,Paneer Tikka,2.51,6,8,1,1293.15,46,0,2,Italian,Rain,Medium,Bike,41.0,1,1,2
+224,user_059,Sushi Roll,11.48,13,20,0,1329.87,11,0,2,Continental,Cloudy,Medium,Scooter,56.9,4,0,4
+225,user_079,Paneer Tikka,1.17,10,12,0,245.2,75,0,3,Fast Food,Cloudy,Low,Bike,22.0,4,0,4
+226,user_089,Ice Cream Cone,3.51,15,11,1,117.3,67,0,1,Fast Food,Sunny,Medium,Scooter,47.1,3,0,4
+227,user_061,Chocolate Donut,7.88,9,13,0,1274.65,71,0,0,Continental,Cloudy,Medium,Scooter,44.1,2,0,1
+228,user_058,Paneer Tikka,1.08,12,23,0,870.69,48,0,1,Fast Food,Rain,Low,Scooter,24.6,4,0,4
+229,user_066,Veg Fried Rice,1.68,18,14,0,150.16,70,1,0,Italian,Sunny,Medium,Bicycle,35.6,5,0,4
+230,user_085,Margherita Pizza,4.32,29,8,0,967.66,60,0,2,Italian,Rain,Low,Bike,48.4,1,1,3
+231,user_025,Ice Cream Cone,1.72,10,18,0,789.39,52,1,1,Italian,Rain,High,Bicycle,40.4,4,0,1
+232,user_007,Veg Fried Rice,9.38,19,21,0,740.34,75,0,1,Fast Food,Sunny,High,Bicycle,64.5,1,0,5
+233,user_098,Margherita Pizza,9.88,8,16,1,642.37,41,0,3,Fast Food,Cloudy,High,Bicycle,66.8,5,0,4
+234,user_088,Sushi Roll,7.43,28,12,1,817.21,70,0,1,Italian,Rain,Medium,Bike,67.4,5,0,2
+235,user_067,Paneer Tikka,6.97,23,8,0,898.89,53,0,2,South Indian,Rain,High,Bike,66.8,4,0,4
+236,user_070,Paneer Tikka,9.13,10,19,1,1476.95,32,1,0,Chinese,Sunny,High,Bike,64.0,3,0,4
+237,user_088,Sushi Roll,3.23,30,9,0,1215.57,36,0,0,Indian,Cloudy,High,Bicycle,60.6,4,0,1
+238,user_023,Ice Cream Cone,10.4,19,10,0,1261.98,47,0,1,Continental,Rain,Low,Bicycle,57.0,2,0,2
+239,user_042,Veg Fried Rice,6.9,9,9,0,325.3,32,1,3,Chinese,Sunny,Medium,Bike,41.8,2,1,5
+240,user_069,Chocolate Donut,1.34,27,10,0,545.0,28,0,0,Continental,Rain,Medium,Bicycle,47.0,2,0,3
+241,user_083,Veg Fried Rice,3.88,29,15,1,965.59,60,0,0,Chinese,Cloudy,High,Scooter,64.7,3,0,1
+242,user_006,Sushi Roll,6.71,14,14,0,134.59,66,0,2,Continental,Rain,Medium,Bike,49.7,5,0,3
+243,user_027,Veg Fried Rice,9.39,22,21,0,110.26,8,1,1,South Indian,Sunny,Low,Bike,51.1,4,0,1
+244,user_081,Chocolate Donut,0.94,7,21,0,175.98,32,0,1,Continental,Cloudy,Low,Scooter,23.7,4,0,3
+245,user_088,Sushi Roll,7.88,24,10,0,188.53,74,1,0,Indian,Storm,High,Bike,74.6,5,1,3
+246,user_094,Ice Cream Cone,2.3,12,19,1,290.93,50,0,2,Fast Food,Storm,Medium,Bicycle,55.9,2,0,1
+247,user_024,Margherita Pizza,7.36,22,16,1,866.54,10,0,2,South Indian,Cloudy,Low,Bike,54.1,5,1,2
+248,user_063,Sushi Roll,10.29,22,19,0,745.77,70,1,0,Indian,Cloudy,High,Bicycle,68.6,2,0,2
+249,user_047,Sushi Roll,10.85,15,21,0,780.21,42,0,2,Continental,Cloudy,Low,Scooter,52.8,2,0,2
+250,user_100,Sushi Roll,7.87,13,23,0,1276.15,17,0,2,Indian,Rain,Low,Bike,47.0,4,0,5
+251,user_081,Paneer Tikka,3.73,9,20,1,1347.82,25,0,0,Indian,Cloudy,High,Bicycle,54.0,1,0,5
+252,user_038,Margherita Pizza,11.99,20,22,0,1015.47,19,0,1,Chinese,Sunny,High,Scooter,71.3,5,0,5
+253,user_073,Ice Cream Cone,8.12,30,12,0,1474.59,21,0,1,South Indian,Sunny,Medium,Scooter,58.0,2,0,4
+254,user_006,Ice Cream Cone,3.54,12,18,1,159.93,26,0,2,Italian,Sunny,Low,Scooter,34.6,4,0,1
+255,user_029,Veg Fried Rice,7.06,17,20,0,1015.15,46,0,0,Continental,Rain,High,Scooter,60.6,4,0,3
+256,user_078,Ice Cream Cone,10.64,19,11,1,331.85,9,0,2,Italian,Storm,Medium,Bicycle,77.2,2,1,2
+257,user_081,Veg Fried Rice,6.01,11,9,0,927.11,52,1,0,Fast Food,Rain,High,Bike,51.5,5,0,5
+258,user_061,Chocolate Donut,6.44,17,13,0,939.1,72,0,2,Chinese,Sunny,Low,Scooter,40.7,2,0,2
+259,user_003,Margherita Pizza,6.37,10,21,0,1113.86,43,0,0,Fast Food,Cloudy,High,Bike,50.3,4,0,2
+260,user_100,Ice Cream Cone,7.4,30,21,0,844.0,15,1,1,South Indian,Sunny,Low,Scooter,51.9,5,0,5
+261,user_030,Paneer Tikka,3.14,30,17,0,774.97,48,0,0,Fast Food,Rain,Low,Bicycle,44.4,3,0,5
+262,user_014,Margherita Pizza,9.05,5,21,1,909.18,15,0,3,South Indian,Storm,Medium,Bike,66.1,3,0,5
+263,user_033,Sushi Roll,7.54,26,19,0,656.44,26,0,3,Italian,Rain,High,Scooter,66.1,5,0,4
+264,user_088,Ice Cream Cone,5.64,27,9,0,1428.94,12,1,3,Continental,Cloudy,High,Bike,63.7,5,0,2
+265,user_067,Sushi Roll,7.4,7,9,0,189.71,28,0,0,Fast Food,Sunny,Low,Bike,34.7,4,0,2
+266,user_084,Paneer Tikka,8.05,30,13,1,825.41,24,1,1,Continental,Storm,Medium,Bike,80.8,1,0,1
+267,user_045,Sushi Roll,7.24,21,16,0,121.51,8,0,2,Italian,Storm,Medium,Bicycle,65.2,5,0,2
+268,user_033,Veg Fried Rice,3.5,18,16,0,808.73,71,1,2,South Indian,Cloudy,Medium,Scooter,41.4,1,0,4
+269,user_030,Sushi Roll,5.78,19,21,0,1355.13,3,0,2,Fast Food,Storm,Low,Scooter,49.2,2,0,3
+270,user_074,Sushi Roll,1.57,26,13,1,1148.3,43,1,1,South Indian,Sunny,High,Scooter,55.0,3,0,2
+271,user_011,Ice Cream Cone,3.55,12,23,1,383.87,31,0,2,Fast Food,Cloudy,Low,Bicycle,37.2,1,1,5
+272,user_068,Chocolate Donut,6.16,23,23,0,1316.28,62,1,2,Indian,Sunny,Medium,Scooter,47.9,5,1,5
+273,user_013,Sushi Roll,5.76,8,19,0,1077.54,58,0,0,Indian,Rain,Medium,Bicycle,40.1,2,0,5
+274,user_052,Sushi Roll,5.92,24,22,1,580.34,23,0,1,Italian,Cloudy,High,Scooter,68.1,3,0,2
+275,user_002,Margherita Pizza,1.65,13,21,1,1225.72,71,0,3,South Indian,Cloudy,High,Bicycle,48.4,2,0,4
+276,user_043,Sushi Roll,10.37,6,19,1,657.76,20,1,2,Chinese,Rain,Medium,Scooter,61.0,1,0,3
+277,user_087,Veg Fried Rice,4.54,26,23,0,1448.36,25,0,1,South Indian,Rain,Medium,Bike,55.4,3,0,4
+278,user_044,Margherita Pizza,11.5,10,18,0,996.81,43,0,3,Indian,Storm,High,Scooter,76.8,1,1,3
+279,user_017,Ice Cream Cone,5.05,19,15,0,1193.36,46,0,3,Continental,Rain,High,Scooter,56.4,2,0,3
+280,user_084,Chocolate Donut,1.6,20,17,0,867.81,3,0,0,Continental,Sunny,Low,Bike,25.6,5,0,2
+281,user_070,Sushi Roll,6.56,10,22,1,140.0,45,0,2,Chinese,Rain,Medium,Bicycle,56.6,4,0,2
+282,user_057,Sushi Roll,9.11,23,19,0,708.97,68,0,2,Continental,Cloudy,High,Bicycle,67.8,2,0,4
+283,user_099,Chocolate Donut,9.88,9,17,1,581.44,60,0,3,Italian,Cloudy,Medium,Bike,62.7,4,0,5
+284,user_055,Ice Cream Cone,10.64,18,15,1,652.65,20,0,3,Chinese,Sunny,High,Scooter,74.2,2,0,5
+285,user_035,Ice Cream Cone,9.8,18,23,0,363.2,8,1,2,South Indian,Rain,Medium,Bicycle,57.8,4,0,2
+286,user_028,Sushi Roll,0.75,8,21,0,494.96,16,0,0,Italian,Sunny,Low,Bike,15.9,2,1,3
+287,user_033,Chocolate Donut,4.3,29,8,0,1432.3,7,0,3,Fast Food,Rain,Medium,Bicycle,51.5,4,0,1
+288,user_021,Ice Cream Cone,11.94,11,9,1,745.17,12,0,1,Continental,Cloudy,Medium,Scooter,66.4,3,0,5
+289,user_036,Veg Fried Rice,2.79,6,11,0,1309.12,27,0,1,South Indian,Sunny,Medium,Scooter,29.0,3,1,4
+290,user_098,Ice Cream Cone,5.97,24,9,0,316.99,11,1,3,Chinese,Sunny,Low,Bicycle,39.3,5,0,1
+291,user_003,Ice Cream Cone,1.95,12,20,0,543.44,71,0,2,Italian,Cloudy,High,Bicycle,44.1,4,0,3
+292,user_036,Veg Fried Rice,5.53,14,13,0,859.83,62,1,1,Continental,Cloudy,Medium,Bike,44.9,3,0,1
+293,user_100,Veg Fried Rice,6.73,19,15,0,101.01,64,0,1,South Indian,Cloudy,Medium,Scooter,53.4,5,0,3
+294,user_067,Ice Cream Cone,2.68,26,10,0,796.57,70,1,2,Continental,Sunny,High,Bicycle,48.8,3,1,1
+295,user_010,Paneer Tikka,2.7,6,14,1,899.42,49,0,2,Chinese,Cloudy,Low,Bike,30.2,2,0,4
+296,user_010,Margherita Pizza,9.05,18,11,0,1250.84,7,0,2,Indian,Storm,High,Bike,74.4,1,0,1
+297,user_059,Ice Cream Cone,6.55,12,21,1,898.04,22,0,3,Continental,Cloudy,High,Scooter,63.3,5,0,1
+298,user_053,Ice Cream Cone,8.06,22,21,0,1497.81,56,0,2,Chinese,Cloudy,High,Scooter,64.9,3,0,3
+299,user_077,Paneer Tikka,9.31,28,12,1,455.72,57,0,3,South Indian,Cloudy,High,Bicycle,76.9,1,0,3
+300,user_018,Sushi Roll,0.75,27,19,0,1251.27,70,0,1,Indian,Rain,Low,Bike,34.3,4,0,5
+301,user_013,Veg Fried Rice,5.1,11,17,1,1127.97,41,0,1,Chinese,Cloudy,Medium,Scooter,49.4,5,0,1
+302,user_082,Ice Cream Cone,4.35,18,20,0,683.13,15,0,1,Continental,Storm,Low,Bike,49.0,5,0,1
+303,user_012,Margherita Pizza,4.26,27,21,0,409.12,6,0,3,Italian,Sunny,Medium,Bicycle,49.4,5,0,3
+304,user_062,Veg Fried Rice,7.07,6,14,1,867.41,33,1,3,Fast Food,Cloudy,Low,Scooter,45.5,2,0,4
+305,user_045,Margherita Pizza,6.53,12,18,0,200.3,55,0,0,Fast Food,Cloudy,High,Bicycle,51.4,4,0,3
+306,user_094,Paneer Tikka,7.59,30,11,0,719.09,18,0,1,South Indian,Sunny,Medium,Bike,55.2,3,1,1
+307,user_071,Chocolate Donut,9.75,14,12,1,730.09,2,0,1,Chinese,Cloudy,Medium,Bike,61.4,5,0,1
+308,user_085,Sushi Roll,2.81,27,11,1,965.15,6,0,0,Fast Food,Sunny,Medium,Bike,48.3,3,0,1
+309,user_092,Paneer Tikka,8.66,15,9,0,778.53,68,1,1,Italian,Storm,Low,Scooter,56.2,4,0,2
+310,user_008,Ice Cream Cone,2.31,16,16,0,1058.04,45,0,1,South Indian,Rain,Medium,Scooter,43.0,5,0,4
+311,user_040,Veg Fried Rice,5.02,9,18,1,222.91,48,0,1,Indian,Rain,Low,Bike,42.4,5,1,4
+312,user_073,Margherita Pizza,6.73,30,18,1,383.23,17,0,1,South Indian,Cloudy,Low,Bicycle,59.4,2,0,1
+313,user_025,Paneer Tikka,2.17,5,12,0,1171.61,52,0,2,South Indian,Sunny,Low,Scooter,18.6,3,1,2
+314,user_084,Sushi Roll,7.36,12,13,0,1062.33,45,1,3,Indian,Rain,High,Bicycle,55.6,5,0,4
+315,user_009,Margherita Pizza,0.87,29,22,1,1456.34,34,0,1,Fast Food,Storm,Low,Bike,55.9,2,0,5
+316,user_068,Ice Cream Cone,9.43,24,9,0,1129.46,48,0,3,Fast Food,Rain,Medium,Bike,64.0,5,0,5
+317,user_039,Sushi Roll,3.33,22,22,0,653.86,5,0,0,Indian,Storm,Medium,Bike,52.9,4,0,2
+318,user_090,Veg Fried Rice,10.89,19,12,0,1261.85,57,1,0,Fast Food,Rain,High,Bike,69.6,5,0,4
+319,user_016,Paneer Tikka,7.29,27,11,1,1354.11,58,1,2,Fast Food,Rain,Medium,Bike,69.3,2,0,4
+320,user_073,Ice Cream Cone,8.86,21,12,0,956.9,20,0,3,Continental,Rain,Low,Bicycle,50.1,2,0,2
+321,user_098,Sushi Roll,4.06,29,8,0,1445.35,36,0,0,Chinese,Cloudy,High,Bike,61.8,2,1,4
+322,user_071,Sushi Roll,6.17,11,14,0,924.41,60,0,3,Fast Food,Storm,High,Bike,59.6,5,1,1
+323,user_021,Ice Cream Cone,2.17,6,17,1,1033.8,38,0,0,Chinese,Cloudy,Low,Bicycle,28.9,4,0,5
+324,user_009,Sushi Roll,11.21,7,23,0,1175.92,41,0,3,Continental,Cloudy,Medium,Bicycle,55.8,4,0,2
+325,user_091,Sushi Roll,2.91,11,21,0,956.88,13,0,0,Indian,Rain,Medium,Bicycle,37.9,5,0,5
+326,user_030,Ice Cream Cone,4.57,9,17,0,960.01,63,0,3,Italian,Rain,High,Bicycle,48.7,2,0,2
+327,user_026,Ice Cream Cone,1.86,11,17,0,1219.39,53,0,2,Indian,Sunny,Low,Scooter,21.4,2,1,3
+328,user_044,Ice Cream Cone,9.32,8,23,0,1060.17,43,0,0,Indian,Rain,Medium,Bicycle,53.9,2,0,4
+329,user_039,Veg Fried Rice,10.76,22,18,0,1354.3,59,0,3,Indian,Cloudy,Medium,Bike,65.9,1,0,5
+330,user_022,Veg Fried Rice,9.69,30,20,0,595.03,19,0,0,South Indian,Sunny,Low,Bicycle,54.3,4,0,2
+331,user_039,Margherita Pizza,8.66,13,11,0,679.42,63,0,2,South Indian,Sunny,Medium,Bicycle,47.5,3,0,3
+332,user_013,Veg Fried Rice,9.69,21,12,0,315.71,43,0,2,Indian,Cloudy,Low,Scooter,54.6,2,0,2
+333,user_099,Ice Cream Cone,6.51,5,17,0,535.37,5,0,0,Continental,Sunny,Medium,Scooter,35.8,1,1,1
+334,user_080,Veg Fried Rice,2.71,13,11,1,845.19,56,0,2,South Indian,Rain,High,Bike,52.8,3,1,2
+335,user_007,Margherita Pizza,11.35,30,8,1,496.57,31,1,2,South Indian,Rain,High,Scooter,89.1,3,0,4
+336,user_026,Ice Cream Cone,5.4,10,10,1,1086.55,75,0,3,Continental,Sunny,Low,Scooter,39.2,3,0,4
+337,user_047,Chocolate Donut,5.74,26,13,0,1002.19,59,0,1,South Indian,Cloudy,Low,Bicycle,44.4,5,0,3
+338,user_052,Ice Cream Cone,1.8,20,11,1,745.74,21,0,2,Italian,Storm,Medium,Bike,58.1,2,0,3
+339,user_089,Veg Fried Rice,7.29,12,21,0,969.22,70,1,3,South Indian,Sunny,Medium,Bicycle,42.9,3,0,4
+340,user_013,Chocolate Donut,8.12,7,13,1,1135.11,73,0,0,South Indian,Rain,High,Bicycle,64.8,4,0,3
+341,user_085,Margherita Pizza,7.36,17,22,0,558.37,7,1,1,Fast Food,Sunny,High,Bike,57.6,1,0,5
+342,user_075,Paneer Tikka,2.87,15,20,0,519.63,38,0,3,Italian,Storm,High,Bicycle,58.0,3,0,2
+343,user_076,Chocolate Donut,0.51,22,18,0,1249.05,45,1,2,Italian,Sunny,Medium,Bicycle,35.9,2,0,4
+344,user_086,Margherita Pizza,2.49,9,12,1,363.52,49,0,2,Fast Food,Storm,Medium,Bicycle,53.6,2,0,1
+345,user_071,Chocolate Donut,8.07,9,20,0,218.53,53,0,3,Indian,Sunny,Low,Bicycle,37.2,4,0,3
+346,user_091,Sushi Roll,6.23,28,11,1,431.45,64,0,2,Chinese,Cloudy,Medium,Bicycle,61.4,1,0,5
+347,user_070,Veg Fried Rice,11.81,29,17,0,1190.42,59,0,0,Fast Food,Sunny,Low,Bicycle,58.3,1,0,5
+348,user_077,Ice Cream Cone,6.4,20,17,0,903.55,42,0,2,Indian,Rain,High,Bike,59.7,1,0,5
+349,user_036,Sushi Roll,7.09,26,12,0,1486.51,3,0,0,Italian,Sunny,High,Scooter,58.7,1,0,5
+350,user_068,Paneer Tikka,7.44,23,18,0,1134.55,57,0,1,Italian,Rain,Medium,Bike,56.3,2,0,1
+351,user_015,Paneer Tikka,3.24,19,13,0,1116.4,21,1,2,Chinese,Cloudy,Medium,Scooter,39.7,3,0,4
+352,user_058,Chocolate Donut,9.15,22,18,0,427.13,49,0,1,Fast Food,Storm,Medium,Scooter,69.5,4,1,5
+353,user_051,Chocolate Donut,11.5,18,15,0,954.68,34,0,2,Continental,Sunny,Low,Bicycle,53.2,3,0,5
+354,user_093,Sushi Roll,4.1,5,16,0,1041.92,8,1,0,Chinese,Rain,High,Bicycle,44.9,4,0,2
+355,user_085,Ice Cream Cone,7.33,11,13,1,1430.68,15,0,0,Indian,Sunny,High,Bike,56.5,5,0,1
+356,user_008,Chocolate Donut,11.27,25,20,0,734.82,35,0,2,Continental,Cloudy,Medium,Scooter,65.2,1,0,3
+357,user_083,Paneer Tikka,6.15,11,22,0,954.42,22,0,0,Indian,Rain,Medium,Bike,43.9,4,0,3
+358,user_090,Sushi Roll,3.38,19,20,0,126.27,63,1,0,Indian,Sunny,Low,Bike,34.3,4,0,5
+359,user_069,Sushi Roll,8.87,30,18,0,1199.53,69,1,3,Indian,Storm,Medium,Scooter,76.9,4,1,3
+360,user_050,Ice Cream Cone,6.65,15,14,1,212.64,58,0,2,Fast Food,Sunny,High,Bicycle,61.0,2,0,3
+361,user_050,Paneer Tikka,6.09,25,17,0,713.18,24,1,1,Continental,Storm,Low,Bicycle,53.9,5,0,4
+362,user_075,Margherita Pizza,4.38,28,10,1,159.94,15,1,3,South Indian,Storm,Low,Bike,65.2,5,1,1
+363,user_022,Veg Fried Rice,10.93,24,10,1,164.12,16,1,0,Continental,Cloudy,Medium,Bicycle,75.6,1,0,1
+364,user_076,Margherita Pizza,9.75,18,18,1,572.28,51,0,1,Indian,Storm,High,Bicycle,82.9,2,0,1
+365,user_021,Paneer Tikka,4.75,10,23,1,714.13,74,1,0,Indian,Rain,Low,Scooter,44.6,5,0,1
+366,user_053,Margherita Pizza,7.33,14,13,0,682.71,60,0,1,Indian,Sunny,Low,Bike,36.0,3,0,5
+367,user_068,Paneer Tikka,7.54,7,19,0,978.07,38,0,0,Continental,Sunny,High,Bike,49.1,2,1,5
+368,user_006,Paneer Tikka,3.68,11,19,0,257.75,19,0,3,South Indian,Cloudy,Medium,Bicycle,37.9,2,0,3
+369,user_015,Paneer Tikka,10.74,19,15,0,160.64,6,0,1,Chinese,Storm,Medium,Scooter,69.1,1,0,4
+370,user_029,Paneer Tikka,10.83,12,23,0,1190.57,41,1,1,South Indian,Rain,Medium,Bike,59.9,2,0,5
+371,user_017,Paneer Tikka,7.51,10,9,1,642.26,17,0,1,Fast Food,Sunny,Medium,Bike,51.6,3,0,3
+372,user_012,Chocolate Donut,9.24,12,23,0,1340.97,20,0,1,Chinese,Sunny,Medium,Scooter,49.0,5,0,2
+373,user_006,Paneer Tikka,5.42,12,23,1,446.96,55,0,1,South Indian,Storm,Medium,Scooter,63.4,1,0,5
+374,user_017,Sushi Roll,9.68,8,17,0,733.42,30,1,0,Indian,Storm,High,Scooter,70.0,4,0,2
+375,user_052,Margherita Pizza,2.36,19,19,0,1301.09,74,1,3,Continental,Sunny,Low,Scooter,29.0,2,0,4
+376,user_043,Ice Cream Cone,8.44,21,9,0,145.8,54,0,1,Continental,Sunny,High,Bike,62.5,1,0,5
+377,user_043,Margherita Pizza,5.85,6,11,0,611.8,22,0,0,Continental,Rain,Low,Bike,35.2,2,0,4
+378,user_016,Chocolate Donut,10.83,21,17,1,1052.32,35,1,2,Continental,Cloudy,High,Bike,77.8,4,0,4
+379,user_010,Paneer Tikka,11.32,7,13,0,363.7,58,1,3,South Indian,Rain,High,Bicycle,66.6,3,0,3
+380,user_083,Paneer Tikka,6.49,25,17,0,131.77,53,0,1,Indian,Cloudy,Medium,Bike,54.6,4,0,2
+381,user_040,Margherita Pizza,5.23,15,16,0,1018.06,41,0,3,Indian,Sunny,Low,Bicycle,33.3,5,1,2
+382,user_089,Ice Cream Cone,3.77,10,12,1,966.08,20,0,2,Fast Food,Rain,Medium,Bike,45.5,2,0,2
+383,user_070,Margherita Pizza,5.57,16,17,0,358.3,71,0,2,Chinese,Sunny,Low,Scooter,38.0,2,0,1
+384,user_038,Veg Fried Rice,11.17,9,12,0,106.01,69,0,2,Indian,Storm,Medium,Bike,66.1,3,0,5
+385,user_012,Sushi Roll,6.01,6,9,1,295.19,70,1,0,Continental,Storm,Medium,Bicycle,57.6,2,0,5
+386,user_051,Margherita Pizza,11.26,13,23,1,374.0,10,0,3,Continental,Cloudy,High,Bicycle,75.3,1,0,3
+387,user_012,Margherita Pizza,8.73,18,22,0,617.48,47,1,2,South Indian,Sunny,High,Scooter,58.5,4,0,4
+388,user_068,Sushi Roll,5.37,18,10,0,295.39,75,0,1,Fast Food,Rain,Low,Bicycle,40.3,4,0,5
+389,user_063,Paneer Tikka,3.64,10,17,0,878.14,72,0,1,Fast Food,Sunny,Low,Scooter,24.3,4,0,5
+390,user_063,Ice Cream Cone,0.81,5,15,0,315.63,38,0,3,Italian,Storm,High,Bicycle,42.3,3,0,1
+391,user_094,Veg Fried Rice,4.66,20,8,0,891.8,33,0,3,Indian,Rain,Medium,Bike,51.5,1,0,3
+392,user_010,Veg Fried Rice,8.47,16,14,0,328.63,34,0,2,Chinese,Sunny,Low,Scooter,39.7,3,0,2
+393,user_019,Paneer Tikka,10.01,26,12,0,1219.83,34,0,2,Indian,Cloudy,High,Scooter,69.8,5,0,5
+394,user_068,Veg Fried Rice,10.97,8,11,1,405.03,64,1,1,Italian,Rain,Medium,Scooter,65.8,5,0,4
+395,user_016,Margherita Pizza,6.01,14,12,0,1067.47,17,0,2,Fast Food,Sunny,Low,Bike,32.9,3,1,2
+396,user_005,Ice Cream Cone,11.78,18,9,1,1067.15,14,1,3,Continental,Cloudy,Medium,Bike,72.6,1,0,4
+397,user_019,Ice Cream Cone,0.62,8,16,1,1195.32,26,0,1,Indian,Rain,Low,Bike,29.3,3,1,5
+398,user_022,Veg Fried Rice,7.55,21,8,0,898.33,12,0,0,Italian,Rain,Low,Bicycle,49.7,2,0,1
+399,user_098,Sushi Roll,5.56,8,11,0,353.19,45,0,3,Chinese,Storm,Medium,Bicycle,48.8,2,0,4
+400,user_057,Margherita Pizza,6.91,6,21,0,215.15,63,1,2,Indian,Cloudy,Medium,Scooter,42.2,3,0,3
+401,user_051,Chocolate Donut,4.73,5,11,0,1498.21,62,0,3,Fast Food,Cloudy,Low,Scooter,29.0,1,1,2
+402,user_097,Ice Cream Cone,10.21,17,20,1,271.87,54,0,2,Indian,Rain,Low,Scooter,63.0,5,0,3
+403,user_064,Ice Cream Cone,9.33,8,8,1,271.07,62,0,1,Fast Food,Storm,Medium,Bicycle,65.1,1,0,2
+404,user_034,Veg Fried Rice,1.61,7,18,0,1025.51,66,0,3,Fast Food,Rain,Low,Scooter,23.1,4,0,5
+405,user_100,Sushi Roll,1.87,19,13,0,540.38,48,0,0,South Indian,Sunny,Low,Scooter,25.2,5,0,4
+406,user_051,Sushi Roll,9.29,23,23,0,1045.03,70,0,3,Fast Food,Cloudy,Medium,Bicycle,60.2,2,0,5
+407,user_055,Sushi Roll,7.29,9,19,1,1271.71,44,0,0,Fast Food,Rain,Medium,Scooter,57.1,3,0,4
+408,user_005,Chocolate Donut,7.95,23,21,1,218.92,8,0,0,Italian,Sunny,High,Bike,68.0,1,0,5
+409,user_027,Sushi Roll,7.26,15,23,0,628.83,49,0,0,South Indian,Storm,Medium,Bike,61.5,1,0,5
+410,user_074,Chocolate Donut,11.65,11,15,1,795.73,9,0,1,Continental,Rain,Low,Bicycle,59.5,1,0,5
+411,user_039,Veg Fried Rice,4.37,7,17,1,893.0,67,0,1,Continental,Sunny,High,Bicycle,47.9,1,0,4
+412,user_074,Chocolate Donut,7.69,19,14,0,1040.18,70,1,0,Continental,Rain,Low,Scooter,49.3,5,0,4
+413,user_009,Ice Cream Cone,6.51,16,14,0,747.48,30,1,2,Italian,Storm,High,Bicycle,68.5,4,0,4
+414,user_072,Chocolate Donut,7.41,17,21,1,433.88,19,1,1,Italian,Rain,High,Bike,71.2,3,0,1
+415,user_008,Paneer Tikka,9.58,13,18,1,1022.14,22,0,0,Chinese,Cloudy,Medium,Bike,64.8,4,0,5
+416,user_068,Sushi Roll,10.69,17,23,0,1420.43,17,1,0,Italian,Sunny,Medium,Scooter,55.8,5,0,1
+417,user_036,Chocolate Donut,8.98,30,21,0,1147.72,30,0,1,Chinese,Sunny,Medium,Scooter,58.3,2,0,3
+418,user_092,Sushi Roll,11.41,15,17,0,864.04,60,0,2,South Indian,Sunny,Medium,Bicycle,58.3,2,0,1
+419,user_088,Paneer Tikka,1.13,30,15,0,1040.24,32,0,2,Continental,Sunny,High,Bicycle,49.7,3,0,4
+420,user_099,Ice Cream Cone,11.27,29,21,1,429.64,26,0,1,Fast Food,Sunny,Medium,Scooter,76.0,3,0,1
+421,user_094,Veg Fried Rice,11.15,15,18,0,1104.34,12,0,2,Italian,Sunny,Medium,Scooter,55.4,3,0,4
+422,user_032,Veg Fried Rice,7.75,30,12,0,997.54,0,0,2,Continental,Sunny,Low,Bicycle,49.3,1,1,5
+423,user_051,Chocolate Donut,8.95,13,15,0,342.87,75,0,2,Continental,Storm,Medium,Scooter,60.7,4,0,1
+424,user_073,Paneer Tikka,8.56,10,8,1,169.7,54,0,1,Indian,Cloudy,Low,Scooter,47.9,3,0,5
+425,user_077,Margherita Pizza,8.71,11,17,1,1424.47,34,0,3,Fast Food,Storm,High,Scooter,75.8,4,0,2
+426,user_042,Ice Cream Cone,11.73,12,20,1,964.75,31,0,3,Fast Food,Cloudy,Medium,Bike,64.2,4,1,2
+427,user_086,Veg Fried Rice,3.45,8,9,0,879.8,6,0,1,Continental,Storm,High,Scooter,53.1,3,0,1
+428,user_041,Ice Cream Cone,2.02,22,21,0,157.57,22,0,3,Italian,Storm,Medium,Scooter,54.0,4,1,2
+429,user_056,Margherita Pizza,6.24,13,18,0,1146.95,55,0,2,Italian,Sunny,Medium,Bike,42.4,3,0,4
+430,user_046,Ice Cream Cone,3.14,6,23,1,758.35,20,0,3,Chinese,Storm,Low,Bike,41.7,4,1,4
+431,user_001,Veg Fried Rice,1.58,14,13,1,352.92,21,0,2,Fast Food,Sunny,High,Bike,47.1,5,0,4
+432,user_059,Ice Cream Cone,4.28,14,23,1,1053.84,15,0,0,Indian,Cloudy,Medium,Bicycle,51.5,2,1,4
+433,user_037,Sushi Roll,11.65,25,9,1,971.31,57,0,1,Continental,Rain,High,Bicycle,83.9,1,0,1
+434,user_097,Ice Cream Cone,3.26,29,12,1,1311.72,11,1,1,South Indian,Storm,Low,Scooter,58.4,4,0,1
+435,user_050,Chocolate Donut,4.07,26,16,0,944.92,45,0,2,Italian,Storm,Medium,Bicycle,59.5,4,0,5
+436,user_092,Margherita Pizza,7.56,18,23,0,982.96,11,1,2,South Indian,Storm,Low,Scooter,58.3,2,0,5
+437,user_073,Paneer Tikka,10.93,20,10,0,520.55,16,0,2,Continental,Sunny,Medium,Scooter,60.4,5,0,1
+438,user_085,Chocolate Donut,5.84,28,13,0,895.87,32,0,0,South Indian,Sunny,High,Scooter,60.8,1,1,2
+439,user_011,Ice Cream Cone,3.92,23,16,0,1113.73,57,0,2,Fast Food,Sunny,Low,Scooter,34.9,2,0,1
+440,user_087,Ice Cream Cone,2.47,20,20,1,744.23,51,0,3,Fast Food,Sunny,Low,Scooter,37.0,5,0,3
+441,user_069,Margherita Pizza,9.88,27,10,1,1458.73,3,1,1,Indian,Cloudy,Low,Bike,66.5,4,0,3
+442,user_026,Sushi Roll,2.41,9,20,1,1134.29,56,0,3,Fast Food,Cloudy,Medium,Scooter,38.4,4,0,1
+443,user_076,Ice Cream Cone,5.47,18,23,0,1288.06,74,0,2,Italian,Sunny,Low,Bicycle,33.5,4,0,2
+444,user_056,Paneer Tikka,4.13,7,13,0,474.99,53,0,0,Continental,Sunny,High,Bike,40.2,3,0,3
+445,user_050,Chocolate Donut,6.34,23,19,0,1372.7,43,0,3,Continental,Cloudy,Medium,Scooter,50.7,3,0,4
+446,user_027,Veg Fried Rice,8.17,9,9,0,342.61,20,0,0,Chinese,Cloudy,Medium,Bicycle,49.5,4,0,1
+447,user_063,Sushi Roll,10.02,21,18,1,144.76,8,0,0,Italian,Rain,Medium,Bicycle,71.5,1,0,3
+448,user_014,Veg Fried Rice,7.45,8,9,0,1088.97,56,0,0,Indian,Rain,Low,Bicycle,43.1,5,0,5
+449,user_047,Sushi Roll,10.98,10,12,0,1119.69,56,0,3,Indian,Cloudy,High,Bike,64.8,1,1,1
+450,user_086,Margherita Pizza,9.81,15,12,1,501.46,21,1,2,Chinese,Storm,Medium,Bike,75.3,4,0,5
+451,user_002,Ice Cream Cone,5.21,19,10,0,1432.58,66,0,2,Fast Food,Cloudy,Low,Scooter,43.0,4,1,1
+452,user_054,Chocolate Donut,5.02,6,17,0,1024.25,19,0,0,Italian,Rain,Medium,Bike,42.6,5,0,3
+453,user_039,Paneer Tikka,2.19,17,9,0,724.66,26,0,3,Italian,Sunny,Medium,Bicycle,35.6,4,0,5
+454,user_070,Veg Fried Rice,1.95,22,16,0,497.5,11,0,2,Italian,Storm,High,Bicycle,59.4,2,1,2
+455,user_059,Sushi Roll,10.18,13,15,0,977.79,45,1,0,Italian,Storm,High,Bike,73.2,5,0,5
+456,user_100,Sushi Roll,9.53,27,22,1,901.87,17,0,1,South Indian,Cloudy,Medium,Scooter,69.4,5,0,1
+457,user_034,Veg Fried Rice,5.39,9,23,1,766.75,57,1,3,Chinese,Storm,Medium,Bike,59.3,5,0,4
+458,user_096,Margherita Pizza,2.16,9,19,0,778.67,58,1,0,Fast Food,Storm,High,Scooter,51.9,4,0,1
+459,user_019,Margherita Pizza,3.83,21,21,0,314.63,47,0,2,South Indian,Storm,Low,Bike,47.1,4,1,1
+460,user_044,Chocolate Donut,6.12,8,23,0,866.55,8,0,3,Italian,Rain,Low,Bike,36.8,3,0,5
+461,user_006,Ice Cream Cone,5.67,19,22,0,308.58,41,1,3,Chinese,Cloudy,High,Bicycle,55.8,4,0,3
+462,user_097,Paneer Tikka,7.75,29,14,1,1090.36,71,0,0,Continental,Sunny,Low,Bicycle,55.8,5,0,4
+463,user_052,Veg Fried Rice,2.57,5,9,0,484.95,26,1,3,South Indian,Sunny,Low,Bicycle,17.4,5,0,4
+464,user_033,Paneer Tikka,10.39,15,12,0,634.82,11,1,0,Indian,Rain,Medium,Bike,59.7,3,0,3
+465,user_016,Paneer Tikka,2.59,27,14,0,181.9,49,1,1,Fast Food,Cloudy,Low,Bicycle,38.9,3,0,2
+466,user_030,Paneer Tikka,4.93,8,16,0,477.0,40,0,3,South Indian,Cloudy,Medium,Bicycle,36.3,1,0,5
+467,user_022,Margherita Pizza,1.94,23,21,0,669.44,10,0,1,South Indian,Sunny,Low,Bicycle,32.6,2,0,5
+468,user_049,Sushi Roll,7.64,25,14,0,1460.91,0,1,3,Fast Food,Sunny,Low,Scooter,45.2,3,0,5
+469,user_041,Ice Cream Cone,6.98,14,18,0,225.6,15,0,2,South Indian,Rain,Low,Bike,45.5,2,0,3
+470,user_001,Paneer Tikka,4.2,11,13,0,743.72,42,1,1,Continental,Storm,Medium,Bike,50.1,1,0,4
+471,user_049,Veg Fried Rice,10.58,25,19,1,208.53,3,0,3,South Indian,Storm,Medium,Bicycle,84.0,3,0,4
+472,user_092,Margherita Pizza,2.72,5,15,0,410.13,2,0,2,Chinese,Sunny,Low,Scooter,18.4,5,0,4
+473,user_025,Ice Cream Cone,8.63,11,13,0,109.99,50,1,2,Italian,Sunny,Medium,Scooter,46.7,4,0,1
+474,user_088,Veg Fried Rice,11.24,12,22,1,1333.4,35,1,0,South Indian,Cloudy,High,Bike,76.5,5,0,1
+475,user_054,Veg Fried Rice,5.18,8,22,0,1052.24,59,0,0,Fast Food,Sunny,Medium,Scooter,37.9,2,1,3
+476,user_043,Sushi Roll,7.08,5,10,1,1486.37,28,0,3,Indian,Storm,Low,Scooter,55.9,2,0,1
+477,user_067,Margherita Pizza,7.7,15,10,0,1276.71,31,1,1,Indian,Storm,Medium,Bike,63.5,1,0,5
+478,user_057,Paneer Tikka,1.94,6,17,0,1383.4,48,0,0,South Indian,Storm,Low,Bicycle,34.7,1,0,5
+479,user_080,Paneer Tikka,6.93,14,22,0,1289.9,51,1,3,Continental,Storm,Low,Bike,49.5,5,0,4
+480,user_009,Veg Fried Rice,7.99,26,14,1,1196.1,58,0,1,Fast Food,Storm,High,Bicycle,82.8,1,0,5
+481,user_097,Sushi Roll,7.64,10,17,0,440.41,5,1,2,Chinese,Rain,Medium,Scooter,49.6,5,0,5
+482,user_072,Paneer Tikka,4.44,16,21,1,1458.38,66,0,1,South Indian,Cloudy,Low,Scooter,41.6,5,0,3
+483,user_079,Sushi Roll,4.43,26,21,0,766.02,59,0,2,Chinese,Cloudy,High,Bike,60.4,5,0,3
+484,user_049,Margherita Pizza,11.08,25,20,0,412.24,29,0,1,Chinese,Sunny,Medium,Bike,60.6,3,0,2
+485,user_037,Margherita Pizza,6.88,9,15,0,506.81,24,0,2,Indian,Rain,Low,Bike,36.8,1,0,3
+486,user_027,Sushi Roll,2.75,10,22,1,1280.03,12,1,1,Continental,Cloudy,Medium,Bicycle,42.1,1,0,2
+487,user_089,Sushi Roll,11.74,24,18,0,1334.33,8,1,1,Italian,Rain,High,Bike,78.9,2,0,5
+488,user_063,Margherita Pizza,10.33,14,10,0,1205.42,41,1,2,Fast Food,Cloudy,Low,Bicycle,51.9,5,0,4
+489,user_062,Ice Cream Cone,10.65,29,23,0,812.82,63,0,1,Continental,Sunny,Low,Bicycle,55.9,3,0,4
+490,user_048,Sushi Roll,2.88,11,10,0,732.91,30,0,2,Italian,Storm,High,Bicycle,53.5,4,0,2
+491,user_041,Sushi Roll,7.22,19,20,0,817.17,43,0,3,Indian,Rain,Medium,Bicycle,53.9,3,0,1
+492,user_010,Sushi Roll,4.63,7,9,0,512.32,64,0,0,Chinese,Storm,Low,Scooter,42.2,2,1,5
+493,user_002,Sushi Roll,3.98,29,17,1,1056.96,35,1,1,Chinese,Rain,Low,Bicycle,57.2,5,0,3
+494,user_071,Chocolate Donut,8.02,29,22,1,1432.08,50,1,1,Fast Food,Storm,High,Bicycle,87.2,5,0,3
+495,user_095,Paneer Tikka,8.53,11,23,0,714.15,71,1,1,Indian,Rain,Low,Scooter,45.5,2,0,3
+496,user_020,Sushi Roll,5.14,29,20,0,1066.73,38,0,0,Italian,Cloudy,Medium,Scooter,54.6,1,0,4
+497,user_023,Paneer Tikka,5.96,15,23,0,897.32,57,0,2,Chinese,Storm,Low,Bicycle,47.0,1,0,1
+498,user_015,Margherita Pizza,3.18,26,21,1,834.15,58,1,0,Chinese,Cloudy,Low,Scooter,46.2,4,0,4
+499,user_059,Sushi Roll,2.87,18,14,1,1245.05,60,1,2,Continental,Sunny,Medium,Bike,45.3,5,0,1
+500,user_059,Sushi Roll,3.34,15,17,0,1374.42,62,0,0,Chinese,Storm,Low,Scooter,44.3,3,0,4
+501,user_021,Sushi Roll,7.6,18,17,1,740.96,23,0,0,South Indian,Cloudy,Medium,Bike,60.0,1,0,1
+502,user_065,Paneer Tikka,6.86,16,22,0,207.15,13,0,2,Continental,Cloudy,Medium,Scooter,48.8,2,0,1
+503,user_009,Paneer Tikka,10.34,17,15,0,152.88,32,1,1,Indian,Storm,Medium,Scooter,67.7,4,0,4
+504,user_020,Chocolate Donut,0.71,8,19,1,348.13,15,0,3,Chinese,Storm,Medium,Bike,44.4,1,0,2
+505,user_099,Chocolate Donut,8.51,25,14,1,1236.12,13,0,2,Chinese,Sunny,High,Bicycle,71.4,5,1,2
+506,user_086,Margherita Pizza,0.82,5,13,1,571.96,24,0,0,Italian,Cloudy,Low,Bike,25.9,1,0,1
+507,user_023,Paneer Tikka,2.68,11,20,0,1408.06,50,0,0,Fast Food,Sunny,Medium,Scooter,29.8,1,0,3
+508,user_014,Ice Cream Cone,8.07,13,13,1,1009.92,47,1,1,Indian,Storm,Low,Scooter,60.7,5,0,3
+509,user_003,Veg Fried Rice,11.13,29,22,0,1071.21,42,1,2,Indian,Rain,High,Bicycle,82.0,4,1,4
+510,user_018,Sushi Roll,0.65,5,23,0,962.89,15,0,3,South Indian,Cloudy,High,Bicycle,35.7,5,1,3
+511,user_098,Paneer Tikka,3.24,28,21,0,937.31,56,0,2,Chinese,Cloudy,Medium,Bike,46.5,3,0,3
+512,user_024,Chocolate Donut,2.87,6,8,1,1369.28,31,0,1,Indian,Cloudy,High,Scooter,49.0,4,0,1
+513,user_060,Sushi Roll,2.13,11,13,0,275.79,22,0,1,Fast Food,Sunny,Low,Bike,21.4,1,0,2
+514,user_022,Chocolate Donut,3.78,19,22,1,1454.82,25,0,3,Chinese,Storm,Low,Bicycle,52.2,3,0,4
+515,user_060,Sushi Roll,4.89,7,22,1,1162.4,38,0,1,South Indian,Storm,Low,Scooter,49.4,2,0,3
+516,user_096,Sushi Roll,5.9,9,20,1,1382.58,0,1,2,Fast Food,Storm,Low,Scooter,53.0,4,0,4
+517,user_048,Ice Cream Cone,1.93,23,9,0,327.31,55,0,2,Italian,Sunny,Medium,Bike,38.0,4,0,4
+518,user_019,Sushi Roll,9.85,25,15,1,1089.18,3,0,1,Fast Food,Cloudy,Low,Scooter,62.7,4,0,5
+519,user_022,Chocolate Donut,7.91,17,16,0,656.73,75,0,0,South Indian,Cloudy,Low,Bike,45.8,2,0,3
+520,user_096,Chocolate Donut,9.15,28,17,0,1317.19,13,0,2,South Indian,Storm,High,Scooter,83.4,3,0,1
+521,user_026,Chocolate Donut,8.51,21,13,1,683.58,36,0,1,Chinese,Storm,Low,Bike,66.0,2,0,5
+522,user_082,Margherita Pizza,1.18,10,10,1,1232.85,24,0,3,Indian,Storm,High,Bike,56.6,5,1,3
+523,user_006,Paneer Tikka,0.84,12,14,1,769.06,12,1,2,Indian,Storm,Low,Scooter,44.0,1,0,5
+524,user_031,Sushi Roll,9.26,20,20,0,762.52,43,0,2,Indian,Storm,High,Bicycle,75.4,3,0,4
+525,user_097,Margherita Pizza,0.54,27,19,0,662.53,17,1,0,South Indian,Sunny,Medium,Scooter,39.5,3,0,4
+526,user_030,Veg Fried Rice,0.54,25,23,0,1440.57,41,1,2,South Indian,Storm,High,Scooter,60.1,3,0,4
+527,user_074,Ice Cream Cone,11.33,20,9,0,1481.62,12,0,2,Continental,Sunny,Medium,Scooter,60.0,2,0,2
+528,user_022,Ice Cream Cone,11.85,19,10,0,335.27,57,0,3,Fast Food,Sunny,Medium,Bicycle,60.9,2,0,1
+529,user_063,Paneer Tikka,9.31,12,18,0,1106.84,60,0,0,Fast Food,Sunny,Low,Scooter,42.7,5,0,2
+530,user_038,Paneer Tikka,8.75,28,11,0,1115.04,71,0,3,South Indian,Sunny,High,Scooter,68.3,2,0,1
+531,user_050,Chocolate Donut,1.97,15,18,0,1435.7,73,0,2,Italian,Cloudy,High,Bike,41.8,5,0,3
+532,user_019,Veg Fried Rice,3.05,17,17,0,112.86,58,0,2,Continental,Cloudy,High,Bicycle,50.5,4,0,2
+533,user_043,Margherita Pizza,11.89,8,14,1,482.83,73,0,1,Continental,Sunny,High,Scooter,68.3,4,1,2
+534,user_097,Chocolate Donut,3.94,26,20,0,1377.33,20,0,3,Continental,Sunny,Low,Scooter,37.1,4,0,1
+535,user_021,Veg Fried Rice,8.56,22,12,0,651.28,16,0,0,South Indian,Rain,Medium,Bicycle,61.9,3,0,4
+536,user_055,Ice Cream Cone,9.75,11,13,1,1129.45,1,0,0,Continental,Storm,Medium,Bike,72.1,2,0,1
+537,user_016,Margherita Pizza,1.85,21,20,0,1010.14,75,0,1,Indian,Rain,Medium,Bike,43.1,4,0,4
+538,user_016,Paneer Tikka,8.46,30,10,0,1039.03,11,0,3,Italian,Cloudy,High,Bicycle,69.8,4,0,1
+539,user_017,Paneer Tikka,7.09,13,18,0,1071.22,12,0,1,Fast Food,Cloudy,Low,Bicycle,40.1,4,0,1
+540,user_016,Margherita Pizza,6.89,22,13,1,1196.86,67,0,0,Continental,Cloudy,Medium,Bicycle,63.1,2,0,1
+541,user_047,Veg Fried Rice,7.11,25,13,1,325.69,71,0,0,South Indian,Storm,Medium,Bike,71.8,1,0,4
+542,user_046,Veg Fried Rice,11.38,30,14,1,510.76,68,0,3,Continental,Sunny,Low,Scooter,68.6,5,0,1
+543,user_071,Sushi Roll,3.95,11,16,1,1440.39,70,1,2,Continental,Sunny,Low,Bike,34.2,5,0,4
+544,user_090,Ice Cream Cone,3.42,18,14,1,1416.28,18,0,0,Continental,Cloudy,Medium,Scooter,50.9,3,0,3
+545,user_043,Ice Cream Cone,9.56,17,10,1,136.27,31,1,0,South Indian,Cloudy,Medium,Bike,65.0,5,0,3
+546,user_063,Paneer Tikka,1.63,12,19,1,630.09,13,0,0,Italian,Rain,Low,Bike,34.5,3,0,5
+547,user_088,Veg Fried Rice,2.46,29,12,0,645.39,44,0,3,Italian,Rain,High,Bike,57.3,2,0,2
+548,user_046,Chocolate Donut,11.06,25,17,1,1464.3,31,0,3,Chinese,Storm,High,Bicycle,93.4,2,0,3
+549,user_008,Paneer Tikka,11.4,18,17,0,1178.81,11,0,0,Fast Food,Cloudy,Medium,Bicycle,63.5,1,0,5
+550,user_096,Paneer Tikka,8.9,20,21,0,796.93,68,0,3,Fast Food,Sunny,Medium,Bicycle,50.3,2,0,5
+551,user_023,Paneer Tikka,11.09,21,19,0,1057.71,5,0,1,Continental,Rain,Low,Bicycle,59.5,5,0,2
+552,user_028,Paneer Tikka,2.46,8,20,0,573.14,31,0,0,South Indian,Rain,Low,Scooter,26.5,4,0,2
+553,user_002,Paneer Tikka,1.16,5,21,0,961.74,42,0,0,Italian,Sunny,Medium,Bicycle,20.4,2,0,4
+554,user_024,Veg Fried Rice,5.22,20,16,0,109.67,32,1,3,Chinese,Sunny,High,Bicycle,51.3,3,0,1
+555,user_043,Paneer Tikka,5.49,16,13,0,1337.01,25,1,2,Fast Food,Storm,Low,Bike,46.2,4,0,2
+556,user_014,Paneer Tikka,6.2,26,12,0,1100.05,41,0,3,Fast Food,Rain,Low,Scooter,49.7,4,1,2
+557,user_032,Veg Fried Rice,10.04,18,12,1,1467.01,1,0,2,Italian,Sunny,High,Bike,69.4,1,0,5
+558,user_025,Veg Fried Rice,11.93,12,12,0,1032.86,54,1,0,Chinese,Cloudy,Medium,Bike,60.4,5,0,2
+559,user_082,Margherita Pizza,2.71,9,15,1,696.82,25,1,0,Indian,Cloudy,Medium,Bike,41.4,5,0,3
+560,user_001,Paneer Tikka,1.09,8,18,0,476.94,35,0,3,Fast Food,Storm,Low,Bicycle,30.8,1,0,2
+561,user_095,Sushi Roll,2.63,20,19,1,609.01,38,1,0,Italian,Storm,Medium,Bicycle,60.7,2,0,2
+562,user_010,Veg Fried Rice,10.7,9,18,0,981.38,15,1,1,Continental,Rain,Low,Bicycle,47.2,4,0,3
+563,user_016,Chocolate Donut,1.0,11,10,0,685.5,32,0,2,Continental,Storm,Low,Bicycle,36.6,4,0,4
+564,user_069,Veg Fried Rice,11.63,14,10,1,163.62,72,1,1,Fast Food,Sunny,Low,Bicycle,58.3,4,0,2
+565,user_091,Ice Cream Cone,3.62,10,16,0,105.04,73,1,0,Fast Food,Storm,High,Scooter,57.3,5,0,3
+566,user_035,Paneer Tikka,2.47,6,15,0,846.99,37,1,1,Chinese,Rain,High,Scooter,44.0,3,0,2
+567,user_008,Ice Cream Cone,7.46,16,8,1,554.39,70,0,1,South Indian,Sunny,Low,Bicycle,47.3,5,0,3
+568,user_082,Veg Fried Rice,6.68,29,14,0,1414.62,74,1,3,Chinese,Rain,Low,Scooter,55.7,3,0,4
+569,user_024,Chocolate Donut,9.79,29,13,0,653.65,57,1,3,Chinese,Rain,Medium,Bike,67.0,4,1,2
+570,user_059,Ice Cream Cone,0.74,10,20,0,1339.35,50,0,1,Chinese,Storm,High,Bike,45.3,1,0,1
+571,user_081,Veg Fried Rice,4.85,5,8,0,254.05,1,0,0,Continental,Cloudy,High,Bike,42.4,1,0,1
+572,user_035,Ice Cream Cone,6.02,23,11,1,1349.35,20,0,3,Indian,Rain,High,Bike,68.1,1,0,1
+573,user_029,Ice Cream Cone,10.69,18,20,1,298.57,28,1,3,Indian,Sunny,High,Scooter,71.6,3,0,1
+574,user_055,Veg Fried Rice,11.49,16,18,1,206.81,42,1,0,Fast Food,Cloudy,Low,Bike,64.3,5,0,5
+575,user_092,Paneer Tikka,7.68,14,8,0,587.74,13,0,3,Chinese,Storm,Low,Bicycle,54.0,3,0,2
+576,user_042,Margherita Pizza,8.8,30,13,0,1466.87,8,1,3,Continental,Cloudy,Medium,Bike,66.8,3,1,4
+577,user_069,Chocolate Donut,11.69,24,15,0,1210.9,42,1,1,Italian,Rain,Medium,Scooter,68.3,5,0,4
+578,user_061,Margherita Pizza,9.83,12,11,0,1084.33,30,0,1,Indian,Storm,High,Bicycle,74.9,1,0,1
+579,user_090,Ice Cream Cone,10.11,22,12,0,1460.55,53,1,1,Italian,Rain,Low,Scooter,54.0,2,1,4
+580,user_032,Paneer Tikka,8.57,26,8,0,914.25,61,0,1,Continental,Sunny,High,Scooter,61.8,3,1,5
+581,user_020,Paneer Tikka,9.1,27,9,0,1428.27,60,0,2,Fast Food,Cloudy,Low,Scooter,55.3,1,0,5
+582,user_035,Paneer Tikka,8.32,19,20,0,875.82,33,0,2,Chinese,Cloudy,Low,Scooter,49.4,4,0,2
+583,user_022,Paneer Tikka,5.01,28,19,1,1466.38,9,0,3,Continental,Cloudy,Medium,Bicycle,61.0,4,0,4
+584,user_040,Margherita Pizza,7.44,15,14,1,139.27,36,1,0,Chinese,Rain,Low,Bike,50.5,5,1,1
+585,user_051,Veg Fried Rice,6.98,30,14,0,777.33,6,0,2,Chinese,Rain,Low,Bicycle,51.5,3,0,3
+586,user_005,Sushi Roll,4.31,28,13,0,805.01,64,0,1,Fast Food,Rain,Low,Bicycle,43.5,4,0,2
+587,user_094,Veg Fried Rice,8.76,11,18,1,1230.47,18,0,1,Continental,Storm,Low,Bicycle,64.6,5,0,4
+588,user_064,Paneer Tikka,11.31,6,8,0,1346.95,49,1,0,Chinese,Rain,Medium,Scooter,58.2,5,0,2
+589,user_059,Sushi Roll,2.45,14,23,0,326.06,35,0,2,Italian,Sunny,Medium,Bike,30.5,2,0,3
+590,user_034,Ice Cream Cone,4.68,14,9,0,661.31,16,0,2,Fast Food,Cloudy,Low,Bicycle,34.7,4,0,5
+591,user_060,Ice Cream Cone,6.95,9,10,0,1294.28,37,0,3,Continental,Sunny,High,Bike,50.8,2,0,3
+592,user_009,Sushi Roll,5.85,7,18,0,352.38,13,0,3,Fast Food,Storm,High,Bicycle,60.1,2,0,5
+593,user_100,Chocolate Donut,3.7,6,9,0,863.11,60,1,1,Fast Food,Cloudy,High,Bicycle,41.4,1,0,3
+594,user_011,Sushi Roll,0.76,29,22,1,1057.14,34,0,1,Fast Food,Storm,Low,Bike,51.7,1,0,4
+595,user_089,Margherita Pizza,1.12,18,21,1,578.83,38,1,2,South Indian,Cloudy,High,Scooter,55.1,4,0,3
+596,user_059,Margherita Pizza,7.37,7,23,0,1111.81,74,0,2,Continental,Storm,Low,Bicycle,48.3,3,1,3
+597,user_070,Margherita Pizza,11.86,9,20,0,988.01,74,1,1,Indian,Storm,Medium,Bicycle,68.4,2,0,2
+598,user_046,Sushi Roll,0.67,16,21,0,122.67,39,0,0,Italian,Cloudy,Low,Bicycle,28.1,4,0,5
+599,user_013,Paneer Tikka,2.53,24,11,0,327.72,55,0,3,Italian,Sunny,Low,Scooter,33.9,5,0,1
+600,user_100,Chocolate Donut,9.12,24,20,1,1398.12,12,0,0,Continental,Sunny,High,Scooter,73.6,4,0,1
+601,user_085,Sushi Roll,11.01,18,17,0,1371.19,50,1,2,Chinese,Storm,Low,Scooter,65.8,5,0,4
+602,user_031,Veg Fried Rice,0.8,30,20,1,624.17,66,0,2,Continental,Cloudy,Low,Scooter,44.0,5,0,2
+603,user_091,Margherita Pizza,11.3,17,11,0,1468.3,22,0,2,South Indian,Storm,Low,Bicycle,64.3,4,0,5
+604,user_011,Veg Fried Rice,2.84,7,20,0,135.9,1,0,1,Fast Food,Rain,High,Bike,40.2,5,0,1
+605,user_085,Paneer Tikka,4.62,12,16,0,1013.53,28,0,1,Continental,Cloudy,Medium,Bicycle,42.3,4,0,1
+606,user_027,Chocolate Donut,1.78,24,11,0,271.76,18,0,1,Chinese,Sunny,High,Bicycle,43.8,4,0,4
+607,user_023,Ice Cream Cone,1.38,26,9,0,687.87,40,0,3,Indian,Storm,Low,Scooter,47.5,2,0,1
+608,user_020,Margherita Pizza,0.56,21,19,0,1138.38,15,1,0,Italian,Rain,Medium,Bicycle,39.3,5,0,1
+609,user_060,Ice Cream Cone,8.87,9,23,1,474.63,61,1,0,Chinese,Sunny,Medium,Bike,52.6,5,0,4
+610,user_063,Chocolate Donut,8.4,27,22,1,493.52,50,1,2,South Indian,Storm,Low,Scooter,69.9,2,0,4
+611,user_033,Veg Fried Rice,4.91,11,21,1,894.0,47,0,0,South Indian,Rain,Medium,Bicycle,50.7,1,0,3
+612,user_041,Paneer Tikka,9.8,18,8,1,1207.25,45,1,1,South Indian,Rain,Medium,Bike,69.0,3,1,3
+613,user_072,Sushi Roll,7.03,15,10,1,1358.24,71,1,2,Continental,Sunny,High,Scooter,61.7,5,0,5
+614,user_077,Sushi Roll,4.18,11,20,1,169.52,63,0,2,Continental,Storm,High,Scooter,64.7,1,0,2
+615,user_006,Sushi Roll,10.35,5,8,0,1376.3,36,1,3,South Indian,Sunny,Medium,Bike,43.6,5,0,1
+616,user_059,Chocolate Donut,4.15,16,11,1,660.48,71,0,3,Fast Food,Sunny,Medium,Bicycle,47.2,4,0,3
+617,user_069,Paneer Tikka,0.62,8,9,1,1490.96,55,1,0,South Indian,Sunny,Low,Bike,23.3,3,0,3
+618,user_017,Sushi Roll,4.29,24,12,1,1208.28,48,0,1,Indian,Sunny,Low,Scooter,48.1,5,0,5
+619,user_092,Paneer Tikka,3.27,20,19,0,1025.78,35,0,3,Fast Food,Storm,High,Bike,59.5,3,0,5
+620,user_076,Veg Fried Rice,6.19,11,18,1,118.38,27,0,3,Chinese,Cloudy,High,Bike,58.3,1,0,3
+621,user_052,Margherita Pizza,1.72,9,10,0,406.3,46,0,3,Continental,Storm,High,Bike,51.8,5,0,3
+622,user_004,Chocolate Donut,7.14,8,22,0,306.21,13,0,1,Fast Food,Cloudy,High,Scooter,49.5,4,0,3
+623,user_049,Ice Cream Cone,2.94,17,21,0,803.07,65,0,3,Italian,Sunny,High,Bike,42.9,1,1,2
+624,user_005,Veg Fried Rice,6.59,20,16,0,826.07,13,0,1,Italian,Cloudy,Medium,Bike,54.2,2,1,2
+625,user_045,Ice Cream Cone,8.54,17,17,0,648.67,12,1,2,Indian,Sunny,Medium,Bike,50.2,2,0,5
+626,user_019,Paneer Tikka,8.56,20,23,0,1134.73,30,1,0,Italian,Sunny,Low,Bike,43.4,3,0,4
+627,user_006,Paneer Tikka,2.46,29,17,0,1294.33,45,0,0,Italian,Sunny,Low,Scooter,36.4,2,0,2
+628,user_002,Sushi Roll,9.74,15,17,1,733.66,44,0,2,South Indian,Cloudy,Low,Bike,57.8,3,0,3
+629,user_095,Ice Cream Cone,8.87,5,21,0,307.06,52,0,1,South Indian,Storm,Low,Scooter,48.8,1,0,3
+630,user_051,Veg Fried Rice,11.6,25,21,0,1050.32,57,0,1,Chinese,Sunny,Low,Scooter,55.1,3,0,3
+631,user_088,Margherita Pizza,4.45,24,22,0,272.15,58,0,2,Italian,Cloudy,Low,Bicycle,40.7,1,0,2
+632,user_063,Sushi Roll,3.99,14,8,0,190.46,37,1,0,South Indian,Rain,High,Bicycle,49.1,5,0,4
+633,user_026,Chocolate Donut,10.61,30,10,1,1302.61,71,1,0,Italian,Sunny,Low,Scooter,66.8,2,0,3
+634,user_087,Sushi Roll,8.3,17,12,1,691.59,12,0,2,Chinese,Sunny,Medium,Scooter,58.2,2,0,2
+635,user_068,Chocolate Donut,4.01,14,18,1,893.33,59,0,3,Italian,Cloudy,Medium,Bicycle,50.5,4,1,5
+636,user_039,Margherita Pizza,5.34,18,19,0,745.8,71,1,3,Continental,Rain,Medium,Scooter,46.5,2,0,2
+637,user_084,Paneer Tikka,8.21,19,18,1,1230.47,66,0,0,South Indian,Rain,Low,Scooter,55.3,3,0,5
+638,user_095,Chocolate Donut,10.44,8,12,0,1136.66,65,0,0,Indian,Rain,High,Scooter,63.9,5,0,2
+639,user_032,Margherita Pizza,11.88,5,11,1,1227.86,25,1,0,Continental,Cloudy,Medium,Bicycle,60.1,1,0,4
+640,user_079,Paneer Tikka,3.95,20,21,0,1475.77,30,0,2,Indian,Storm,Medium,Bike,56.8,4,0,2
+641,user_064,Sushi Roll,8.06,10,16,0,816.12,69,1,3,Continental,Sunny,Low,Bike,35.9,1,0,4
+642,user_046,Margherita Pizza,2.2,14,22,0,739.92,72,0,2,Fast Food,Sunny,Medium,Scooter,29.5,5,0,4
+643,user_093,Veg Fried Rice,10.4,11,18,0,588.37,67,0,0,Italian,Sunny,Low,Scooter,41.7,2,0,4
+644,user_068,Sushi Roll,5.03,25,12,1,777.24,60,0,1,Continental,Cloudy,Medium,Bicycle,59.5,5,0,3
+645,user_030,Ice Cream Cone,1.28,5,15,0,1292.84,20,1,0,South Indian,Rain,High,Bicycle,37.7,4,0,1
+646,user_042,Paneer Tikka,3.38,6,22,1,1285.52,9,0,2,Chinese,Storm,Medium,Bike,52.3,1,0,4
+647,user_086,Paneer Tikka,8.31,12,14,0,381.67,20,0,1,Chinese,Cloudy,Low,Scooter,40.7,1,0,1
+648,user_046,Veg Fried Rice,10.44,15,12,0,359.43,67,0,1,Chinese,Sunny,Medium,Scooter,54.0,4,0,1
+649,user_003,Margherita Pizza,7.05,9,17,0,1195.34,38,1,3,Fast Food,Storm,High,Scooter,61.3,5,0,3
+650,user_015,Veg Fried Rice,1.36,23,23,0,437.96,66,0,2,Fast Food,Rain,Low,Bike,34.9,1,0,3
+651,user_010,Veg Fried Rice,2.81,29,9,0,183.15,26,0,2,Continental,Sunny,Low,Scooter,39.9,1,0,3
+652,user_084,Sushi Roll,1.43,22,21,0,770.28,16,0,0,Indian,Storm,High,Bicycle,55.6,4,0,4
+653,user_049,Ice Cream Cone,9.49,11,12,1,847.86,48,0,0,Italian,Cloudy,Low,Bike,53.7,1,0,4
+654,user_012,Veg Fried Rice,1.86,24,8,1,1475.55,47,0,2,Continental,Storm,High,Bike,68.1,1,0,2
+655,user_017,Veg Fried Rice,1.15,6,20,1,277.4,23,0,2,Fast Food,Sunny,Low,Bicycle,24.2,2,0,4
+656,user_100,Veg Fried Rice,11.29,11,17,1,792.9,45,0,1,Continental,Sunny,High,Bike,68.6,3,0,2
+657,user_095,Veg Fried Rice,1.7,16,14,0,1360.6,62,0,1,South Indian,Rain,Medium,Bicycle,40.9,5,0,1
+658,user_011,Paneer Tikka,7.97,19,16,0,1434.26,2,0,0,Italian,Cloudy,Low,Bike,45.8,5,0,5
+659,user_078,Sushi Roll,1.01,11,16,0,631.06,55,0,2,Fast Food,Storm,Low,Scooter,31.4,3,0,5
+660,user_069,Chocolate Donut,5.49,18,21,0,1195.66,7,0,3,Chinese,Sunny,Medium,Bicycle,46.0,3,0,5
+661,user_038,Sushi Roll,11.92,12,20,0,284.62,1,0,2,Continental,Rain,Low,Scooter,51.7,2,0,1
+662,user_003,Chocolate Donut,9.5,30,8,0,1180.19,1,1,2,South Indian,Rain,Medium,Scooter,69.8,2,0,4
+663,user_099,Sushi Roll,3.01,6,16,0,911.4,10,0,2,Indian,Rain,Medium,Bicycle,37.4,4,0,4
+664,user_030,Paneer Tikka,7.61,6,16,1,425.74,4,1,3,Chinese,Cloudy,High,Bike,60.7,1,0,3
+665,user_088,Chocolate Donut,3.2,8,10,1,208.47,56,1,0,Indian,Rain,High,Bicycle,51.0,3,0,4
+666,user_038,Margherita Pizza,4.64,18,8,0,1356.35,47,0,2,Italian,Cloudy,Low,Scooter,38.9,2,0,1
+667,user_020,Chocolate Donut,9.03,30,10,0,914.08,44,0,3,South Indian,Cloudy,Medium,Bicycle,66.6,1,0,1
+668,user_038,Margherita Pizza,10.6,30,18,1,172.0,60,0,3,Chinese,Storm,High,Bicycle,93.4,2,0,2
+669,user_084,Chocolate Donut,1.83,12,15,0,723.01,52,0,2,Italian,Cloudy,Medium,Scooter,34.3,1,0,4
+670,user_054,Veg Fried Rice,3.32,18,12,0,1043.75,17,0,2,Fast Food,Cloudy,High,Bike,48.9,1,1,5
+671,user_022,Paneer Tikka,1.89,13,12,1,1171.71,60,0,1,Fast Food,Cloudy,Low,Scooter,38.0,4,1,5
+672,user_093,Paneer Tikka,8.51,12,10,1,1096.78,15,0,2,South Indian,Storm,Medium,Scooter,69.2,5,1,3
+673,user_048,Ice Cream Cone,5.51,29,22,0,767.95,17,0,0,Fast Food,Storm,High,Scooter,71.0,1,0,4
+674,user_055,Sushi Roll,3.71,29,18,0,235.66,38,0,0,Italian,Storm,Low,Bicycle,54.0,5,0,4
+675,user_037,Sushi Roll,8.95,28,23,0,394.95,66,0,2,Italian,Cloudy,Low,Bike,53.6,3,1,4
+676,user_070,Veg Fried Rice,9.16,12,14,0,1033.01,18,1,1,Chinese,Cloudy,Medium,Scooter,49.5,1,0,1
+677,user_016,Chocolate Donut,11.4,18,21,1,1124.93,66,1,3,Fast Food,Sunny,Medium,Bike,64.9,1,0,4
+678,user_081,Ice Cream Cone,1.84,16,10,0,1225.1,28,0,2,Italian,Sunny,Low,Scooter,23.7,3,0,3
+679,user_029,Ice Cream Cone,4.15,22,14,0,1025.58,4,0,0,Indian,Storm,Low,Bicycle,48.3,5,0,3
+680,user_079,Margherita Pizza,3.75,11,13,0,988.68,11,0,1,Fast Food,Cloudy,Medium,Bike,35.1,1,0,1
+681,user_081,Chocolate Donut,3.2,16,19,0,777.93,23,0,1,Fast Food,Rain,High,Scooter,52.5,4,0,5
+682,user_060,Sushi Roll,10.63,29,11,1,1169.51,53,0,2,Fast Food,Rain,Low,Bike,69.4,4,1,3
+683,user_053,Paneer Tikka,6.06,30,18,0,1309.61,52,0,0,Continental,Storm,High,Bike,73.9,5,0,3
+684,user_053,Margherita Pizza,5.39,13,13,0,1377.32,34,0,1,Continental,Rain,Medium,Scooter,44.6,1,0,5
+685,user_099,Veg Fried Rice,7.46,5,10,1,1430.39,2,0,0,Chinese,Sunny,High,Bicycle,56.8,3,0,1
+686,user_071,Ice Cream Cone,2.31,22,15,1,653.74,29,0,1,South Indian,Cloudy,Medium,Bicycle,52.6,3,0,1
+687,user_049,Ice Cream Cone,9.6,6,20,0,319.72,38,1,1,Indian,Sunny,High,Bike,50.4,1,0,2
+688,user_025,Veg Fried Rice,8.8,29,17,1,1125.69,2,1,1,Continental,Rain,Low,Bike,63.9,5,0,3
+689,user_062,Sushi Roll,1.65,25,15,0,906.68,48,0,0,Fast Food,Sunny,Medium,Scooter,37.0,4,0,4
+690,user_062,Veg Fried Rice,9.27,27,11,0,251.63,28,0,0,Indian,Storm,High,Scooter,80.5,2,0,3
+691,user_008,Chocolate Donut,2.45,20,16,1,930.77,10,1,3,Italian,Cloudy,High,Bike,57.3,5,0,4
+692,user_031,Sushi Roll,7.0,18,22,1,1320.0,34,0,3,Italian,Rain,Low,Bike,54.4,3,0,4
+693,user_055,Chocolate Donut,4.82,29,13,0,119.07,66,0,1,South Indian,Sunny,Low,Scooter,40.5,1,1,5
+694,user_073,Ice Cream Cone,0.61,8,13,0,709.67,37,0,2,Fast Food,Cloudy,High,Bicycle,36.3,5,0,2
+695,user_054,Margherita Pizza,7.45,20,12,0,748.03,42,0,1,Italian,Cloudy,High,Bicycle,59.6,4,1,4
+696,user_072,Margherita Pizza,8.48,22,19,1,742.03,12,1,3,Indian,Sunny,Medium,Bicycle,62.2,1,0,1
+697,user_028,Sushi Roll,4.02,24,13,0,1173.78,32,0,1,Chinese,Rain,Medium,Scooter,47.3,2,1,3
+698,user_028,Paneer Tikka,9.31,15,12,0,905.92,75,0,3,South Indian,Sunny,Low,Bicycle,42.0,1,0,2
+699,user_031,Veg Fried Rice,11.65,9,20,1,816.39,56,0,3,Chinese,Storm,Low,Scooter,66.4,5,0,4
+700,user_063,Ice Cream Cone,4.15,7,16,0,1336.6,27,0,2,Fast Food,Storm,Medium,Scooter,47.5,4,0,1
+701,user_023,Ice Cream Cone,10.46,19,8,1,1179.04,44,0,1,South Indian,Storm,High,Scooter,87.2,2,0,2
+702,user_083,Chocolate Donut,4.07,8,20,1,1375.46,32,0,0,Fast Food,Rain,High,Bike,55.4,1,0,1
+703,user_083,Veg Fried Rice,7.08,5,11,1,1308.46,60,0,3,Continental,Rain,Medium,Bicycle,52.1,4,0,1
+704,user_025,Ice Cream Cone,8.97,9,8,1,215.95,15,1,0,Italian,Sunny,High,Bicycle,60.6,5,0,3
+705,user_035,Paneer Tikka,7.25,16,13,0,822.88,51,0,0,Continental,Rain,High,Bike,57.7,5,0,4
+706,user_090,Paneer Tikka,5.21,25,22,0,1145.56,0,0,2,Indian,Rain,High,Bike,59.2,4,0,1
+707,user_093,Margherita Pizza,4.15,25,17,1,1452.07,21,0,1,Indian,Sunny,Low,Bicycle,46.7,4,1,2
+708,user_038,Sushi Roll,3.8,13,22,0,296.6,40,0,1,Continental,Cloudy,Medium,Bike,38.2,2,0,3
+709,user_090,Chocolate Donut,9.38,21,19,0,729.54,21,1,3,Indian,Storm,Medium,Bicycle,67.1,5,0,3
+710,user_081,Margherita Pizza,9.05,13,23,0,227.06,26,0,3,Chinese,Rain,High,Bicycle,61.3,1,0,2
+711,user_083,Paneer Tikka,7.27,6,13,0,551.32,13,0,0,Fast Food,Rain,Medium,Bicycle,43.3,4,0,3
+712,user_033,Ice Cream Cone,0.75,30,19,1,963.26,75,0,3,Italian,Cloudy,Medium,Bicycle,53.3,4,0,5
+713,user_004,Margherita Pizza,11.66,12,13,1,1168.44,64,1,3,Italian,Storm,High,Scooter,86.2,5,0,3
+714,user_059,Paneer Tikka,4.33,6,12,1,1458.46,39,0,1,South Indian,Cloudy,High,Bike,53.8,4,0,2
+715,user_061,Veg Fried Rice,10.36,18,20,1,226.23,31,1,2,Chinese,Rain,Medium,Bike,66.5,2,0,2
+716,user_069,Paneer Tikka,11.04,17,19,1,279.9,17,0,2,Fast Food,Storm,Medium,Bicycle,80.9,4,0,4
+717,user_025,Paneer Tikka,3.2,16,14,1,575.79,0,0,3,Continental,Sunny,Low,Bicycle,39.7,2,1,3
+718,user_014,Chocolate Donut,5.4,14,10,0,535.53,61,1,3,Fast Food,Sunny,Medium,Scooter,38.4,4,0,3
+719,user_007,Sushi Roll,0.64,15,21,0,280.24,64,0,3,Continental,Sunny,High,Scooter,34.2,4,0,3
+720,user_050,Ice Cream Cone,9.48,27,10,0,569.09,68,0,0,Continental,Sunny,High,Scooter,69.3,4,0,2
+721,user_059,Sushi Roll,6.42,24,9,1,1118.68,58,0,3,Indian,Rain,High,Bicycle,70.5,1,0,5
+722,user_005,Veg Fried Rice,3.91,5,11,1,859.85,22,0,3,Continental,Rain,Medium,Scooter,41.4,3,0,3
+723,user_089,Veg Fried Rice,2.52,22,15,0,232.4,18,0,3,Continental,Sunny,High,Bicycle,49.1,3,0,5
+724,user_003,Margherita Pizza,0.94,24,16,1,1467.58,12,0,0,South Indian,Storm,Low,Bike,50.2,3,0,1
+725,user_056,Sushi Roll,3.99,21,13,1,854.82,31,0,0,Fast Food,Sunny,Low,Bicycle,41.9,4,0,3
+726,user_077,Ice Cream Cone,8.3,13,18,0,107.07,26,1,3,South Indian,Sunny,High,Scooter,55.8,3,0,1
+727,user_002,Sushi Roll,1.23,14,18,1,1119.43,58,0,2,Chinese,Cloudy,Low,Bicycle,35.1,4,0,3
+728,user_081,Chocolate Donut,6.24,22,19,0,1076.82,49,0,0,Italian,Storm,Low,Scooter,56.0,5,0,1
+729,user_003,Sushi Roll,5.69,19,23,0,141.39,74,1,2,Chinese,Rain,Medium,Scooter,50.9,4,0,2
+730,user_046,Margherita Pizza,1.92,17,21,0,405.63,14,0,1,Fast Food,Cloudy,Medium,Bicycle,39.9,4,0,5
+731,user_060,Sushi Roll,10.67,25,22,1,1166.45,40,0,3,Italian,Rain,Medium,Bicycle,73.5,4,0,2
+732,user_004,Veg Fried Rice,4.34,19,15,0,1018.67,12,0,3,Chinese,Storm,Medium,Bike,58.0,4,0,2
+733,user_077,Ice Cream Cone,11.37,15,20,0,953.74,21,0,3,South Indian,Sunny,High,Bicycle,65.0,3,1,5
+734,user_060,Chocolate Donut,10.56,10,15,0,761.04,25,0,2,South Indian,Cloudy,Low,Scooter,44.8,1,0,5
+735,user_053,Veg Fried Rice,1.78,24,23,0,1273.03,20,1,0,Fast Food,Cloudy,Low,Scooter,32.3,1,0,4
+736,user_051,Ice Cream Cone,8.73,24,9,0,1005.93,68,0,3,Indian,Storm,Medium,Bicycle,69.5,1,0,3
+737,user_032,Chocolate Donut,10.24,29,14,1,1255.32,14,0,2,Fast Food,Storm,Medium,Bike,84.4,3,1,3
+738,user_073,Sushi Roll,10.84,20,9,1,1153.5,33,0,3,Indian,Rain,High,Bicycle,79.1,4,0,2
+739,user_020,Ice Cream Cone,6.98,27,12,0,507.71,20,0,2,Chinese,Rain,Low,Bike,52.2,4,0,2
+740,user_067,Chocolate Donut,0.82,11,23,0,916.52,18,0,2,South Indian,Rain,Medium,Scooter,31.9,5,0,5
+741,user_009,Sushi Roll,6.26,21,15,0,624.11,62,0,3,Chinese,Rain,High,Bike,59.4,4,1,3
+742,user_095,Margherita Pizza,8.88,8,19,0,1010.0,45,0,0,Chinese,Cloudy,Low,Scooter,43.8,5,0,1
+743,user_033,Ice Cream Cone,6.86,22,13,1,1285.25,68,0,0,Fast Food,Sunny,Medium,Bicycle,57.2,5,0,2
+744,user_008,Margherita Pizza,3.56,13,15,0,227.9,24,0,0,Chinese,Storm,Low,Bike,44.4,2,0,2
+745,user_070,Veg Fried Rice,9.49,15,14,0,1206.02,9,1,0,South Indian,Storm,Medium,Bike,64.9,4,0,5
+746,user_001,Sushi Roll,10.4,8,21,0,1107.97,56,0,1,Fast Food,Rain,High,Bike,63.1,5,0,5
+747,user_081,Chocolate Donut,6.06,14,11,1,1432.01,38,0,1,Italian,Storm,High,Bike,71.0,5,0,2
+748,user_025,Paneer Tikka,2.38,7,15,0,1164.61,38,1,3,Fast Food,Sunny,Medium,Bicycle,26.9,5,0,2
+749,user_079,Ice Cream Cone,8.37,24,13,0,394.41,19,0,1,Italian,Rain,Medium,Bicycle,62.3,2,0,3
+750,user_046,Ice Cream Cone,9.47,13,18,0,420.21,33,0,2,South Indian,Storm,High,Bicycle,71.0,3,0,4
+751,user_091,Margherita Pizza,0.57,17,14,0,177.43,52,0,1,Italian,Storm,High,Scooter,55.2,3,1,3
+752,user_021,Sushi Roll,4.9,22,23,0,883.96,25,0,3,Italian,Rain,Low,Scooter,45.8,1,1,5
+753,user_048,Chocolate Donut,10.95,20,17,0,449.78,75,0,0,Fast Food,Sunny,High,Scooter,63.7,3,0,1
+754,user_074,Veg Fried Rice,9.42,18,16,1,1254.03,19,0,1,Fast Food,Cloudy,High,Bike,73.5,4,0,5
+755,user_028,Margherita Pizza,9.35,30,18,1,1078.95,40,0,2,South Indian,Rain,High,Bike,85.8,4,0,4
+756,user_068,Paneer Tikka,11.67,13,19,1,457.5,2,1,3,Chinese,Storm,Medium,Scooter,76.8,4,0,1
+757,user_072,Paneer Tikka,4.26,22,13,0,788.81,73,0,0,South Indian,Storm,Low,Bicycle,51.5,5,1,5
+758,user_074,Sushi Roll,9.15,29,22,0,1057.53,35,0,1,Indian,Storm,High,Bicycle,83.1,1,0,5
+759,user_099,Sushi Roll,0.57,17,22,0,126.42,28,0,1,Continental,Storm,Low,Scooter,35.9,2,0,2
+760,user_009,Sushi Roll,9.39,11,18,1,531.87,12,1,0,South Indian,Rain,High,Bicycle,71.9,5,0,2
+761,user_049,Paneer Tikka,11.9,12,22,1,1410.82,27,0,0,Continental,Cloudy,Low,Scooter,58.0,4,0,2
+762,user_016,Margherita Pizza,2.86,17,14,0,926.3,15,1,1,Fast Food,Sunny,Medium,Scooter,36.1,5,0,1
+763,user_054,Chocolate Donut,2.92,7,11,0,1219.71,46,0,0,Fast Food,Rain,High,Scooter,45.9,1,1,3
+764,user_036,Ice Cream Cone,8.0,12,18,0,1499.59,10,0,3,Italian,Rain,Low,Scooter,46.7,1,0,1
+765,user_054,Margherita Pizza,6.46,9,21,1,1073.1,4,1,1,Chinese,Cloudy,Low,Bicycle,46.6,3,0,2
+766,user_034,Veg Fried Rice,10.61,8,18,1,1201.18,3,0,2,Chinese,Cloudy,High,Bicycle,68.5,3,0,1
+767,user_029,Paneer Tikka,10.53,18,21,1,165.1,48,0,1,Indian,Rain,Low,Scooter,60.9,1,0,1
+768,user_085,Veg Fried Rice,6.67,9,19,0,1299.68,0,0,3,Indian,Storm,Medium,Scooter,56.4,3,1,5
+769,user_092,Chocolate Donut,10.3,11,17,0,276.17,65,1,1,Continental,Sunny,Medium,Scooter,48.8,1,0,5
+770,user_048,Ice Cream Cone,8.08,15,12,1,1094.64,59,0,2,Indian,Cloudy,Low,Scooter,54.3,2,0,5
+771,user_062,Chocolate Donut,9.63,10,19,0,120.05,4,0,1,Continental,Sunny,High,Scooter,54.0,3,1,2
+772,user_063,Veg Fried Rice,3.52,19,22,0,264.95,35,0,2,Continental,Storm,Medium,Bike,52.1,2,0,1
+773,user_092,Sushi Roll,4.7,25,12,1,135.58,69,1,1,Continental,Rain,High,Scooter,71.1,1,1,3
+774,user_046,Veg Fried Rice,1.45,21,12,0,355.66,65,1,1,Italian,Storm,Medium,Bicycle,51.0,2,0,5
+775,user_097,Ice Cream Cone,8.48,21,12,0,333.45,20,1,1,South Indian,Sunny,High,Scooter,61.7,5,0,5
+776,user_039,Paneer Tikka,11.65,17,10,1,515.1,66,0,3,South Indian,Storm,Low,Scooter,72.8,2,0,3
+777,user_021,Ice Cream Cone,11.53,6,21,0,1157.24,17,1,1,Continental,Rain,Low,Bicycle,50.6,2,0,4
+778,user_098,Sushi Roll,11.58,13,8,1,296.62,51,1,1,South Indian,Cloudy,Low,Scooter,58.3,2,0,1
+779,user_006,Chocolate Donut,7.38,12,16,0,1024.59,38,0,3,South Indian,Rain,High,Bike,55.8,3,0,1
+780,user_047,Margherita Pizza,8.66,30,23,1,782.23,37,1,0,Continental,Storm,Medium,Bicycle,79.2,5,0,4
+781,user_011,Paneer Tikka,3.72,28,11,0,1125.42,32,0,2,Fast Food,Sunny,High,Bike,53.4,3,0,4
+782,user_014,Veg Fried Rice,3.56,29,11,0,1256.77,62,0,3,Chinese,Storm,Low,Bicycle,53.8,4,1,5
+783,user_074,Veg Fried Rice,8.66,24,9,0,690.56,50,0,0,Indian,Sunny,Low,Scooter,47.5,4,0,4
+784,user_033,Sushi Roll,2.58,25,19,1,1424.33,12,0,3,Continental,Storm,High,Bike,72.8,4,0,3
+785,user_023,Chocolate Donut,8.54,25,10,1,468.44,20,1,2,Chinese,Rain,Medium,Bike,71.3,3,0,3
+786,user_057,Sushi Roll,8.8,25,13,1,668.49,63,0,3,Italian,Cloudy,Medium,Scooter,66.7,4,0,2
+787,user_012,Ice Cream Cone,10.95,27,20,0,999.23,37,0,1,Italian,Sunny,Low,Bike,55.7,1,0,3
+788,user_006,Margherita Pizza,11.09,8,12,0,1283.01,37,0,0,Chinese,Rain,High,Scooter,63.3,2,0,3
+789,user_062,Chocolate Donut,3.32,12,21,0,716.5,27,1,2,Indian,Storm,Low,Bicycle,39.2,1,0,5
+790,user_047,Margherita Pizza,7.18,25,18,0,905.64,49,0,2,South Indian,Cloudy,Medium,Bike,58.3,3,0,5
+791,user_069,Sushi Roll,10.02,27,11,1,445.65,68,0,0,Italian,Sunny,High,Bike,79.8,5,0,5
+792,user_009,Margherita Pizza,6.87,12,8,0,751.4,73,0,3,Chinese,Rain,High,Bicycle,57.3,4,0,5
+793,user_098,Margherita Pizza,2.2,26,20,0,596.18,35,0,0,Fast Food,Sunny,Medium,Scooter,42.0,4,0,2
+794,user_001,Veg Fried Rice,4.0,12,9,0,897.8,65,0,1,Continental,Storm,Medium,Bicycle,51.0,5,0,3
+795,user_064,Ice Cream Cone,5.26,10,11,1,1125.58,31,0,1,South Indian,Sunny,Low,Bicycle,40.2,1,0,3
+796,user_091,Chocolate Donut,8.38,30,16,0,670.6,60,1,2,Indian,Sunny,Medium,Bicycle,57.0,3,0,4
+797,user_008,Veg Fried Rice,4.54,25,9,1,986.21,43,0,0,Indian,Cloudy,Medium,Scooter,58.0,1,0,3
+798,user_064,Margherita Pizza,4.26,14,14,1,138.71,72,0,0,Indian,Cloudy,Low,Bicycle,45.2,2,0,3
+799,user_016,Sushi Roll,10.75,27,17,0,1284.36,22,0,3,Indian,Cloudy,High,Scooter,72.0,1,0,1
+800,user_009,Sushi Roll,1.65,11,15,1,944.9,43,0,3,Italian,Cloudy,High,Bicycle,50.5,1,0,3
+801,user_042,Veg Fried Rice,0.98,6,20,0,1383.25,61,0,0,Chinese,Cloudy,Medium,Bike,29.7,1,0,5
+802,user_042,Veg Fried Rice,9.28,14,23,1,1421.95,54,0,3,Continental,Cloudy,Medium,Scooter,59.5,1,0,5
+803,user_083,Sushi Roll,8.54,21,9,0,1263.76,24,0,2,Fast Food,Rain,Medium,Scooter,61.4,5,0,5
+804,user_013,Chocolate Donut,11.59,6,13,1,1253.24,55,0,1,Indian,Sunny,Medium,Scooter,58.2,1,0,2
+805,user_001,Margherita Pizza,2.88,25,18,1,958.22,5,0,1,Continental,Rain,Low,Bicycle,51.1,1,0,2
+806,user_084,Ice Cream Cone,2.13,12,16,1,970.47,33,0,3,Fast Food,Cloudy,Medium,Scooter,43.8,3,0,4
+807,user_099,Chocolate Donut,10.19,11,12,0,1243.41,62,0,0,Continental,Sunny,Medium,Scooter,50.9,4,1,2
+808,user_037,Sushi Roll,6.12,10,16,0,851.72,21,0,2,Indian,Sunny,Low,Bike,35.0,4,0,1
+809,user_024,Paneer Tikka,6.23,9,10,0,825.52,4,0,0,Indian,Storm,Low,Bike,43.5,1,0,2
+810,user_002,Margherita Pizza,7.37,6,18,1,1028.03,64,0,1,Fast Food,Rain,Medium,Bicycle,55.2,3,1,3
+811,user_093,Chocolate Donut,1.15,17,8,0,314.34,37,0,1,Chinese,Rain,Medium,Bike,35.9,2,0,4
+812,user_093,Margherita Pizza,2.35,22,18,1,1449.85,7,1,0,Indian,Cloudy,High,Bicycle,57.7,5,1,3
+813,user_010,Paneer Tikka,4.88,23,23,1,181.78,49,0,0,Indian,Cloudy,Low,Bicycle,52.4,1,0,5
+814,user_020,Chocolate Donut,5.67,28,19,0,432.74,62,0,2,Continental,Storm,Medium,Bicycle,67.7,4,0,2
+815,user_053,Ice Cream Cone,11.62,13,15,1,1334.71,47,0,3,Chinese,Rain,High,Bicycle,79.0,2,1,4
+816,user_068,Margherita Pizza,5.3,28,15,0,733.24,49,0,2,Chinese,Rain,Low,Scooter,47.8,4,1,2
+817,user_019,Chocolate Donut,8.89,30,11,0,966.43,59,0,3,Continental,Cloudy,High,Bike,71.5,3,0,5
+818,user_027,Chocolate Donut,2.79,15,13,0,872.37,20,0,3,Continental,Storm,Medium,Bicycle,46.6,4,1,3
+819,user_098,Veg Fried Rice,9.71,9,9,0,675.81,59,1,1,Continental,Cloudy,High,Scooter,61.2,4,0,1
+820,user_040,Paneer Tikka,10.5,15,19,0,1293.64,40,0,2,Indian,Sunny,Low,Bike,45.0,2,0,5
+821,user_080,Chocolate Donut,3.83,8,13,0,1223.27,20,0,1,Italian,Storm,Medium,Scooter,44.2,1,0,5
+822,user_061,Chocolate Donut,10.89,8,23,0,1029.42,18,0,0,South Indian,Storm,High,Scooter,73.4,2,0,2
+823,user_018,Veg Fried Rice,5.64,5,17,0,1458.42,72,0,2,Indian,Rain,Medium,Bicycle,43.5,3,1,4
+824,user_022,Sushi Roll,4.19,27,16,0,1209.89,10,0,3,Chinese,Sunny,High,Bike,51.5,5,0,2
+825,user_098,Ice Cream Cone,10.92,6,22,0,1009.17,39,0,3,South Indian,Rain,High,Bike,61.5,3,0,1
+826,user_043,Sushi Roll,7.1,14,21,1,632.94,60,0,0,Italian,Sunny,Low,Bicycle,46.7,3,0,4
+827,user_015,Paneer Tikka,6.85,20,12,0,494.3,10,0,0,Continental,Rain,Low,Scooter,49.0,3,0,1
+828,user_080,Paneer Tikka,7.08,12,12,1,1190.43,9,1,0,Chinese,Sunny,Low,Scooter,45.5,3,0,5
+829,user_088,Margherita Pizza,1.72,8,14,0,178.63,17,1,0,Continental,Storm,High,Scooter,47.0,1,1,1
+830,user_008,Chocolate Donut,2.72,11,13,0,1091.53,63,0,1,Continental,Sunny,Medium,Scooter,31.3,5,0,5
+831,user_030,Margherita Pizza,10.6,23,20,1,1461.81,15,0,0,Indian,Sunny,Low,Bike,58.7,3,0,5
+832,user_009,Chocolate Donut,5.41,16,19,1,1129.62,67,1,2,Italian,Storm,High,Bicycle,70.4,2,1,1
+833,user_009,Veg Fried Rice,8.74,5,16,0,1468.03,11,0,2,South Indian,Storm,Low,Bicycle,50.5,5,0,3
+834,user_060,Sushi Roll,3.95,20,20,0,538.86,24,1,1,Fast Food,Rain,High,Scooter,52.1,3,0,4
+835,user_085,Margherita Pizza,4.93,5,12,0,1322.71,40,0,1,Fast Food,Storm,Low,Bike,39.2,1,0,5
+836,user_025,Chocolate Donut,2.22,15,23,0,376.86,63,0,2,Chinese,Cloudy,Low,Bike,32.0,5,0,4
+837,user_054,Chocolate Donut,11.56,7,8,1,1434.13,61,0,1,Fast Food,Cloudy,Medium,Bicycle,61.2,4,0,3
+838,user_061,Paneer Tikka,7.61,24,8,1,270.59,16,0,2,Continental,Cloudy,Medium,Bicycle,66.2,2,0,4
+839,user_017,Sushi Roll,8.42,15,15,0,987.42,60,0,2,Italian,Storm,Low,Bike,56.0,3,0,5
+840,user_060,Veg Fried Rice,10.74,15,16,0,815.34,12,0,1,South Indian,Cloudy,Low,Scooter,52.1,1,0,1
+841,user_019,Sushi Roll,4.68,29,18,0,182.63,31,1,0,Fast Food,Storm,Low,Scooter,55.0,5,0,4
+842,user_049,Chocolate Donut,7.37,8,8,0,513.87,7,0,1,Italian,Cloudy,High,Bike,53.2,5,0,3
+843,user_077,Chocolate Donut,7.99,29,18,1,689.99,47,0,1,Italian,Cloudy,Low,Scooter,62.0,4,0,1
+844,user_048,Margherita Pizza,5.71,10,18,0,921.07,41,0,0,Italian,Storm,Medium,Bike,49.6,3,0,4
+845,user_066,Paneer Tikka,5.05,15,12,0,958.31,4,0,2,South Indian,Sunny,High,Scooter,48.5,5,1,4
+846,user_064,Chocolate Donut,2.38,27,9,1,429.02,46,0,2,Indian,Sunny,Low,Bike,40.3,3,0,5
+847,user_072,Paneer Tikka,1.53,11,9,0,727.9,14,0,2,Fast Food,Storm,High,Bike,48.9,1,0,2
+848,user_086,Ice Cream Cone,11.42,9,21,0,800.82,41,0,3,Fast Food,Sunny,Low,Bike,42.0,3,0,5
+849,user_020,Veg Fried Rice,3.14,20,8,1,110.01,10,0,2,Indian,Sunny,Low,Bicycle,39.9,2,0,5
+850,user_037,Chocolate Donut,2.34,11,8,0,1155.84,32,0,2,Italian,Rain,High,Scooter,46.9,4,1,4
+851,user_039,Sushi Roll,4.96,8,22,1,1139.94,26,1,2,South Indian,Storm,Low,Bike,52.0,2,0,1
+852,user_059,Chocolate Donut,0.77,5,13,1,402.99,23,0,1,Continental,Cloudy,High,Scooter,42.4,4,0,4
+853,user_094,Veg Fried Rice,1.73,5,13,1,1293.75,6,0,2,Fast Food,Rain,High,Bike,49.4,3,0,1
+854,user_034,Chocolate Donut,5.37,16,14,1,206.54,53,0,2,Indian,Rain,Low,Bicycle,50.2,1,0,1
+855,user_094,Ice Cream Cone,1.49,12,12,1,737.34,74,0,2,Continental,Sunny,Medium,Bike,35.7,5,0,2
+856,user_093,Chocolate Donut,6.22,19,14,1,677.39,1,0,0,Indian,Storm,High,Scooter,76.8,3,0,3
+857,user_092,Ice Cream Cone,9.82,25,9,0,161.77,72,0,3,Indian,Rain,Low,Bike,58.4,4,0,3
+858,user_075,Chocolate Donut,5.93,10,19,0,622.57,47,0,1,Italian,Sunny,High,Scooter,45.7,3,0,4
+859,user_083,Chocolate Donut,6.19,22,22,0,670.96,55,1,2,Italian,Rain,Low,Bicycle,49.2,3,0,5
+860,user_027,Ice Cream Cone,10.39,25,20,0,303.07,43,0,1,Continental,Cloudy,Low,Scooter,59.6,5,1,1
+861,user_042,Ice Cream Cone,1.69,5,19,1,456.6,70,0,1,Fast Food,Sunny,High,Bicycle,42.2,3,0,5
+862,user_065,Paneer Tikka,5.19,29,23,0,1483.13,28,0,3,Fast Food,Storm,Low,Bicycle,55.2,2,0,2
+863,user_100,Ice Cream Cone,2.91,25,10,1,235.22,24,1,0,Indian,Rain,Low,Scooter,47.5,2,0,1
+864,user_062,Ice Cream Cone,8.11,5,9,0,1076.95,38,0,2,Italian,Storm,Low,Scooter,46.0,4,0,4
+865,user_088,Chocolate Donut,8.56,30,8,1,637.26,68,0,3,Indian,Storm,Medium,Scooter,82.5,5,0,4
+866,user_040,Veg Fried Rice,1.56,12,22,1,1113.99,12,0,2,Indian,Storm,Low,Scooter,42.7,4,1,2
+867,user_069,Ice Cream Cone,7.32,26,9,0,1193.17,64,0,1,South Indian,Storm,Low,Bike,60.3,5,0,3
+868,user_010,Margherita Pizza,10.88,14,23,0,1294.98,5,0,2,South Indian,Sunny,High,Bicycle,61.6,2,0,4
+869,user_030,Ice Cream Cone,10.91,29,22,0,627.41,38,1,2,Chinese,Sunny,Medium,Bicycle,66.8,5,0,1
+870,user_048,Ice Cream Cone,11.39,23,11,0,133.15,63,0,3,Indian,Cloudy,Low,Bike,55.7,5,0,4
+871,user_021,Paneer Tikka,5.36,7,13,0,222.14,45,0,1,Fast Food,Sunny,Medium,Scooter,37.7,2,1,2
+872,user_096,Ice Cream Cone,11.66,26,20,0,359.71,52,1,0,Fast Food,Rain,High,Scooter,76.7,2,0,1
+873,user_028,Margherita Pizza,8.16,23,23,1,842.73,38,0,1,Italian,Sunny,High,Bike,68.4,2,0,4
+874,user_009,Chocolate Donut,7.78,22,10,0,1302.17,9,1,1,Fast Food,Cloudy,Low,Bike,51.0,2,0,5
+875,user_004,Margherita Pizza,4.66,12,19,0,1259.17,52,1,3,Chinese,Cloudy,High,Scooter,46.3,3,0,4
+876,user_004,Chocolate Donut,11.42,21,10,0,1344.24,20,1,2,Fast Food,Cloudy,High,Bike,72.2,1,0,5
+877,user_050,Ice Cream Cone,5.02,19,12,0,1010.23,43,0,2,Indian,Cloudy,High,Bike,57.4,4,0,4
+878,user_041,Sushi Roll,6.63,24,15,0,983.91,32,0,2,Italian,Sunny,High,Scooter,60.6,5,0,5
+879,user_089,Sushi Roll,6.45,18,14,0,489.93,54,0,1,Chinese,Rain,Medium,Bike,53.3,2,0,3
+880,user_083,Chocolate Donut,2.49,28,19,0,1111.84,37,0,1,Continental,Rain,Low,Scooter,42.4,3,0,2
+881,user_025,Sushi Roll,5.78,15,23,0,304.88,9,0,3,Fast Food,Storm,High,Scooter,65.8,4,1,4
+882,user_024,Paneer Tikka,3.56,18,19,0,979.36,62,0,3,South Indian,Rain,High,Bicycle,52.1,3,1,1
+883,user_093,Sushi Roll,3.59,30,17,0,234.25,54,1,0,Indian,Sunny,Medium,Bike,44.0,3,0,4
+884,user_050,Margherita Pizza,9.14,22,8,0,594.97,30,1,2,Chinese,Cloudy,Low,Bicycle,53.8,2,0,2
+885,user_040,Chocolate Donut,10.22,12,20,1,438.83,21,0,1,Indian,Rain,Medium,Bike,63.6,1,0,4
+886,user_087,Chocolate Donut,5.61,9,21,0,1134.83,49,0,3,Chinese,Cloudy,Low,Bike,31.5,3,0,5
+887,user_052,Margherita Pizza,4.96,19,14,0,949.18,47,1,0,Italian,Rain,Low,Scooter,42.3,4,0,3
+888,user_003,Chocolate Donut,10.83,17,19,0,940.61,60,0,1,Italian,Storm,Medium,Bike,70.8,1,0,3
+889,user_022,Margherita Pizza,10.96,7,14,0,712.31,44,1,2,Fast Food,Sunny,Medium,Scooter,51.8,3,0,1
+890,user_038,Margherita Pizza,11.03,7,21,1,961.63,70,1,0,Fast Food,Rain,Low,Bike,56.6,3,0,3
+891,user_022,Margherita Pizza,1.27,7,8,1,969.32,73,0,1,Chinese,Cloudy,Medium,Scooter,35.8,4,0,2
+892,user_024,Margherita Pizza,9.51,22,8,1,273.79,59,0,2,South Indian,Sunny,Low,Bike,58.5,2,0,3
+893,user_074,Sushi Roll,10.79,17,22,0,288.93,6,0,1,Chinese,Rain,High,Bike,68.3,5,0,2
+894,user_063,Ice Cream Cone,2.36,24,20,0,1156.32,8,0,1,Fast Food,Cloudy,High,Bike,48.7,4,0,5
+895,user_022,Veg Fried Rice,11.35,16,23,0,1200.94,73,0,3,South Indian,Storm,High,Scooter,80.1,5,0,2
+896,user_097,Paneer Tikka,10.18,8,14,0,946.15,52,0,2,Indian,Cloudy,Low,Bicycle,44.3,3,0,4
+897,user_052,Chocolate Donut,9.12,25,22,0,1211.26,50,1,0,Continental,Cloudy,Medium,Bicycle,63.7,4,0,3
+898,user_056,Paneer Tikka,3.32,9,17,0,1355.85,12,0,0,Chinese,Storm,Low,Scooter,37.7,4,0,3
+899,user_004,Veg Fried Rice,4.31,14,14,1,1390.78,21,1,0,South Indian,Storm,Low,Scooter,50.5,5,0,5
+900,user_066,Paneer Tikka,7.55,16,10,1,970.48,36,0,0,Italian,Sunny,Medium,Scooter,57.4,4,0,2
+901,user_039,Paneer Tikka,8.81,13,12,0,301.53,25,1,3,Fast Food,Rain,High,Bicycle,60.8,2,1,2
+902,user_029,Chocolate Donut,7.03,11,13,0,100.79,8,1,0,Fast Food,Cloudy,Medium,Bike,44.9,4,0,4
+903,user_095,Sushi Roll,4.44,28,18,0,1471.24,60,0,2,Indian,Sunny,High,Scooter,56.2,5,0,5
+904,user_033,Paneer Tikka,0.76,20,12,1,481.06,65,0,3,Chinese,Rain,High,Bike,52.2,5,0,5
+905,user_032,Margherita Pizza,11.15,27,23,0,859.09,46,0,3,Chinese,Cloudy,Low,Scooter,60.3,3,0,1
+906,user_063,Chocolate Donut,2.27,20,14,0,1469.7,42,0,0,Italian,Sunny,Medium,Scooter,35.5,4,0,4
+907,user_002,Margherita Pizza,2.4,10,21,0,937.18,75,0,0,Fast Food,Cloudy,Medium,Bike,31.6,1,0,4
+908,user_040,Sushi Roll,0.88,14,11,0,1477.18,46,0,2,Indian,Cloudy,Low,Bike,27.0,1,1,1
+909,user_068,Paneer Tikka,11.11,30,17,1,337.91,50,0,3,South Indian,Sunny,Low,Bicycle,64.4,5,0,2
+910,user_089,Chocolate Donut,9.42,21,22,1,234.57,28,0,0,Indian,Storm,High,Scooter,84.6,3,0,3
+911,user_005,Paneer Tikka,5.11,30,9,0,1402.7,39,0,1,South Indian,Rain,Medium,Bicycle,55.2,2,0,5
+912,user_086,Ice Cream Cone,8.81,14,17,1,1178.51,40,0,3,Indian,Cloudy,Low,Scooter,53.4,1,0,2
+913,user_042,Chocolate Donut,4.47,6,12,0,143.93,32,0,3,Fast Food,Sunny,Medium,Bike,32.2,4,0,3
+914,user_018,Margherita Pizza,9.14,27,23,0,357.55,21,0,3,Continental,Storm,High,Scooter,78.3,3,1,3
+915,user_019,Sushi Roll,7.76,27,16,0,580.15,47,0,0,Chinese,Cloudy,Medium,Bike,59.2,5,0,5
+916,user_076,Ice Cream Cone,5.73,28,10,0,927.37,37,0,3,Fast Food,Cloudy,Medium,Bicycle,52.2,3,1,4
+917,user_034,Paneer Tikka,4.12,23,15,1,412.06,33,0,0,Fast Food,Storm,High,Bicycle,75.3,5,0,1
+918,user_085,Paneer Tikka,1.05,7,23,1,1223.35,35,0,3,Chinese,Storm,Low,Scooter,36.6,3,0,5
+919,user_032,Chocolate Donut,4.97,28,8,0,560.02,69,0,0,Chinese,Rain,Low,Bike,49.1,1,0,1
+920,user_070,Ice Cream Cone,3.46,10,10,1,1368.34,26,0,2,Chinese,Rain,Low,Bicycle,37.2,3,0,1
+921,user_100,Veg Fried Rice,9.36,29,22,1,1422.11,22,1,3,Chinese,Sunny,Low,Bike,60.7,5,0,5
+922,user_080,Paneer Tikka,1.46,30,10,1,228.84,22,0,1,Indian,Storm,High,Bicycle,71.9,3,0,2
+923,user_066,Chocolate Donut,6.65,20,14,0,1487.56,44,1,3,Chinese,Rain,Low,Bicycle,48.4,4,1,2
+924,user_006,Paneer Tikka,11.73,28,22,0,417.45,63,0,3,Chinese,Storm,High,Bicycle,87.2,3,0,2
+925,user_072,Paneer Tikka,7.96,18,12,0,1149.63,0,0,3,Indian,Rain,Low,Bicycle,46.0,1,0,4
+926,user_039,Ice Cream Cone,9.54,25,12,0,543.89,39,0,3,Fast Food,Rain,Low,Bicycle,56.1,1,1,3
+927,user_042,Margherita Pizza,11.79,21,10,0,609.3,63,0,2,Fast Food,Cloudy,Medium,Scooter,64.6,1,0,2
+928,user_036,Sushi Roll,3.54,15,10,1,545.64,15,1,1,South Indian,Sunny,Medium,Bike,44.8,1,0,5
+929,user_007,Margherita Pizza,10.8,29,10,1,1403.1,39,0,3,South Indian,Rain,High,Bicycle,83.9,3,0,1
+930,user_073,Ice Cream Cone,9.81,17,11,1,858.75,33,1,1,South Indian,Sunny,Low,Scooter,51.9,2,0,1
+931,user_031,Paneer Tikka,8.99,26,21,1,813.56,52,1,2,Fast Food,Cloudy,High,Bicycle,78.1,2,0,2
+932,user_033,Ice Cream Cone,2.07,23,23,1,676.16,74,0,1,South Indian,Storm,Low,Bicycle,54.0,1,0,1
+933,user_032,Ice Cream Cone,8.45,23,9,0,358.1,74,1,1,Indian,Storm,High,Bike,74.0,1,0,1
+934,user_019,Margherita Pizza,1.8,5,11,1,1012.59,14,0,0,Continental,Storm,Low,Bike,39.5,3,0,3
+935,user_036,Chocolate Donut,3.66,26,9,0,382.17,18,1,2,Italian,Storm,Medium,Bicycle,56.5,2,0,3
+936,user_036,Margherita Pizza,10.72,6,21,1,1147.65,67,0,3,Indian,Storm,Medium,Bike,67.7,3,1,1
+937,user_018,Paneer Tikka,7.91,19,15,1,381.29,35,0,3,Fast Food,Sunny,High,Scooter,64.7,4,0,4
+938,user_096,Chocolate Donut,2.16,13,8,0,1109.74,66,0,0,Fast Food,Cloudy,High,Bicycle,42.1,5,0,1
+939,user_003,Sushi Roll,3.31,26,21,1,1403.92,73,0,1,South Indian,Sunny,Low,Scooter,45.2,5,1,5
+940,user_078,Veg Fried Rice,8.93,28,19,1,1169.83,32,0,2,Italian,Sunny,Medium,Bike,67.4,4,0,1
+941,user_010,Paneer Tikka,4.23,15,12,0,599.63,30,0,3,Fast Food,Storm,High,Bike,58.4,5,1,2
+942,user_013,Paneer Tikka,11.95,7,16,0,243.66,70,0,1,Fast Food,Sunny,Low,Scooter,43.1,2,0,1
+943,user_081,Margherita Pizza,10.73,11,9,0,230.88,30,0,0,South Indian,Storm,Low,Scooter,60.4,5,0,4
+944,user_065,Veg Fried Rice,8.5,5,15,0,1396.72,62,0,1,Continental,Rain,High,Bike,57.5,3,1,5
+945,user_036,Margherita Pizza,4.6,19,13,1,878.8,21,1,0,Italian,Sunny,Medium,Bicycle,52.7,5,1,2
+946,user_093,Margherita Pizza,2.9,9,19,1,513.0,7,0,1,Chinese,Sunny,High,Bike,47.3,1,1,3
+947,user_098,Margherita Pizza,10.86,20,14,1,629.32,21,0,1,Continental,Storm,Low,Bicycle,74.3,4,1,1
+948,user_077,Veg Fried Rice,9.84,13,14,1,1099.18,71,0,2,Chinese,Storm,Low,Scooter,68.0,2,0,4
+949,user_012,Veg Fried Rice,3.49,11,11,1,1396.7,2,1,2,Fast Food,Cloudy,High,Scooter,52.7,5,0,2
+950,user_030,Margherita Pizza,10.36,22,15,0,771.05,74,0,1,Indian,Cloudy,High,Bicycle,67.6,2,0,1
+951,user_027,Margherita Pizza,4.4,22,15,0,230.95,33,0,1,South Indian,Sunny,Low,Bicycle,38.4,1,0,1
+952,user_098,Paneer Tikka,8.79,22,8,1,212.22,41,0,2,South Indian,Cloudy,High,Scooter,77.3,3,1,1
+953,user_069,Ice Cream Cone,9.04,25,19,1,920.18,10,0,3,Continental,Sunny,Low,Scooter,60.8,1,0,1
+954,user_019,Veg Fried Rice,4.1,26,23,0,261.22,64,0,2,Continental,Sunny,High,Bike,52.0,1,0,3
+955,user_077,Paneer Tikka,3.82,24,8,0,1203.63,40,0,0,Fast Food,Sunny,Low,Bike,36.4,4,1,3
+956,user_066,Margherita Pizza,4.66,21,18,1,485.11,19,0,0,Chinese,Storm,Medium,Bicycle,63.8,2,0,3
+957,user_078,Veg Fried Rice,9.53,17,22,0,1121.44,70,0,3,Continental,Sunny,Medium,Scooter,50.0,2,0,5
+958,user_068,Paneer Tikka,10.35,21,8,0,358.67,8,1,0,Italian,Sunny,High,Bicycle,68.1,4,0,3
+959,user_032,Margherita Pizza,5.95,12,10,0,821.93,48,0,1,Continental,Rain,High,Bike,54.4,1,0,2
+960,user_017,Sushi Roll,2.47,23,21,1,1003.26,39,0,1,Continental,Storm,High,Bicycle,66.4,4,0,2
+961,user_030,Ice Cream Cone,0.97,17,19,0,508.28,49,1,2,Indian,Rain,Medium,Bike,38.9,1,0,3
+962,user_068,Veg Fried Rice,10.98,5,8,0,1036.13,60,0,3,South Indian,Cloudy,Medium,Bike,53.7,3,0,2
+963,user_044,Paneer Tikka,6.26,10,17,0,1262.58,35,0,1,Continental,Sunny,Medium,Bike,39.4,1,0,1
+964,user_029,Margherita Pizza,9.3,16,11,1,372.06,67,0,2,Italian,Cloudy,Low,Bike,58.8,1,0,1
+965,user_018,Chocolate Donut,9.55,22,18,0,167.66,25,1,0,Indian,Storm,High,Scooter,79.1,2,0,2
+966,user_065,Chocolate Donut,1.46,29,8,1,956.63,64,0,2,Indian,Storm,Low,Bicycle,58.9,1,0,1
+967,user_082,Ice Cream Cone,4.35,18,23,0,256.82,16,0,0,Chinese,Cloudy,Low,Bike,35.9,4,0,3
+968,user_078,Paneer Tikka,10.94,5,11,0,1335.19,27,0,2,Continental,Rain,High,Bike,59.7,1,1,5
+969,user_078,Veg Fried Rice,3.16,21,12,1,768.29,3,0,3,Continental,Rain,Low,Bicycle,44.8,2,0,1
+970,user_081,Paneer Tikka,1.38,13,18,1,1407.29,37,1,3,Chinese,Storm,Medium,Scooter,54.2,1,0,2
+971,user_025,Paneer Tikka,9.05,21,14,0,1071.16,14,0,3,Fast Food,Storm,Medium,Scooter,70.0,1,0,3
+972,user_033,Sushi Roll,9.27,17,19,0,315.59,58,1,1,Fast Food,Storm,High,Bike,71.7,2,0,1
+973,user_038,Ice Cream Cone,7.7,20,9,1,694.26,71,0,1,Fast Food,Cloudy,Medium,Bicycle,63.0,5,0,1
+974,user_048,Veg Fried Rice,11.83,29,11,0,371.7,38,1,1,Chinese,Rain,High,Bike,80.3,2,0,1
+975,user_003,Ice Cream Cone,7.47,6,22,0,810.36,72,0,0,Indian,Rain,Medium,Bicycle,47.7,3,0,3
+976,user_096,Ice Cream Cone,7.67,25,22,0,689.03,73,0,2,South Indian,Cloudy,Medium,Bicycle,59.7,5,0,1
+977,user_073,Veg Fried Rice,7.16,25,14,0,1432.71,31,1,0,South Indian,Rain,Low,Bicycle,50.2,5,0,2
+978,user_061,Margherita Pizza,2.12,18,20,1,665.9,71,0,0,Chinese,Sunny,Low,Bike,35.3,1,0,1
+979,user_084,Margherita Pizza,9.12,14,12,0,886.32,29,0,1,Fast Food,Storm,Low,Bicycle,55.6,5,0,5
+980,user_098,Sushi Roll,10.7,8,12,0,1474.24,72,0,2,Indian,Rain,Low,Scooter,45.5,2,0,4
+981,user_088,Margherita Pizza,4.85,18,14,0,982.49,27,1,3,Continental,Rain,Low,Bicycle,42.6,1,0,5
+982,user_006,Paneer Tikka,9.44,17,13,0,858.06,30,0,2,Italian,Rain,Low,Scooter,53.6,3,0,4
+983,user_010,Paneer Tikka,5.49,17,14,0,1370.27,49,1,0,Chinese,Sunny,Low,Bicycle,33.3,4,0,5
+984,user_053,Margherita Pizza,1.14,25,14,0,490.95,37,0,0,Italian,Sunny,Low,Bike,32.5,3,1,5
+985,user_008,Ice Cream Cone,4.74,25,22,1,491.72,2,0,3,Fast Food,Storm,High,Bike,76.0,3,0,2
+986,user_007,Margherita Pizza,2.08,5,10,1,877.65,11,0,3,Continental,Storm,Medium,Bicycle,49.0,4,0,3
+987,user_022,Margherita Pizza,1.27,11,19,0,377.81,58,1,1,Indian,Storm,High,Bicycle,52.6,3,0,4
+988,user_031,Veg Fried Rice,2.86,10,18,0,1049.25,10,0,0,Indian,Storm,High,Bike,52.4,2,0,2
+989,user_022,Veg Fried Rice,4.82,11,18,0,405.56,9,0,2,Fast Food,Storm,High,Bicycle,57.6,5,1,1
+990,user_069,Paneer Tikka,9.9,18,12,1,485.55,6,1,1,Chinese,Storm,Medium,Bicycle,77.4,1,0,4
+991,user_054,Margherita Pizza,2.65,5,18,1,1267.54,11,0,1,Continental,Storm,High,Bicycle,54.7,2,0,4
+992,user_044,Margherita Pizza,3.16,22,22,0,440.24,14,0,1,Continental,Storm,Low,Scooter,47.6,3,0,1
+993,user_019,Paneer Tikka,1.87,20,19,0,1080.16,51,0,3,Fast Food,Storm,Medium,Bicycle,48.1,4,0,1
+994,user_043,Veg Fried Rice,2.58,25,22,0,589.03,20,1,3,Fast Food,Cloudy,Low,Bicycle,39.0,3,1,1
+995,user_097,Veg Fried Rice,1.34,25,9,1,1178.13,22,1,1,Continental,Rain,Medium,Bicycle,50.8,4,0,5
+996,user_005,Veg Fried Rice,6.73,30,15,0,865.42,2,0,1,South Indian,Rain,Low,Scooter,56.2,1,0,5
+997,user_081,Veg Fried Rice,3.93,24,22,0,572.81,65,0,0,Fast Food,Rain,High,Scooter,58.5,3,0,1
+998,user_049,Paneer Tikka,3.21,22,10,0,662.31,49,0,1,Continental,Storm,Low,Scooter,44.6,5,0,4
+999,user_096,Paneer Tikka,7.67,18,18,1,808.13,19,0,1,Fast Food,Storm,Medium,Bicycle,69.7,5,0,5
+1000,user_080,Sushi Roll,9.61,16,22,0,172.62,34,0,2,Indian,Storm,High,Bike,75.8,4,0,5
+1001,user_076,Chocolate Donut,10.85,10,14,1,1189.73,43,0,2,Indian,Sunny,High,Bike,65.6,5,0,2
+1002,user_025,Veg Fried Rice,11.44,26,11,1,845.78,73,0,3,Italian,Rain,Low,Bicycle,72.8,2,0,3
+1003,user_074,Margherita Pizza,11.03,10,20,0,846.26,43,0,3,Fast Food,Cloudy,Medium,Bike,53.6,3,0,5
+1004,user_063,Veg Fried Rice,8.39,8,16,0,412.98,64,1,3,Chinese,Cloudy,Medium,Bicycle,46.8,1,0,4
+1005,user_087,Veg Fried Rice,6.11,26,10,1,502.23,33,1,1,South Indian,Rain,Low,Bicycle,56.3,5,1,1
+1006,user_012,Sushi Roll,10.08,15,17,1,914.77,34,0,0,Fast Food,Storm,Low,Bike,69.7,2,0,4
+1007,user_055,Chocolate Donut,8.88,16,18,1,967.13,27,0,3,Indian,Rain,Medium,Bike,65.8,5,1,1
+1008,user_016,Ice Cream Cone,9.73,14,23,0,1430.54,11,1,2,Indian,Rain,Low,Bicycle,48.2,4,0,5
+1009,user_100,Chocolate Donut,1.99,21,21,1,837.5,44,0,1,Indian,Cloudy,Medium,Bike,51.3,5,0,1
+1010,user_055,Sushi Roll,3.93,10,18,0,293.51,43,0,2,Italian,Storm,Medium,Bicycle,48.1,3,0,5
+1011,user_006,Margherita Pizza,7.57,8,17,1,1454.69,54,0,0,Italian,Cloudy,High,Bike,59.3,1,0,3
+1012,user_062,Paneer Tikka,1.34,12,14,0,283.58,14,0,2,Continental,Cloudy,High,Bicycle,38.2,1,0,4
+1013,user_082,Chocolate Donut,3.77,21,17,1,834.71,49,0,3,South Indian,Cloudy,High,Bike,59.0,2,0,4
+1014,user_014,Ice Cream Cone,11.83,27,12,0,334.79,47,0,0,Chinese,Sunny,Low,Scooter,58.6,2,0,2
+1015,user_034,Chocolate Donut,10.17,5,13,1,977.68,11,1,0,Indian,Cloudy,Low,Bicycle,53.2,5,0,2
+1016,user_042,Sushi Roll,9.32,17,19,0,826.15,11,0,1,Continental,Storm,Medium,Bike,67.9,3,0,5
+1017,user_014,Chocolate Donut,10.42,6,9,0,555.61,11,0,3,Continental,Rain,Medium,Bike,52.5,5,0,5
+1018,user_004,Sushi Roll,1.23,26,13,0,401.1,56,0,1,Chinese,Storm,Low,Bicycle,47.8,5,0,2
+1019,user_019,Margherita Pizza,11.49,28,13,0,697.94,41,0,0,Chinese,Cloudy,High,Scooter,78.2,2,0,3
+1020,user_060,Ice Cream Cone,10.34,22,23,0,384.46,71,0,2,Continental,Rain,High,Bike,71.8,4,0,2
+1021,user_058,Veg Fried Rice,7.07,13,22,0,1311.61,73,0,3,Chinese,Storm,Medium,Bike,58.4,1,0,1
+1022,user_042,Margherita Pizza,4.31,26,15,1,1361.5,59,0,3,Chinese,Cloudy,Medium,Bike,59.3,2,0,2
+1023,user_071,Chocolate Donut,4.69,28,22,1,1206.82,6,0,1,Chinese,Sunny,High,Bike,61.6,1,0,5
+1024,user_097,Paneer Tikka,9.01,27,14,1,1329.92,65,0,1,South Indian,Storm,Medium,Bicycle,81.2,4,0,1
+1025,user_094,Veg Fried Rice,9.87,30,10,0,903.39,14,0,2,Italian,Rain,Low,Scooter,63.7,2,0,1
+1026,user_074,Chocolate Donut,8.14,7,23,0,523.91,61,0,1,Chinese,Cloudy,High,Bicycle,51.6,2,0,1
+1027,user_097,Ice Cream Cone,2.17,6,12,0,986.61,19,1,1,Chinese,Storm,Low,Bicycle,31.3,4,0,1
+1028,user_032,Margherita Pizza,1.7,10,14,0,158.59,4,0,2,Indian,Sunny,Low,Bike,22.2,5,0,1
+1029,user_012,Sushi Roll,6.67,26,8,1,350.37,38,0,0,Italian,Cloudy,Medium,Scooter,61.8,3,0,5
+1030,user_076,Margherita Pizza,4.38,5,19,1,907.0,41,0,1,Continental,Storm,High,Bicycle,62.0,4,1,3
+1031,user_003,Paneer Tikka,0.51,11,15,0,1101.94,72,0,1,Continental,Storm,Low,Bicycle,34.7,5,0,4
+1032,user_010,Ice Cream Cone,4.63,15,12,0,855.5,49,0,1,Indian,Cloudy,Medium,Bike,41.3,1,0,1
+1033,user_093,Paneer Tikka,7.56,20,21,1,423.13,63,0,1,Chinese,Storm,Low,Scooter,65.5,1,0,4
+1034,user_088,Ice Cream Cone,10.39,21,8,1,1010.13,13,0,2,South Indian,Sunny,Medium,Bike,68.4,2,0,2
+1035,user_048,Chocolate Donut,0.69,16,19,1,1371.17,51,0,3,Continental,Rain,Low,Bike,36.1,3,0,3
+1036,user_016,Veg Fried Rice,10.18,9,11,1,1271.48,32,0,0,Italian,Storm,Low,Bike,61.4,5,1,1
+1037,user_013,Ice Cream Cone,1.65,17,19,0,486.64,11,0,3,Chinese,Sunny,High,Scooter,41.1,5,1,4
+1038,user_060,Ice Cream Cone,1.74,15,15,0,1086.03,59,1,0,Indian,Cloudy,High,Bike,43.3,1,0,3
+1039,user_045,Veg Fried Rice,11.47,20,19,0,520.33,51,1,1,Indian,Sunny,Medium,Scooter,56.8,5,0,4
+1040,user_057,Sushi Roll,2.85,22,21,0,107.65,25,0,1,Fast Food,Storm,High,Scooter,62.2,2,0,4
+1041,user_013,Sushi Roll,6.53,9,18,0,1079.27,60,1,0,Fast Food,Cloudy,Low,Scooter,39.5,4,0,5
+1042,user_071,Paneer Tikka,6.09,19,16,0,274.05,32,1,2,Indian,Sunny,Low,Bike,39.0,5,0,5
+1043,user_077,Chocolate Donut,1.26,30,20,0,340.97,32,0,0,Indian,Rain,Low,Bicycle,42.0,3,0,5
+1044,user_049,Paneer Tikka,2.78,23,12,0,714.62,15,0,3,South Indian,Storm,High,Bike,62.7,3,1,2
+1045,user_077,Sushi Roll,3.56,12,11,0,1263.28,41,0,1,Fast Food,Rain,Low,Scooter,34.7,5,0,5
+1046,user_070,Margherita Pizza,3.54,18,11,0,1287.37,17,1,3,Fast Food,Sunny,Low,Bicycle,28.8,4,0,1
+1047,user_077,Veg Fried Rice,0.82,30,22,0,1024.62,33,1,0,Fast Food,Sunny,Low,Bicycle,31.5,5,0,2
+1048,user_052,Sushi Roll,6.68,25,17,0,922.71,37,0,0,Indian,Sunny,Medium,Bike,53.1,1,0,5
+1049,user_002,Veg Fried Rice,10.66,21,13,0,818.4,29,0,3,Chinese,Cloudy,Low,Scooter,58.2,3,0,1
+1050,user_012,Ice Cream Cone,4.18,26,10,0,231.18,23,0,3,Indian,Rain,High,Bike,60.0,3,0,2
+1051,user_007,Sushi Roll,2.4,26,9,1,692.86,64,1,3,South Indian,Storm,High,Bicycle,71.7,4,0,5
+1052,user_023,Chocolate Donut,9.59,30,17,1,913.36,14,0,0,Italian,Cloudy,High,Bike,81.9,5,0,5
+1053,user_037,Veg Fried Rice,1.73,19,20,0,913.45,50,1,0,South Indian,Cloudy,Medium,Bicycle,40.9,4,0,4
+1054,user_050,Margherita Pizza,5.44,13,13,0,734.28,39,1,3,South Indian,Cloudy,High,Scooter,48.8,5,0,3
+1055,user_065,Margherita Pizza,6.79,5,9,1,803.55,73,0,1,South Indian,Cloudy,High,Scooter,56.1,4,0,4
+1056,user_010,Margherita Pizza,11.86,21,11,1,723.24,73,1,0,Chinese,Rain,Medium,Scooter,76.1,1,1,5
+1057,user_001,Sushi Roll,7.4,10,13,0,1498.01,26,0,0,Continental,Cloudy,Medium,Bicycle,44.9,4,0,2
+1058,user_064,Margherita Pizza,5.11,29,16,0,1262.08,2,0,2,Indian,Rain,Medium,Bicycle,58.5,3,0,1
+1059,user_095,Chocolate Donut,10.54,27,10,0,504.81,3,0,3,South Indian,Sunny,Medium,Scooter,61.7,1,0,5
+1060,user_011,Chocolate Donut,6.79,6,16,0,865.39,0,0,3,Chinese,Rain,High,Bicycle,54.2,2,1,4
+1061,user_080,Veg Fried Rice,11.07,25,22,0,627.14,33,0,1,South Indian,Sunny,Low,Scooter,56.4,5,0,3
+1062,user_077,Ice Cream Cone,10.47,15,13,0,576.4,33,0,0,South Indian,Storm,High,Scooter,73.3,5,0,1
+1063,user_077,Veg Fried Rice,4.89,27,20,0,162.28,14,1,0,Continental,Storm,Medium,Bike,61.7,1,0,2
+1064,user_077,Ice Cream Cone,7.95,8,17,0,820.53,33,0,0,Fast Food,Rain,Low,Scooter,40.7,1,1,2
+1065,user_056,Sushi Roll,4.83,17,13,1,1055.37,35,0,3,Italian,Rain,Low,Bike,47.6,4,1,1
+1066,user_065,Veg Fried Rice,5.6,22,8,0,1349.45,73,0,2,Italian,Rain,Medium,Scooter,54.0,2,0,4
+1067,user_081,Sushi Roll,10.57,30,19,0,283.13,23,0,2,Chinese,Cloudy,Medium,Scooter,69.6,1,1,2
+1068,user_061,Sushi Roll,10.34,8,20,0,344.87,37,1,3,Indian,Sunny,High,Bicycle,56.0,4,0,2
+1069,user_008,Paneer Tikka,2.53,27,8,1,1476.89,11,0,2,Italian,Sunny,Medium,Bike,50.4,5,0,1
+1070,user_035,Chocolate Donut,6.93,11,12,0,1324.47,22,0,2,Fast Food,Storm,Medium,Bicycle,55.7,1,0,4
+1071,user_076,Ice Cream Cone,8.9,10,20,1,174.86,67,0,3,Italian,Cloudy,High,Scooter,65.3,4,0,5
+1072,user_030,Veg Fried Rice,7.81,16,18,0,1476.76,65,1,1,Indian,Storm,High,Scooter,67.5,5,0,3
+1073,user_010,Paneer Tikka,5.44,14,12,0,1013.95,36,0,2,Italian,Rain,Low,Bike,40.8,2,0,2
+1074,user_083,Ice Cream Cone,8.97,20,13,0,1055.04,10,0,3,Chinese,Storm,Medium,Bicycle,69.0,2,0,4
+1075,user_050,Margherita Pizza,8.38,7,9,0,1356.83,45,0,0,Chinese,Sunny,Low,Bicycle,37.7,1,0,3
+1076,user_030,Sushi Roll,9.62,12,8,0,555.0,69,0,1,Italian,Cloudy,Low,Scooter,45.1,2,0,1
+1077,user_033,Ice Cream Cone,5.06,20,19,0,807.22,65,0,3,Continental,Sunny,High,Bike,50.7,2,0,3
+1078,user_083,Ice Cream Cone,6.65,16,18,1,1063.81,60,0,1,Italian,Storm,Low,Bicycle,59.5,5,1,2
+1079,user_020,Ice Cream Cone,6.28,26,9,0,457.64,68,0,3,Continental,Sunny,Low,Bicycle,46.8,5,0,3
+1080,user_077,Veg Fried Rice,6.01,13,20,1,1275.64,17,0,1,Italian,Storm,High,Bicycle,68.3,1,0,3
+1081,user_085,Veg Fried Rice,7.96,23,23,0,729.34,66,1,0,Chinese,Rain,Low,Bike,49.9,1,0,1
+1082,user_015,Paneer Tikka,6.45,21,13,0,1393.82,73,0,1,Fast Food,Cloudy,High,Bike,57.8,1,1,2
+1083,user_011,Sushi Roll,4.94,18,14,0,631.16,5,0,3,Chinese,Sunny,Low,Bike,36.2,1,1,3
+1084,user_036,Chocolate Donut,3.21,22,12,0,505.11,40,0,0,Fast Food,Sunny,Medium,Bike,41.0,1,0,2
+1085,user_001,Sushi Roll,8.28,8,16,1,148.82,25,0,0,Italian,Rain,Medium,Bicycle,57.0,4,0,3
+1086,user_039,Paneer Tikka,10.88,6,10,1,710.28,49,0,0,Continental,Storm,Medium,Bike,67.8,4,0,2
+1087,user_056,Chocolate Donut,5.09,23,14,1,476.41,60,1,0,Italian,Sunny,Medium,Bicycle,53.0,5,0,3
+1088,user_082,Veg Fried Rice,6.99,17,11,0,323.03,58,0,1,South Indian,Cloudy,Medium,Bicycle,50.6,5,0,4
+1089,user_077,Margherita Pizza,4.77,23,12,0,700.26,46,0,0,South Indian,Storm,High,Bike,67.4,4,1,1
+1090,user_071,Paneer Tikka,4.62,25,19,0,830.77,71,0,1,Indian,Cloudy,Medium,Bicycle,49.3,3,0,2
+1091,user_050,Veg Fried Rice,11.67,8,13,0,744.8,58,0,0,Indian,Storm,Medium,Scooter,66.8,2,0,1
+1092,user_007,Ice Cream Cone,7.31,9,16,0,710.04,22,1,3,Indian,Cloudy,Medium,Bike,44.6,5,1,3
+1093,user_047,Chocolate Donut,3.88,20,8,1,1266.81,5,0,1,Italian,Cloudy,Low,Bicycle,42.7,5,1,5
+1094,user_061,Margherita Pizza,11.14,15,13,0,674.01,6,0,1,Indian,Sunny,Low,Bicycle,50.3,3,0,5
+1095,user_054,Paneer Tikka,1.52,21,20,1,1012.73,66,1,2,South Indian,Rain,High,Scooter,58.8,2,1,5
+1096,user_060,Paneer Tikka,4.54,22,10,1,998.07,7,1,2,Italian,Sunny,Medium,Bike,54.6,5,0,3
+1097,user_056,Veg Fried Rice,9.05,12,18,0,1425.81,56,1,1,Chinese,Storm,Low,Bicycle,53.2,1,0,1
+1098,user_019,Veg Fried Rice,8.02,21,22,0,903.6,39,0,2,Indian,Storm,Medium,Bicycle,66.9,2,0,4
+1099,user_061,Margherita Pizza,3.46,20,17,1,1172.39,52,0,0,South Indian,Cloudy,Medium,Scooter,54.4,5,0,5
+1100,user_038,Margherita Pizza,4.32,9,19,1,592.51,71,0,3,Indian,Cloudy,High,Bike,52.4,2,1,4
+1101,user_092,Sushi Roll,1.2,13,17,0,1470.62,55,1,3,Italian,Cloudy,Medium,Bike,32.8,5,0,5
+1102,user_058,Chocolate Donut,4.16,12,16,0,635.68,38,0,1,South Indian,Cloudy,High,Scooter,48.0,3,0,1
+1103,user_099,Sushi Roll,1.42,17,11,1,323.24,72,1,0,Fast Food,Rain,Medium,Bicycle,47.0,5,0,1
+1104,user_088,Paneer Tikka,7.4,12,12,0,239.62,10,0,3,Fast Food,Rain,High,Bike,59.6,4,1,3
+1105,user_035,Ice Cream Cone,8.58,10,10,1,987.38,51,0,2,Italian,Storm,High,Scooter,78.0,3,0,2
+1106,user_090,Paneer Tikka,10.86,30,10,1,1211.44,72,0,0,Indian,Sunny,High,Bike,78.2,4,0,3
+1107,user_064,Paneer Tikka,10.92,16,22,0,1453.26,75,0,2,Indian,Rain,Low,Bicycle,51.7,3,1,2
+1108,user_051,Sushi Roll,4.57,28,14,1,925.84,46,0,1,Chinese,Storm,High,Bicycle,79.0,1,1,3
+1109,user_098,Sushi Roll,1.86,13,10,0,587.49,4,0,3,Continental,Sunny,Low,Bicycle,21.0,5,0,1
+1110,user_088,Veg Fried Rice,11.49,25,18,0,571.54,22,0,2,South Indian,Rain,High,Bicycle,76.3,2,0,2
+1111,user_071,Paneer Tikka,5.19,20,10,1,897.15,73,1,0,Indian,Rain,Medium,Bike,57.4,4,0,5
+1112,user_073,Sushi Roll,8.5,12,17,1,1494.56,64,0,1,Fast Food,Storm,Medium,Scooter,69.9,2,0,5
+1113,user_010,Chocolate Donut,6.14,17,14,1,1162.27,20,0,0,Continental,Rain,Low,Bike,49.6,3,0,4
+1114,user_020,Margherita Pizza,1.72,22,15,1,456.68,74,1,1,Italian,Rain,Low,Scooter,44.7,5,0,3
+1115,user_070,Veg Fried Rice,0.87,6,21,0,1000.41,53,0,0,Italian,Sunny,Low,Bike,15.5,1,0,5
+1116,user_059,Sushi Roll,1.84,17,22,0,649.61,28,0,0,Italian,Cloudy,Low,Bike,29.2,3,0,3
+1117,user_089,Margherita Pizza,7.33,18,22,0,536.36,50,1,1,South Indian,Cloudy,Low,Bike,44.4,2,0,3
+1118,user_029,Ice Cream Cone,5.83,5,8,0,1072.86,16,1,3,Italian,Cloudy,Low,Scooter,29.8,3,0,2
+1119,user_088,Sushi Roll,9.65,28,11,1,1024.35,8,0,0,Chinese,Storm,High,Bike,90.9,4,0,4
+1120,user_089,Paneer Tikka,4.77,22,20,1,870.84,75,0,3,Indian,Sunny,High,Scooter,61.5,4,1,5
+1121,user_075,Chocolate Donut,9.39,12,13,0,770.25,27,1,3,South Indian,Sunny,High,Bike,57.5,2,0,5
+1122,user_069,Margherita Pizza,11.95,9,15,0,335.37,61,1,0,Italian,Rain,Medium,Bike,57.2,2,0,2
+1123,user_091,Margherita Pizza,3.71,13,8,1,1016.77,16,0,0,Continental,Cloudy,Low,Scooter,37.8,3,0,2
+1124,user_017,Ice Cream Cone,11.75,13,11,0,1411.95,19,1,1,Continental,Sunny,Low,Bike,46.3,4,0,2
+1125,user_057,Chocolate Donut,5.31,6,22,0,670.02,50,1,0,Italian,Cloudy,Low,Bike,30.5,5,0,3
+1126,user_049,Veg Fried Rice,9.33,26,9,1,132.08,20,0,0,Fast Food,Sunny,High,Bicycle,74.0,1,0,2
+1127,user_026,Paneer Tikka,10.18,28,21,1,857.7,35,1,3,South Indian,Cloudy,Low,Bike,66.4,2,0,4
+1128,user_011,Veg Fried Rice,4.74,18,20,0,1278.01,50,0,0,Indian,Sunny,Medium,Scooter,40.7,4,0,3
+1129,user_078,Margherita Pizza,9.28,13,15,1,520.7,4,0,3,Italian,Sunny,Medium,Bicycle,56.6,2,0,5
+1130,user_019,Sushi Roll,4.83,19,14,0,365.68,21,0,3,Fast Food,Rain,Low,Scooter,43.7,1,1,4
+1131,user_077,Ice Cream Cone,6.88,15,11,0,473.18,19,1,0,Continental,Cloudy,High,Scooter,56.9,4,0,5
+1132,user_031,Margherita Pizza,10.94,27,17,0,218.49,73,0,2,Fast Food,Cloudy,High,Bike,73.6,5,0,4
+1133,user_091,Sushi Roll,3.21,12,23,0,465.04,25,0,0,Chinese,Rain,High,Bike,49.3,2,1,4
+1134,user_092,Ice Cream Cone,5.87,28,16,0,646.57,72,0,3,Indian,Rain,High,Scooter,64.3,4,0,3
+1135,user_023,Sushi Roll,5.93,13,17,0,650.24,64,0,0,Chinese,Rain,Low,Scooter,39.5,3,0,3
+1136,user_048,Veg Fried Rice,11.27,14,20,0,811.26,43,1,3,Indian,Sunny,High,Scooter,63.6,3,0,4
+1137,user_035,Margherita Pizza,3.25,19,20,0,1318.16,35,1,2,Italian,Storm,Low,Bike,47.1,5,0,1
+1138,user_028,Ice Cream Cone,7.21,12,9,0,1209.69,20,0,0,Italian,Sunny,High,Scooter,50.2,3,0,4
+1139,user_022,Margherita Pizza,3.1,26,11,0,1365.13,3,0,0,South Indian,Storm,Low,Bicycle,49.9,5,0,1
+1140,user_034,Sushi Roll,2.3,16,23,1,1241.9,35,0,1,Italian,Storm,Low,Bicycle,48.5,5,0,1
+1141,user_057,Chocolate Donut,10.5,26,22,0,135.44,67,0,2,Indian,Storm,Low,Bicycle,70.7,2,0,2
+1142,user_057,Veg Fried Rice,2.67,19,10,1,104.77,35,0,0,South Indian,Storm,Medium,Bicycle,61.5,3,0,1
+1143,user_041,Chocolate Donut,1.02,5,14,0,1389.08,61,0,1,Italian,Rain,High,Bicycle,38.4,1,0,1
+1144,user_026,Paneer Tikka,7.1,30,14,1,272.79,27,0,0,Fast Food,Sunny,High,Scooter,71.7,2,0,4
+1145,user_045,Margherita Pizza,9.42,10,19,1,1369.08,3,0,1,South Indian,Rain,Medium,Bicycle,62.0,4,0,5
+1146,user_001,Sushi Roll,7.86,29,19,1,1240.55,29,0,1,Italian,Cloudy,Low,Bike,64.3,5,0,4
+1147,user_006,Veg Fried Rice,5.37,7,13,1,810.19,4,0,0,Continental,Cloudy,Medium,Bike,49.8,5,0,4
+1148,user_071,Margherita Pizza,10.04,11,13,0,633.59,12,1,0,South Indian,Storm,Low,Bicycle,54.7,1,0,1
+1149,user_028,Ice Cream Cone,3.47,17,12,0,769.87,41,0,2,Fast Food,Storm,High,Scooter,57.4,2,0,2
+1150,user_049,Margherita Pizza,3.86,9,18,0,584.55,72,1,1,Chinese,Sunny,High,Bike,39.0,3,0,2
+1151,user_063,Sushi Roll,7.81,28,11,0,770.3,31,1,0,Italian,Sunny,Medium,Bike,56.3,3,0,2
+1152,user_050,Margherita Pizza,6.93,14,20,1,1181.04,71,0,0,Indian,Storm,High,Scooter,76.5,1,0,1
+1153,user_033,Veg Fried Rice,10.02,20,10,1,1019.59,49,1,2,South Indian,Rain,High,Scooter,79.8,1,0,2
+1154,user_049,Veg Fried Rice,8.78,7,14,0,208.49,43,0,2,Continental,Sunny,Medium,Bike,41.0,1,0,5
+1155,user_010,Veg Fried Rice,2.63,20,23,0,1224.8,17,1,1,Italian,Storm,High,Scooter,59.2,2,0,1
+1156,user_052,Paneer Tikka,2.82,12,23,1,1152.66,55,0,3,Chinese,Sunny,Low,Scooter,33.2,5,0,2
+1157,user_044,Ice Cream Cone,3.16,30,23,0,942.72,23,1,3,Indian,Cloudy,Medium,Scooter,50.9,1,0,5
+1158,user_025,Paneer Tikka,11.32,26,18,0,900.33,39,1,0,Fast Food,Rain,Low,Bicycle,63.3,4,0,2
+1159,user_059,Sushi Roll,7.24,16,23,1,1279.03,44,0,3,Chinese,Sunny,Low,Bike,45.9,3,0,1
+1160,user_076,Chocolate Donut,6.95,17,17,0,528.64,69,0,3,Continental,Sunny,Low,Bike,39.3,3,0,1
+1161,user_005,Veg Fried Rice,11.89,13,20,0,1301.06,4,1,1,Fast Food,Cloudy,Medium,Scooter,58.9,2,0,3
+1162,user_027,Paneer Tikka,5.58,8,19,0,1335.82,72,0,1,South Indian,Storm,High,Bike,59.0,4,0,5
+1163,user_068,Veg Fried Rice,2.36,10,18,1,747.74,26,0,1,Fast Food,Sunny,Low,Scooter,33.8,3,0,5
+1164,user_040,Veg Fried Rice,3.35,15,11,0,1155.21,37,0,2,Fast Food,Rain,Medium,Scooter,43.1,1,0,4
+1165,user_098,Ice Cream Cone,11.36,13,13,0,486.1,57,0,2,South Indian,Cloudy,High,Bike,68.8,3,1,2
+1166,user_002,Veg Fried Rice,1.98,28,22,0,767.84,27,0,2,Chinese,Sunny,High,Scooter,47.1,2,1,2
+1167,user_061,Veg Fried Rice,6.01,14,12,0,1358.93,66,0,2,Indian,Cloudy,Low,Scooter,39.6,4,0,2
+1168,user_095,Sushi Roll,7.02,14,11,1,634.1,8,1,1,Indian,Cloudy,Low,Bike,49.7,1,1,2
+1169,user_072,Chocolate Donut,5.03,16,10,1,840.27,50,1,2,Indian,Cloudy,High,Scooter,61.5,4,0,5
+1170,user_071,Sushi Roll,6.85,11,9,0,463.12,41,0,1,South Indian,Cloudy,Low,Scooter,36.3,2,0,2
+1171,user_084,Paneer Tikka,8.21,9,8,1,146.88,31,1,3,Italian,Cloudy,Low,Scooter,47.6,3,0,3
+1172,user_019,Veg Fried Rice,9.03,26,16,0,1221.39,50,0,0,Chinese,Storm,High,Bicycle,77.0,3,0,4
+1173,user_041,Paneer Tikka,8.12,20,12,1,713.42,36,1,2,South Indian,Sunny,Low,Bicycle,50.4,1,0,2
+1174,user_018,Veg Fried Rice,6.93,13,12,1,690.97,43,1,2,South Indian,Rain,Low,Bike,51.8,2,0,5
+1175,user_009,Ice Cream Cone,5.11,8,11,1,401.74,1,1,1,Chinese,Sunny,Low,Bike,34.6,4,0,4
+1176,user_083,Sushi Roll,2.13,20,14,0,953.54,44,0,2,Fast Food,Rain,Low,Scooter,33.8,1,0,1
+1177,user_009,Veg Fried Rice,9.35,20,8,0,338.88,3,1,1,Indian,Cloudy,Low,Bicycle,48.7,5,0,1
+1178,user_100,Paneer Tikka,3.87,16,23,0,181.89,52,0,2,Fast Food,Cloudy,Low,Bicycle,35.8,5,0,4
+1179,user_087,Chocolate Donut,10.07,10,12,0,1395.92,6,0,1,Italian,Rain,Medium,Bike,55.4,4,1,3
+1180,user_019,Margherita Pizza,0.96,23,23,1,1194.72,43,0,2,South Indian,Sunny,Low,Bike,37.8,5,0,2
+1181,user_006,Margherita Pizza,1.38,10,19,0,239.62,10,1,0,Continental,Cloudy,Medium,Bicycle,29.2,4,0,5
+1182,user_080,Veg Fried Rice,1.07,20,16,0,507.89,4,0,1,Fast Food,Sunny,High,Bike,42.3,3,1,3
+1183,user_003,Sushi Roll,2.49,9,17,0,1367.44,49,0,1,Chinese,Rain,High,Bike,41.8,4,0,2
+1184,user_026,Margherita Pizza,4.19,30,17,0,464.94,48,0,1,Chinese,Sunny,Medium,Bike,50.9,1,0,3
+1185,user_048,Veg Fried Rice,6.46,21,20,0,938.91,42,1,3,Italian,Storm,Low,Scooter,52.0,2,1,5
+1186,user_077,Ice Cream Cone,4.1,30,18,0,1054.62,63,0,1,Continental,Rain,Low,Bicycle,46.6,2,1,4
+1187,user_011,Margherita Pizza,5.95,30,12,0,338.69,45,0,0,Chinese,Rain,Low,Scooter,51.4,4,0,1
+1188,user_041,Ice Cream Cone,2.24,14,20,0,263.84,41,0,3,Continental,Rain,High,Bicycle,44.7,2,0,2
+1189,user_085,Sushi Roll,2.27,18,8,0,341.3,37,0,1,Fast Food,Cloudy,Medium,Bicycle,36.5,4,1,5
+1190,user_083,Paneer Tikka,3.06,22,13,0,1164.4,5,1,1,Italian,Sunny,Low,Bike,34.3,2,1,2
+1191,user_052,Sushi Roll,6.38,8,8,0,1095.72,68,1,3,Indian,Cloudy,Low,Scooter,35.8,5,0,1
+1192,user_065,Chocolate Donut,6.68,17,22,1,533.03,39,0,0,South Indian,Sunny,High,Scooter,58.9,4,0,5
+1193,user_093,Margherita Pizza,8.97,17,14,1,992.93,36,0,3,Fast Food,Cloudy,Medium,Bicycle,64.8,1,0,3
+1194,user_021,Veg Fried Rice,11.2,30,16,1,302.76,9,1,0,Continental,Cloudy,Low,Bicycle,69.8,1,1,5
+1195,user_077,Veg Fried Rice,6.38,23,16,0,1181.48,14,1,3,Chinese,Sunny,Medium,Bicycle,47.0,4,0,5
+1196,user_096,Margherita Pizza,2.79,28,8,0,869.37,7,1,3,Continental,Sunny,High,Bike,51.1,1,0,1
+1197,user_068,Margherita Pizza,4.37,22,8,1,654.44,12,1,0,Indian,Rain,Low,Bicycle,49.3,2,0,3
+1198,user_032,Margherita Pizza,9.45,29,13,1,956.05,7,0,3,South Indian,Cloudy,Medium,Bicycle,70.9,4,0,5
+1199,user_056,Veg Fried Rice,6.06,28,17,1,216.62,43,0,3,Chinese,Storm,High,Bike,79.8,4,1,1
+1200,user_077,Ice Cream Cone,9.6,11,10,0,1360.1,19,1,1,Indian,Sunny,Low,Bike,40.8,2,0,5
+1201,user_022,Paneer Tikka,0.73,20,11,0,790.21,12,0,3,Fast Food,Rain,High,Bicycle,48.4,3,0,3
+1202,user_069,Ice Cream Cone,5.61,18,15,0,263.49,64,0,2,Chinese,Sunny,High,Bike,54.4,4,0,5
+1203,user_098,Margherita Pizza,8.95,5,19,0,1486.95,19,0,3,Continental,Rain,Medium,Bicycle,48.1,4,0,5
+1204,user_002,Chocolate Donut,7.59,23,17,1,891.71,20,0,1,Indian,Cloudy,Medium,Scooter,64.7,4,0,2
+1205,user_051,Chocolate Donut,2.14,24,8,0,676.81,75,0,2,South Indian,Sunny,Medium,Scooter,36.5,4,0,5
+1206,user_078,Veg Fried Rice,3.43,16,17,0,1059.82,73,0,2,Indian,Storm,Medium,Bicycle,48.2,5,0,1
+1207,user_069,Paneer Tikka,6.47,25,16,0,580.71,51,0,0,Fast Food,Storm,Low,Scooter,60.7,3,0,3
+1208,user_018,Chocolate Donut,6.42,17,9,0,1326.17,41,0,0,Italian,Sunny,High,Bike,55.0,1,0,4
+1209,user_070,Veg Fried Rice,0.71,22,14,0,350.8,68,0,2,Fast Food,Rain,High,Bicycle,48.3,2,1,1
+1210,user_031,Paneer Tikka,6.84,24,12,0,933.01,60,0,0,Italian,Storm,Medium,Bicycle,65.2,4,0,4
+1211,user_046,Chocolate Donut,8.32,28,17,1,646.53,51,1,2,Italian,Sunny,Low,Bike,59.3,1,0,1
+1212,user_003,Ice Cream Cone,11.76,26,11,0,1282.54,37,0,0,South Indian,Rain,High,Bike,78.6,4,0,5
+1213,user_039,Sushi Roll,0.86,25,12,0,1150.17,54,0,0,Fast Food,Cloudy,Medium,Bicycle,37.9,3,0,5
+1214,user_100,Margherita Pizza,4.44,18,11,1,882.08,51,0,2,South Indian,Sunny,Medium,Scooter,46.7,1,0,3
+1215,user_083,Ice Cream Cone,5.39,10,17,1,357.93,23,1,0,Italian,Storm,Medium,Bike,58.5,2,0,4
+1216,user_030,Veg Fried Rice,4.97,22,15,0,504.0,41,0,1,Indian,Rain,Medium,Scooter,51.4,3,0,3
+1217,user_009,Ice Cream Cone,8.88,11,23,1,242.28,7,1,1,Indian,Storm,Low,Bike,61.3,2,0,2
+1218,user_022,Margherita Pizza,5.39,13,17,0,850.5,69,0,2,Continental,Cloudy,High,Scooter,51.9,3,0,2
+1219,user_007,Veg Fried Rice,1.67,8,9,0,1468.5,41,0,0,Continental,Rain,Low,Bicycle,25.5,1,0,3
+1220,user_094,Sushi Roll,3.6,12,11,0,1170.56,27,0,1,Italian,Sunny,Medium,Scooter,33.2,5,0,4
+1221,user_069,Paneer Tikka,11.77,19,15,0,379.21,37,0,1,Indian,Rain,High,Scooter,70.9,2,0,2
+1222,user_065,Veg Fried Rice,1.29,11,13,0,435.5,66,0,1,Indian,Cloudy,Medium,Bike,31.5,1,0,5
+1223,user_040,Chocolate Donut,2.76,14,18,0,1258.09,55,1,0,Indian,Rain,Low,Scooter,31.6,1,0,2
+1224,user_062,Chocolate Donut,6.39,8,20,1,598.74,61,1,2,Italian,Cloudy,Medium,Bicycle,52.8,4,1,2
+1225,user_044,Paneer Tikka,3.08,17,8,0,291.17,73,0,3,South Indian,Storm,High,Bike,59.4,4,0,1
+1226,user_053,Ice Cream Cone,6.02,23,17,0,123.75,29,0,2,Indian,Sunny,High,Bicycle,54.1,1,0,3
+1227,user_063,Sushi Roll,6.42,21,19,0,516.56,58,0,3,Chinese,Rain,Medium,Scooter,51.8,3,0,5
+1228,user_025,Ice Cream Cone,1.32,28,22,1,917.33,68,0,0,Chinese,Sunny,High,Bike,57.8,3,0,1
+1229,user_051,Veg Fried Rice,11.03,13,11,0,1395.62,12,0,1,Fast Food,Sunny,Medium,Bicycle,53.2,2,0,1
+1230,user_063,Veg Fried Rice,6.28,29,10,1,708.18,68,1,0,Chinese,Cloudy,High,Bike,73.5,5,0,3
+1231,user_019,Veg Fried Rice,8.05,28,21,0,902.0,21,0,3,Italian,Sunny,Low,Bicycle,49.5,1,0,4
+1232,user_086,Sushi Roll,10.03,15,14,1,1142.32,68,0,3,South Indian,Cloudy,Low,Scooter,60.3,1,0,2
+1233,user_083,Sushi Roll,1.9,12,19,0,1202.17,10,1,1,Continental,Storm,Low,Bicycle,39.3,4,0,1
+1234,user_039,Margherita Pizza,6.61,22,22,1,1216.64,64,0,0,Chinese,Storm,Low,Bicycle,62.6,1,0,2
+1235,user_077,Chocolate Donut,6.61,11,15,0,630.76,51,1,3,Fast Food,Sunny,Medium,Bicycle,38.7,3,0,2
+1236,user_043,Chocolate Donut,7.71,22,20,0,550.46,55,1,2,Italian,Cloudy,High,Bike,63.4,2,1,2
+1237,user_061,Chocolate Donut,9.58,8,13,0,241.77,37,1,0,South Indian,Storm,High,Bike,69.5,5,0,4
+1238,user_033,Sushi Roll,9.31,17,10,0,673.8,43,0,2,Indian,Cloudy,High,Bicycle,62.2,1,0,4
+1239,user_048,Paneer Tikka,5.81,15,9,0,988.45,26,0,2,Indian,Sunny,Low,Bicycle,34.5,3,1,2
+1240,user_059,Paneer Tikka,0.6,9,15,0,781.25,26,0,0,Continental,Sunny,Low,Scooter,16.4,3,0,5
+1241,user_098,Sushi Roll,9.67,18,22,0,793.42,33,0,0,Italian,Cloudy,Low,Bicycle,51.2,2,0,3
+1242,user_003,Ice Cream Cone,10.06,15,21,1,852.69,58,1,3,Italian,Rain,Low,Bicycle,57.4,3,0,5
+1243,user_065,Chocolate Donut,9.94,29,14,0,1109.18,4,1,1,South Indian,Sunny,Low,Scooter,55.7,5,0,5
+1244,user_092,Paneer Tikka,6.39,28,8,0,427.65,51,0,3,Fast Food,Storm,High,Bicycle,74.3,3,1,5
+1245,user_034,Paneer Tikka,10.54,5,13,0,360.81,16,0,2,Indian,Rain,Low,Bicycle,44.4,2,0,2
+1246,user_091,Sushi Roll,5.81,5,11,0,475.94,35,1,0,Indian,Sunny,High,Bicycle,44.3,4,0,5
+1247,user_036,Veg Fried Rice,3.26,22,22,0,1000.55,7,0,2,Chinese,Cloudy,Medium,Scooter,42.1,2,1,1
+1248,user_024,Sushi Roll,3.44,23,8,0,669.62,23,1,0,South Indian,Storm,Low,Bicycle,51.7,3,0,3
+1249,user_061,Paneer Tikka,6.64,24,12,1,172.26,24,0,3,Continental,Cloudy,Low,Scooter,53.0,4,0,5
+1250,user_009,Veg Fried Rice,11.24,9,19,1,1190.65,4,0,1,Fast Food,Storm,High,Bicycle,80.7,4,0,2
+1251,user_004,Chocolate Donut,7.46,5,14,0,183.91,63,1,2,Fast Food,Sunny,Low,Scooter,34.9,5,0,5
+1252,user_084,Chocolate Donut,2.47,7,23,0,252.82,69,0,0,Fast Food,Sunny,Low,Bike,22.5,4,0,2
+1253,user_009,Chocolate Donut,11.1,29,8,1,491.06,52,0,3,Chinese,Sunny,Low,Scooter,63.7,2,0,4
+1254,user_051,Paneer Tikka,11.75,12,12,1,1163.41,37,0,1,Italian,Rain,Low,Scooter,59.9,2,1,3
+1255,user_061,Margherita Pizza,2.13,28,20,0,1379.41,2,0,2,Chinese,Cloudy,High,Scooter,55.4,4,0,5
+1256,user_093,Veg Fried Rice,7.69,15,8,0,232.12,16,0,0,Indian,Cloudy,High,Bike,59.6,5,0,2
+1257,user_012,Margherita Pizza,4.53,17,21,0,151.88,13,1,0,Italian,Rain,High,Scooter,53.1,5,0,5
+1258,user_008,Paneer Tikka,10.68,13,16,0,770.56,54,0,3,Fast Food,Rain,High,Bicycle,64.6,4,0,3
+1259,user_073,Margherita Pizza,5.54,26,10,0,880.49,11,0,0,Fast Food,Rain,Low,Bicycle,48.5,4,0,4
+1260,user_036,Veg Fried Rice,8.85,21,16,0,1406.61,25,0,1,Italian,Sunny,Low,Scooter,48.8,3,0,5
+1261,user_022,Margherita Pizza,1.85,23,23,0,1451.65,52,0,3,Fast Food,Rain,Medium,Bike,41.8,1,1,2
+1262,user_052,Chocolate Donut,9.26,5,15,0,185.34,2,0,3,Indian,Rain,Medium,Bike,48.1,3,0,5
+1263,user_012,Chocolate Donut,9.33,23,12,0,1498.98,15,0,3,Indian,Sunny,Low,Bicycle,51.2,1,0,2
+1264,user_044,Sushi Roll,7.19,22,10,0,1423.1,73,0,0,Chinese,Storm,Low,Scooter,56.7,5,0,5
+1265,user_093,Margherita Pizza,1.08,24,22,1,1242.31,75,0,1,Fast Food,Storm,Medium,Scooter,57.0,1,0,1
+1266,user_034,Ice Cream Cone,6.89,16,8,0,1072.02,42,0,2,Indian,Sunny,Medium,Bike,43.3,1,0,1
+1267,user_056,Chocolate Donut,5.23,19,12,1,550.31,73,0,2,Italian,Cloudy,Medium,Bike,54.1,3,0,1
+1268,user_077,Sushi Roll,7.91,5,8,1,1234.16,69,0,1,Indian,Sunny,High,Bike,58.8,2,0,2
+1269,user_025,Chocolate Donut,10.7,20,17,1,466.91,41,0,3,Fast Food,Cloudy,Low,Bicycle,61.1,3,0,2
+1270,user_009,Ice Cream Cone,1.5,24,13,1,232.58,71,0,2,Chinese,Rain,Medium,Bike,49.2,1,0,3
+1271,user_017,Veg Fried Rice,5.07,6,15,0,185.17,22,1,2,Italian,Sunny,Medium,Bicycle,33.4,1,1,5
+1272,user_084,Sushi Roll,10.61,10,19,1,380.71,16,0,3,Chinese,Storm,Low,Bike,62.9,1,1,1
+1273,user_019,Chocolate Donut,9.87,28,21,1,1378.82,33,0,0,Fast Food,Storm,Medium,Scooter,86.1,3,0,2
+1274,user_020,Sushi Roll,1.51,12,15,1,109.58,63,0,1,Continental,Rain,Medium,Bike,46.0,3,0,3
+1275,user_001,Veg Fried Rice,6.65,10,20,0,1416.28,12,0,1,South Indian,Storm,Low,Scooter,49.6,2,0,4
+1276,user_057,Veg Fried Rice,11.46,9,16,0,486.49,9,0,3,Continental,Storm,Medium,Bicycle,68.3,4,0,5
+1277,user_062,Sushi Roll,7.15,25,12,0,390.77,1,1,0,Italian,Storm,Medium,Bike,68.2,3,0,2
+1278,user_056,Sushi Roll,4.03,18,19,1,1330.19,48,0,0,Chinese,Rain,Medium,Bike,51.6,3,0,2
+1279,user_079,Chocolate Donut,5.1,27,14,1,486.98,36,0,0,Italian,Rain,High,Bike,72.2,1,0,5
+1280,user_093,Paneer Tikka,0.53,26,16,0,700.65,39,1,2,South Indian,Sunny,High,Bike,44.5,5,0,5
+1281,user_085,Ice Cream Cone,9.4,16,16,1,1285.44,12,0,1,Fast Food,Sunny,Medium,Scooter,57.2,3,0,1
+1282,user_083,Veg Fried Rice,5.12,14,20,1,955.82,67,0,1,Continental,Cloudy,Low,Bike,44.6,1,0,1
+1283,user_002,Margherita Pizza,2.82,24,17,0,725.41,75,0,0,Indian,Cloudy,Low,Bike,35.3,3,1,4
+1284,user_020,Sushi Roll,1.64,19,9,0,1166.7,71,0,0,Indian,Cloudy,Low,Bicycle,33.7,4,0,5
+1285,user_057,Sushi Roll,11.75,19,15,1,1250.07,42,0,0,Italian,Sunny,High,Bicycle,76.4,1,0,3
+1286,user_008,Ice Cream Cone,11.11,22,15,1,839.88,56,0,0,South Indian,Cloudy,High,Bike,80.0,4,0,4
+1287,user_098,Veg Fried Rice,8.44,8,20,1,1190.88,60,0,1,Indian,Storm,Low,Scooter,56.5,2,0,3
+1288,user_037,Veg Fried Rice,4.4,12,8,1,156.45,53,0,0,Fast Food,Storm,Low,Bicycle,53.8,1,0,5
+1289,user_021,Paneer Tikka,2.45,13,20,1,1036.78,37,1,1,Italian,Rain,Medium,Bicycle,44.5,4,0,5
+1290,user_080,Ice Cream Cone,6.84,19,11,0,463.41,60,1,3,Indian,Storm,High,Bicycle,70.5,3,1,2
+1291,user_062,Paneer Tikka,11.35,7,14,0,550.6,14,0,2,South Indian,Rain,High,Bicycle,66.2,4,1,2
+1292,user_037,Veg Fried Rice,10.77,10,17,0,494.9,27,0,0,Italian,Sunny,High,Bicycle,59.6,2,0,5
+1293,user_048,Paneer Tikka,1.73,18,20,1,940.96,9,0,2,Indian,Cloudy,Low,Bike,41.1,1,1,4
+1294,user_001,Sushi Roll,8.53,17,8,0,1098.08,31,1,2,Continental,Rain,High,Bicycle,62.6,5,1,1
+1295,user_042,Ice Cream Cone,2.29,21,11,0,1248.37,74,0,0,Italian,Storm,Medium,Scooter,50.3,2,0,2
+1296,user_082,Paneer Tikka,1.63,12,22,1,929.19,72,0,0,South Indian,Sunny,Medium,Scooter,36.5,3,0,2
+1297,user_046,Paneer Tikka,3.87,29,22,1,1133.4,47,0,3,Chinese,Storm,Low,Bike,63.6,4,1,1
+1298,user_093,Paneer Tikka,5.83,16,14,0,637.98,33,0,3,Indian,Storm,Low,Bike,50.0,2,0,1
+1299,user_021,Veg Fried Rice,9.43,19,13,0,515.11,9,0,2,Fast Food,Rain,Medium,Bike,61.1,2,0,3
+1300,user_002,Chocolate Donut,2.2,19,20,0,360.31,66,0,0,Italian,Storm,High,Bicycle,57.5,4,0,2
+1301,user_068,Chocolate Donut,4.39,28,23,1,867.89,51,0,1,Chinese,Storm,Low,Bicycle,61.7,2,0,5
+1302,user_100,Margherita Pizza,3.53,21,16,1,1491.11,75,0,1,Indian,Storm,High,Bicycle,67.9,3,0,1
+1303,user_058,Chocolate Donut,7.45,9,16,0,763.97,73,0,0,Italian,Sunny,High,Bicycle,52.7,3,0,1
+1304,user_021,Chocolate Donut,5.23,6,10,0,1131.44,64,0,3,Italian,Cloudy,High,Bicycle,46.3,3,0,5
+1305,user_091,Margherita Pizza,10.22,20,13,1,394.08,51,0,1,Continental,Sunny,Low,Bicycle,57.3,2,0,2
+1306,user_038,Margherita Pizza,10.05,25,19,0,1341.81,54,0,3,Fast Food,Sunny,Low,Bike,50.3,2,1,1
+1307,user_024,Ice Cream Cone,3.18,16,21,0,346.01,13,0,0,Italian,Rain,High,Scooter,48.4,2,0,5
+1308,user_098,Paneer Tikka,5.07,20,14,1,1260.36,7,0,0,South Indian,Sunny,Low,Scooter,46.9,4,0,1
+1309,user_036,Chocolate Donut,8.38,6,15,0,507.69,25,1,3,Fast Food,Cloudy,Medium,Bike,48.2,2,0,1
+1310,user_021,Sushi Roll,5.48,12,18,0,1382.23,0,0,0,Fast Food,Cloudy,High,Scooter,52.5,3,0,1
+1311,user_050,Margherita Pizza,5.81,10,19,1,1487.83,63,1,0,Continental,Cloudy,High,Bicycle,56.5,5,1,1
+1312,user_046,Margherita Pizza,8.76,19,23,0,653.19,42,0,3,Italian,Storm,Low,Bike,61.4,5,0,3
+1313,user_003,Margherita Pizza,6.32,22,9,0,708.79,0,0,3,South Indian,Rain,Low,Scooter,50.2,4,0,5
+1314,user_036,Sushi Roll,2.41,29,9,0,208.86,47,0,2,Indian,Sunny,High,Bike,53.6,2,0,5
+1315,user_043,Sushi Roll,3.34,10,9,0,109.18,21,1,0,Chinese,Cloudy,Low,Scooter,26.6,3,0,1
+1316,user_097,Margherita Pizza,8.76,6,14,1,416.45,51,0,2,South Indian,Cloudy,Medium,Scooter,56.3,2,0,2
+1317,user_012,Margherita Pizza,2.02,30,9,0,852.37,44,0,1,Italian,Cloudy,Medium,Bike,44.8,3,0,4
+1318,user_076,Sushi Roll,2.04,6,16,0,265.07,31,0,3,Italian,Storm,Medium,Bicycle,38.5,4,0,2
+1319,user_024,Chocolate Donut,10.47,25,22,0,230.07,26,0,2,Indian,Sunny,Medium,Bike,61.4,1,0,1
+1320,user_052,Sushi Roll,8.81,9,20,0,1421.82,35,0,1,Continental,Cloudy,Low,Scooter,43.3,5,0,1
+1321,user_025,Margherita Pizza,9.8,12,11,1,137.03,73,0,2,Chinese,Sunny,High,Scooter,64.8,2,0,1
+1322,user_057,Chocolate Donut,1.58,11,22,1,1107.71,17,1,0,Italian,Cloudy,Medium,Scooter,39.4,1,0,2
+1323,user_087,Sushi Roll,9.02,9,11,0,314.66,11,0,1,Italian,Storm,High,Bike,69.1,3,0,5
+1324,user_072,Chocolate Donut,0.98,20,19,0,987.67,73,1,1,Chinese,Sunny,Medium,Bicycle,35.7,2,0,1
+1325,user_068,Margherita Pizza,6.74,14,13,0,1444.05,35,1,2,Italian,Sunny,Low,Scooter,37.5,3,0,3
+1326,user_028,Ice Cream Cone,9.57,5,18,1,1135.52,34,0,1,Continental,Storm,High,Scooter,75.4,2,0,3
+1327,user_039,Chocolate Donut,2.61,16,13,1,112.07,13,0,2,Indian,Storm,Low,Bicycle,51.1,4,1,5
+1328,user_074,Margherita Pizza,7.93,7,8,0,1291.51,21,0,1,Fast Food,Cloudy,High,Scooter,56.3,1,0,1
+1329,user_047,Chocolate Donut,5.6,9,14,0,673.87,0,0,2,South Indian,Storm,Medium,Bike,53.3,1,0,2
+1330,user_023,Margherita Pizza,8.75,24,13,1,204.82,10,0,1,Indian,Storm,Medium,Bicycle,76.9,2,0,3
+1331,user_036,Chocolate Donut,10.3,27,11,1,165.49,2,0,1,Fast Food,Sunny,Low,Bicycle,62.4,1,0,4
+1332,user_055,Paneer Tikka,3.01,21,22,0,1098.52,45,1,2,Indian,Storm,Medium,Bike,51.6,2,0,4
+1333,user_039,Margherita Pizza,11.8,11,14,1,1201.1,14,1,2,Continental,Cloudy,Low,Bicycle,57.9,1,0,1
+1334,user_097,Paneer Tikka,9.11,19,21,1,350.15,60,0,3,Fast Food,Rain,Medium,Scooter,67.2,4,0,2
+1335,user_012,Chocolate Donut,9.92,18,14,0,1232.39,60,0,2,Italian,Rain,Low,Bicycle,51.0,5,0,2
+1336,user_100,Sushi Roll,3.02,14,14,1,473.25,34,1,3,Italian,Cloudy,Low,Bike,37.4,3,0,5
+1337,user_073,Paneer Tikka,0.62,16,16,0,1323.81,68,0,1,Fast Food,Rain,Medium,Bicycle,35.0,2,0,4
+1338,user_041,Chocolate Donut,3.56,25,16,0,116.92,0,0,1,Chinese,Cloudy,High,Scooter,55.4,3,0,2
+1339,user_055,Paneer Tikka,9.47,24,17,1,122.4,4,0,1,Indian,Storm,High,Scooter,87.3,1,0,4
+1340,user_058,Ice Cream Cone,5.74,21,19,1,466.69,27,0,3,Continental,Storm,High,Bike,77.4,1,0,4
+1341,user_067,Ice Cream Cone,4.96,12,9,0,665.79,8,0,2,Italian,Storm,Medium,Bike,54.1,1,0,1
+1342,user_038,Margherita Pizza,10.2,5,19,1,1187.9,39,0,3,Chinese,Storm,Medium,Bicycle,68.9,5,0,4
+1343,user_086,Margherita Pizza,3.35,13,8,1,1380.79,75,0,1,Fast Food,Sunny,Medium,Bike,39.6,4,0,4
+1344,user_066,Chocolate Donut,2.61,18,21,1,1342.99,60,0,2,Fast Food,Sunny,High,Bike,53.8,5,1,3
+1345,user_089,Veg Fried Rice,1.04,20,23,0,1152.0,73,0,2,Chinese,Rain,High,Bicycle,48.7,2,0,4
+1346,user_072,Chocolate Donut,10.2,25,10,0,523.76,17,1,0,Indian,Rain,High,Scooter,75.2,1,0,5
+1347,user_099,Veg Fried Rice,2.65,6,10,0,1167.55,51,0,0,Fast Food,Storm,Low,Scooter,34.7,5,0,5
+1348,user_001,Veg Fried Rice,5.31,15,21,0,1452.09,26,0,1,South Indian,Cloudy,Medium,Bike,44.6,4,0,3
+1349,user_031,Sushi Roll,2.31,11,17,0,1105.15,75,0,1,South Indian,Rain,Low,Scooter,32.3,1,0,5
+1350,user_001,Sushi Roll,7.0,18,16,0,729.5,48,0,0,Continental,Sunny,Low,Scooter,40.8,5,0,5
+1351,user_069,Paneer Tikka,6.4,29,21,0,489.11,31,0,1,South Indian,Cloudy,Medium,Bike,59.0,1,0,4
+1352,user_075,Ice Cream Cone,7.87,26,12,0,410.51,14,0,0,South Indian,Sunny,Medium,Bicycle,52.5,3,0,5
+1353,user_066,Ice Cream Cone,9.41,8,9,0,766.34,19,0,2,Indian,Rain,Low,Bike,42.4,1,0,5
+1354,user_004,Ice Cream Cone,6.58,24,8,0,1424.22,70,1,2,Continental,Sunny,Medium,Bike,52.2,5,0,4
+1355,user_050,Paneer Tikka,5.87,13,13,0,224.34,53,0,3,Chinese,Rain,High,Bike,57.4,1,0,4
+1356,user_034,Sushi Roll,6.6,5,16,0,436.15,15,0,1,Fast Food,Storm,Low,Bike,47.0,4,0,2
+1357,user_085,Margherita Pizza,3.41,21,17,1,1052.65,62,0,0,Italian,Storm,High,Bicycle,68.3,3,0,2
+1358,user_052,Ice Cream Cone,7.23,9,9,0,1439.55,58,0,0,Continental,Rain,Low,Scooter,38.5,3,0,2
+1359,user_098,Chocolate Donut,11.06,14,16,1,439.2,40,1,2,South Indian,Storm,High,Scooter,81.7,3,0,5
+1360,user_064,Margherita Pizza,11.67,17,19,0,1257.9,34,0,1,Indian,Storm,Medium,Scooter,69.8,5,0,3
+1361,user_053,Sushi Roll,11.55,12,10,0,699.04,48,0,3,Continental,Storm,Medium,Bike,68.9,5,0,2
+1362,user_022,Chocolate Donut,10.34,26,12,0,1367.11,17,0,2,Italian,Rain,High,Scooter,73.2,5,0,1
+1363,user_077,Ice Cream Cone,11.41,23,12,0,916.77,22,1,2,Fast Food,Storm,Medium,Bike,74.9,5,0,5
+1364,user_056,Paneer Tikka,8.95,17,17,0,878.37,59,0,3,Continental,Cloudy,Low,Scooter,48.9,3,0,1
+1365,user_077,Paneer Tikka,11.4,30,12,1,452.06,31,1,1,Chinese,Rain,High,Bike,89.1,2,0,2
+1366,user_040,Ice Cream Cone,3.83,6,15,0,1013.32,59,0,1,Fast Food,Sunny,Low,Bike,25.8,1,0,1
+1367,user_056,Ice Cream Cone,2.85,30,18,1,904.88,41,1,3,Italian,Sunny,Low,Scooter,43.9,5,0,4
+1368,user_063,Chocolate Donut,2.06,5,21,0,561.31,19,1,1,Italian,Cloudy,High,Bicycle,36.1,2,1,5
+1369,user_017,Paneer Tikka,11.03,23,10,0,1416.23,69,0,0,Indian,Rain,High,Bicycle,75.6,3,0,4
+1370,user_084,Ice Cream Cone,5.66,18,17,0,672.66,67,0,2,Continental,Rain,Low,Bicycle,45.6,2,0,1
+1371,user_013,Paneer Tikka,8.67,15,9,1,415.75,9,0,3,Italian,Cloudy,Medium,Scooter,62.1,3,0,4
+1372,user_080,Ice Cream Cone,6.21,16,10,1,186.95,53,1,1,Fast Food,Storm,Low,Bicycle,61.5,2,0,5
+1373,user_078,Paneer Tikka,2.68,28,16,0,357.39,37,0,2,Chinese,Storm,Low,Bike,49.0,4,0,4
+1374,user_010,Veg Fried Rice,5.28,9,10,0,1184.25,40,0,0,Fast Food,Sunny,Medium,Bicycle,37.7,4,0,4
+1375,user_035,Sushi Roll,11.71,7,20,0,776.65,30,0,1,Continental,Sunny,High,Bicycle,61.4,5,0,2
+1376,user_092,Veg Fried Rice,4.57,5,20,0,582.04,69,0,0,Italian,Sunny,High,Bike,38.9,4,0,3
+1377,user_016,Veg Fried Rice,9.94,5,16,0,170.81,1,0,0,Chinese,Sunny,Medium,Bike,46.7,3,0,1
+1378,user_070,Veg Fried Rice,0.78,11,20,0,923.99,50,0,0,Chinese,Cloudy,Low,Bike,22.1,3,0,3
+1379,user_027,Margherita Pizza,0.64,17,15,0,550.37,43,1,3,Continental,Sunny,High,Scooter,37.2,4,0,3
+1380,user_065,Ice Cream Cone,2.68,19,23,1,519.97,2,0,0,Continental,Storm,Low,Bike,53.6,4,0,1
+1381,user_049,Paneer Tikka,7.39,24,11,0,229.72,36,0,0,South Indian,Cloudy,Low,Bicycle,46.8,2,0,3
+1382,user_059,Ice Cream Cone,4.44,30,13,0,659.08,23,0,0,South Indian,Rain,High,Scooter,63.7,4,1,2
+1383,user_087,Ice Cream Cone,8.3,20,12,0,768.37,34,0,2,Indian,Rain,Low,Bicycle,49.5,1,0,2
+1384,user_053,Margherita Pizza,1.34,24,21,0,901.21,31,0,3,Indian,Storm,Low,Scooter,46.4,4,0,2
+1385,user_048,Chocolate Donut,0.53,12,22,0,1466.71,17,0,0,Chinese,Rain,High,Bicycle,42.2,3,1,1
+1386,user_017,Ice Cream Cone,11.17,6,10,1,650.72,5,0,1,Chinese,Storm,High,Scooter,78.7,1,0,4
+1387,user_019,Sushi Roll,0.63,11,12,0,921.3,75,1,1,Italian,Sunny,High,Bicycle,31.6,2,0,1
+1388,user_024,Chocolate Donut,9.33,19,9,0,1159.77,72,0,2,South Indian,Rain,Medium,Bike,58.0,1,0,1
+1389,user_006,Sushi Roll,5.83,20,17,0,1408.22,41,0,2,South Indian,Storm,Low,Bike,55.5,5,0,5
+1390,user_081,Sushi Roll,3.09,7,14,0,274.1,2,0,0,South Indian,Rain,High,Scooter,44.9,5,0,3
+1391,user_031,Chocolate Donut,2.43,30,11,1,1060.16,19,1,3,Italian,Rain,Medium,Scooter,55.4,4,0,4
+1392,user_009,Sushi Roll,0.62,19,19,1,1309.17,19,0,3,Chinese,Rain,High,Scooter,50.9,2,0,1
+1393,user_057,Veg Fried Rice,5.57,26,9,1,1116.17,11,0,0,Indian,Rain,Low,Bicycle,55.0,1,0,3
+1394,user_088,Sushi Roll,3.32,15,22,1,530.63,72,0,3,Chinese,Cloudy,Medium,Scooter,50.6,3,0,5
+1395,user_052,Veg Fried Rice,11.24,7,14,1,1161.86,67,0,3,Indian,Rain,High,Scooter,71.6,3,0,4
+1396,user_060,Paneer Tikka,10.63,27,13,1,950.18,33,0,3,Italian,Storm,Low,Bicycle,76.9,1,0,2
+1397,user_031,Margherita Pizza,3.55,5,14,1,1227.99,12,0,1,Continental,Storm,Medium,Bicycle,48.5,3,0,2
+1398,user_059,Chocolate Donut,7.0,17,13,1,504.73,5,1,1,Continental,Storm,Low,Bicycle,60.3,2,0,3
+1399,user_013,Sushi Roll,8.65,12,8,0,1109.3,43,0,0,Chinese,Storm,Medium,Bike,58.8,2,1,1
+1400,user_062,Sushi Roll,3.87,11,18,0,1446.14,63,0,1,Fast Food,Cloudy,Low,Bike,33.7,1,0,1
+1401,user_001,Ice Cream Cone,4.97,19,20,1,553.05,72,0,0,Italian,Rain,High,Scooter,62.9,2,0,3
+1402,user_010,Chocolate Donut,9.22,25,9,1,1114.59,19,0,3,Chinese,Cloudy,High,Bike,77.2,4,0,4
+1403,user_022,Veg Fried Rice,9.73,5,17,1,390.27,46,1,3,Fast Food,Rain,High,Scooter,68.6,3,0,2
+1404,user_098,Sushi Roll,7.86,30,13,0,1091.28,6,1,3,Continental,Rain,Low,Bicycle,55.3,4,0,4
+1405,user_085,Sushi Roll,0.53,18,20,0,1262.57,1,0,1,Fast Food,Storm,Low,Scooter,39.2,2,0,3
+1406,user_096,Veg Fried Rice,4.12,20,16,0,1003.96,26,1,1,Fast Food,Sunny,Medium,Bicycle,44.2,5,0,5
+1407,user_085,Margherita Pizza,0.9,28,12,0,968.31,40,0,0,Indian,Rain,High,Bicycle,55.1,5,0,4
+1408,user_069,Ice Cream Cone,3.06,23,10,1,460.16,48,1,0,Fast Food,Rain,Low,Bike,45.7,5,0,1
+1409,user_068,Ice Cream Cone,0.69,27,17,1,202.53,57,0,1,Italian,Rain,High,Scooter,57.4,2,0,4
+1410,user_068,Ice Cream Cone,8.72,28,23,1,805.62,62,1,1,Italian,Cloudy,High,Bike,80.9,2,0,1
+1411,user_060,Ice Cream Cone,4.92,7,16,0,1482.43,25,0,2,Italian,Rain,Low,Scooter,33.7,3,0,4
+1412,user_057,Margherita Pizza,7.67,23,14,0,1185.06,49,1,1,Indian,Rain,High,Scooter,69.1,5,0,4
+1413,user_088,Veg Fried Rice,2.12,7,21,0,637.87,16,1,3,Indian,Sunny,High,Bike,34.1,3,0,3
+1414,user_001,Paneer Tikka,4.21,29,20,0,1162.11,63,0,1,Italian,Storm,High,Bicycle,68.4,4,0,5
+1415,user_023,Sushi Roll,10.34,14,17,0,1056.61,45,1,3,Fast Food,Rain,High,Scooter,65.8,3,1,3
+1416,user_061,Paneer Tikka,10.25,11,10,1,382.23,52,0,3,Indian,Storm,Medium,Bike,69.4,2,0,4
+1417,user_043,Ice Cream Cone,7.66,30,9,1,1411.25,19,0,3,Indian,Cloudy,Medium,Bike,66.5,1,0,5
+1418,user_063,Veg Fried Rice,3.7,7,23,0,397.63,74,1,3,South Indian,Cloudy,Low,Bicycle,29.0,5,0,2
+1419,user_097,Chocolate Donut,2.91,17,23,1,953.15,67,1,2,Italian,Rain,Low,Bicycle,45.7,4,0,3
+1420,user_092,Veg Fried Rice,7.85,12,16,0,902.25,2,0,0,South Indian,Sunny,High,Scooter,50.9,4,1,3
+1421,user_030,Paneer Tikka,6.6,29,22,0,295.88,66,0,0,Chinese,Sunny,Low,Bike,46.6,3,0,4
+1422,user_026,Paneer Tikka,7.51,8,12,0,1018.83,8,0,3,Fast Food,Rain,High,Scooter,56.8,5,0,5
+1423,user_083,Sushi Roll,3.68,23,20,0,688.4,31,0,1,Italian,Storm,High,Bicycle,62.3,4,1,5
+1424,user_028,Ice Cream Cone,3.86,21,10,0,393.7,56,1,0,Italian,Cloudy,Medium,Scooter,44.7,2,0,3
+1425,user_003,Chocolate Donut,3.89,9,12,0,1340.9,46,0,2,Indian,Sunny,Medium,Bicycle,32.5,5,0,2
+1426,user_074,Paneer Tikka,5.95,19,9,1,974.54,74,1,1,Chinese,Storm,High,Bike,77.5,2,0,4
+1427,user_057,Chocolate Donut,5.65,26,23,0,1344.0,35,0,3,Italian,Rain,High,Bicycle,63.8,3,1,3
+1428,user_009,Sushi Roll,9.91,22,23,1,857.1,5,0,1,Italian,Cloudy,High,Bicycle,77.0,1,0,5
+1429,user_053,Margherita Pizza,9.26,25,8,0,646.85,51,0,1,Indian,Rain,Medium,Bicycle,63.7,5,0,2
+1430,user_071,Veg Fried Rice,7.33,26,11,1,252.28,14,0,0,Indian,Storm,Medium,Bike,76.3,3,0,2
+1431,user_016,Paneer Tikka,2.04,30,22,0,137.17,62,1,3,South Indian,Storm,High,Bike,64.4,5,1,5
+1432,user_006,Margherita Pizza,2.16,22,18,0,949.37,29,1,3,Chinese,Cloudy,Medium,Bike,42.8,5,0,1
+1433,user_063,Chocolate Donut,5.26,21,15,0,1196.12,28,0,1,Fast Food,Storm,Medium,Scooter,57.9,4,1,1
+1434,user_080,Veg Fried Rice,7.77,26,15,1,1281.82,40,0,0,Chinese,Cloudy,Low,Scooter,58.8,1,0,5
+1435,user_090,Paneer Tikka,11.79,22,12,1,392.93,9,0,2,Italian,Rain,Medium,Bike,78.2,1,0,2
+1436,user_058,Veg Fried Rice,11.89,8,22,0,554.02,50,0,0,Continental,Rain,Low,Bike,52.8,5,0,5
+1437,user_038,Paneer Tikka,9.75,25,15,0,473.81,54,0,2,Indian,Cloudy,Low,Bicycle,55.3,4,0,4
+1438,user_046,Veg Fried Rice,3.01,9,23,1,958.42,61,1,3,Continental,Storm,Medium,Bike,52.9,2,0,3
+1439,user_012,Sushi Roll,8.12,12,19,0,246.24,50,0,1,Fast Food,Cloudy,High,Bicycle,59.0,2,0,3
+1440,user_050,Paneer Tikka,1.54,28,22,1,621.99,70,0,2,Continental,Cloudy,Low,Bike,45.7,5,0,2
+1441,user_079,Paneer Tikka,4.97,28,21,0,271.26,73,0,2,Italian,Rain,Medium,Scooter,55.9,4,0,1
+1442,user_013,Margherita Pizza,10.82,7,17,0,819.07,12,0,0,Fast Food,Sunny,Medium,Bike,49.8,3,0,3
+1443,user_093,Margherita Pizza,8.61,13,20,0,1244.22,26,0,3,Continental,Storm,Medium,Bicycle,60.4,2,0,3
+1444,user_025,Chocolate Donut,5.38,25,20,0,587.03,3,0,3,Continental,Cloudy,Low,Bike,46.2,2,1,4
+1445,user_005,Margherita Pizza,5.28,18,12,0,1433.57,0,1,2,Fast Food,Sunny,High,Bicycle,52.3,2,0,2
+1446,user_013,Chocolate Donut,0.96,11,22,0,1115.28,54,0,3,Continental,Cloudy,Medium,Bicycle,31.0,5,0,5
+1447,user_039,Chocolate Donut,9.86,8,19,1,484.09,3,0,1,Indian,Rain,Low,Bicycle,52.7,3,1,4
+1448,user_082,Sushi Roll,4.91,20,19,1,1152.25,48,1,2,Italian,Cloudy,Medium,Bike,56.7,4,0,5
+1449,user_023,Ice Cream Cone,10.28,13,18,0,1236.65,38,0,0,Chinese,Cloudy,Medium,Bicycle,54.1,5,0,3
+1450,user_031,Margherita Pizza,3.44,22,10,0,659.06,18,1,1,Indian,Cloudy,Medium,Scooter,45.4,3,0,3
+1451,user_076,Chocolate Donut,1.46,26,22,0,775.08,74,0,1,Italian,Rain,Medium,Bicycle,44.0,1,0,5
+1452,user_025,Paneer Tikka,0.59,5,19,0,916.43,36,1,3,Italian,Cloudy,Low,Bike,19.9,4,1,5
+1453,user_056,Chocolate Donut,6.02,12,21,0,220.08,26,0,2,Indian,Sunny,Low,Bicycle,31.0,1,0,2
+1454,user_059,Paneer Tikka,1.39,19,21,0,236.24,51,0,2,Continental,Sunny,Low,Scooter,26.3,2,0,5
+1455,user_005,Paneer Tikka,8.05,12,13,0,1394.3,9,0,2,Continental,Sunny,Low,Scooter,36.6,2,1,2
+1456,user_020,Paneer Tikka,11.73,27,20,0,1419.33,2,0,1,Indian,Cloudy,High,Scooter,75.2,1,1,4
+1457,user_095,Veg Fried Rice,4.18,23,12,1,892.95,2,1,3,Fast Food,Sunny,Low,Scooter,44.1,2,0,2
+1458,user_085,Ice Cream Cone,4.17,23,9,1,282.69,22,1,3,Chinese,Cloudy,Medium,Bike,53.4,1,1,1
+1459,user_021,Margherita Pizza,3.07,8,16,1,369.42,22,0,3,Indian,Cloudy,Medium,Bicycle,45.0,1,0,3
+1460,user_066,Chocolate Donut,2.64,17,21,1,517.76,38,0,3,Fast Food,Rain,Medium,Bike,51.3,2,0,2
+1461,user_074,Veg Fried Rice,7.21,16,19,0,446.52,58,0,3,Italian,Cloudy,High,Bike,59.0,2,0,2
+1462,user_009,Sushi Roll,9.41,15,23,0,1063.7,49,0,3,South Indian,Storm,Low,Scooter,57.3,3,0,4
+1463,user_090,Sushi Roll,7.63,18,13,0,683.08,13,0,2,Chinese,Rain,Low,Bicycle,46.0,4,0,3
+1464,user_044,Ice Cream Cone,8.17,15,15,0,391.73,74,0,3,Fast Food,Rain,Medium,Scooter,51.7,5,0,2
+1465,user_096,Ice Cream Cone,7.31,14,15,0,244.56,60,1,3,Italian,Cloudy,High,Scooter,59.3,4,0,3
+1466,user_073,Chocolate Donut,4.28,28,15,0,700.83,73,1,0,Italian,Cloudy,High,Scooter,58.7,5,0,5
+1467,user_003,Chocolate Donut,3.08,21,14,0,216.62,50,0,1,South Indian,Sunny,Medium,Bike,40.6,1,1,4
+1468,user_003,Veg Fried Rice,9.41,29,12,0,105.69,12,0,3,Chinese,Storm,Low,Scooter,69.7,5,0,4
+1469,user_042,Ice Cream Cone,11.76,14,16,1,657.52,25,0,2,Continental,Rain,High,Bike,79.9,4,0,2
+1470,user_076,Ice Cream Cone,9.13,11,17,1,1384.03,24,0,3,Continental,Cloudy,Medium,Bicycle,57.4,5,0,1
+1471,user_080,Chocolate Donut,8.15,26,22,0,253.77,52,0,3,Chinese,Storm,High,Scooter,78.9,5,0,1
+1472,user_035,Ice Cream Cone,1.78,8,9,1,1438.31,13,1,0,Fast Food,Cloudy,Low,Scooter,29.7,2,0,1
+1473,user_013,Sushi Roll,2.98,26,9,0,686.97,61,0,1,Chinese,Cloudy,Low,Scooter,42.4,3,0,5
+1474,user_002,Sushi Roll,1.32,18,10,1,791.07,27,1,2,South Indian,Rain,Low,Bicycle,42.4,1,1,1
+1475,user_096,Paneer Tikka,0.94,21,9,0,886.55,53,0,0,Indian,Rain,High,Bike,47.5,5,0,2
+1476,user_008,Ice Cream Cone,10.8,15,23,1,523.31,33,0,0,Italian,Cloudy,Low,Bike,57.8,2,1,5
+1477,user_015,Margherita Pizza,11.09,17,12,1,182.26,41,0,0,Continental,Sunny,Medium,Bicycle,66.8,1,0,1
+1478,user_069,Chocolate Donut,5.84,5,17,1,326.2,66,0,0,South Indian,Rain,Low,Bike,40.8,1,0,3
+1479,user_010,Margherita Pizza,7.49,18,10,0,767.01,65,0,3,Chinese,Storm,High,Bike,69.1,4,0,1
+1480,user_037,Paneer Tikka,8.06,17,10,0,270.96,73,0,1,Continental,Storm,Medium,Bicycle,61.5,2,1,2
+1481,user_042,Margherita Pizza,7.36,18,23,1,1452.14,23,0,3,Indian,Rain,Low,Scooter,55.3,3,0,3
+1482,user_078,Sushi Roll,6.1,30,15,0,191.01,59,0,2,Indian,Sunny,Low,Bicycle,46.4,3,0,1
+1483,user_038,Margherita Pizza,8.56,15,13,0,705.76,44,0,3,Indian,Rain,Low,Bicycle,46.1,3,0,4
+1484,user_006,Paneer Tikka,2.03,25,17,0,606.28,46,1,3,Continental,Sunny,Medium,Bike,41.8,4,1,3
+1485,user_001,Ice Cream Cone,11.49,18,21,0,1305.6,33,1,3,Indian,Cloudy,Low,Scooter,57.0,1,0,4
+1486,user_015,Paneer Tikka,9.75,8,19,0,780.21,68,1,3,South Indian,Sunny,High,Scooter,54.4,2,0,2
+1487,user_078,Veg Fried Rice,2.51,9,17,1,497.47,68,0,2,Chinese,Cloudy,Low,Bicycle,36.8,5,0,1
+1488,user_004,Sushi Roll,6.87,19,14,0,947.48,14,1,0,Indian,Rain,Low,Bike,47.7,2,0,3
+1489,user_077,Chocolate Donut,2.01,5,15,0,1208.16,55,0,2,Fast Food,Cloudy,Low,Bicycle,25.3,5,0,1
+1490,user_066,Paneer Tikka,1.68,14,16,0,1374.05,42,1,0,Chinese,Sunny,Low,Bike,24.7,2,0,3
+1491,user_064,Veg Fried Rice,7.73,22,8,0,150.98,10,0,1,Fast Food,Storm,Medium,Scooter,62.9,2,0,2
+1492,user_002,Sushi Roll,9.97,24,18,1,1115.54,56,0,1,Fast Food,Sunny,High,Bike,76.7,4,0,5
+1493,user_073,Ice Cream Cone,4.02,29,9,0,129.2,35,1,0,Italian,Rain,Medium,Scooter,55.4,5,0,3
+1494,user_035,Sushi Roll,5.44,17,22,0,193.35,6,0,3,Italian,Cloudy,High,Bicycle,54.3,2,0,1
+1495,user_066,Sushi Roll,1.57,12,14,0,685.56,71,1,0,Indian,Storm,Medium,Bike,41.2,2,0,4
+1496,user_002,Veg Fried Rice,7.55,17,17,1,514.07,38,0,3,Continental,Storm,High,Bicycle,79.9,2,0,2
+1497,user_051,Veg Fried Rice,6.39,29,11,1,144.67,10,0,1,Chinese,Cloudy,Medium,Bike,64.1,3,0,3
+1498,user_058,Paneer Tikka,11.5,5,15,1,637.84,63,0,3,South Indian,Rain,Medium,Scooter,60.3,3,1,2
+1499,user_003,Margherita Pizza,3.85,10,21,0,1403.28,10,0,1,Chinese,Cloudy,High,Scooter,45.8,2,1,4
+1500,user_023,Paneer Tikka,3.9,10,19,1,940.33,16,1,0,Chinese,Sunny,Medium,Bike,41.2,5,0,2
+1501,user_076,Margherita Pizza,5.96,5,9,0,654.7,16,0,0,South Indian,Cloudy,Medium,Scooter,42.2,1,0,3
+1502,user_078,Chocolate Donut,5.31,26,10,1,919.05,13,0,1,South Indian,Rain,Low,Bike,53.7,5,0,5
+1503,user_087,Sushi Roll,8.65,25,23,1,578.23,12,0,1,Indian,Sunny,Low,Bicycle,59.2,4,0,1
+1504,user_028,Margherita Pizza,8.86,23,15,1,1496.5,18,1,2,South Indian,Rain,Medium,Bicycle,71.0,3,0,1
+1505,user_097,Sushi Roll,3.78,17,14,0,505.48,36,0,3,Fast Food,Storm,Medium,Bicycle,49.4,1,0,5
+1506,user_004,Veg Fried Rice,6.24,18,13,0,1096.1,43,1,1,Continental,Sunny,Low,Bicycle,39.2,4,1,5
+1507,user_081,Veg Fried Rice,8.12,30,22,1,1109.91,7,1,1,Indian,Rain,Medium,Bicycle,69.7,1,0,1
+1508,user_049,Ice Cream Cone,3.33,9,17,1,377.79,62,1,2,Fast Food,Storm,High,Scooter,62.1,1,0,5
+1509,user_044,Margherita Pizza,3.79,9,12,1,948.78,24,1,0,Italian,Storm,Low,Scooter,50.4,2,0,2
+1510,user_069,Ice Cream Cone,4.46,26,16,1,976.92,48,0,1,Continental,Sunny,Low,Bike,45.1,4,0,1
+1511,user_004,Chocolate Donut,7.06,15,19,0,1353.72,67,1,0,Fast Food,Cloudy,High,Scooter,54.7,3,0,2
+1512,user_045,Margherita Pizza,5.62,30,15,1,1327.55,47,1,1,Continental,Storm,Medium,Scooter,74.0,3,0,4
+1513,user_074,Sushi Roll,11.74,13,19,0,840.51,65,0,3,Italian,Storm,Medium,Scooter,67.4,3,0,1
+1514,user_019,Ice Cream Cone,0.57,18,9,1,910.03,72,0,3,Indian,Rain,Medium,Bicycle,45.2,3,0,4
+1515,user_010,Margherita Pizza,7.37,12,11,0,1135.57,2,0,1,Chinese,Storm,Medium,Bicycle,56.4,3,0,3
+1516,user_018,Sushi Roll,2.75,20,11,1,746.06,0,0,2,Fast Food,Rain,Low,Bike,47.7,5,0,5
+1517,user_094,Margherita Pizza,7.97,21,9,1,287.54,37,0,1,Italian,Sunny,Medium,Bike,61.3,2,0,5
+1518,user_067,Chocolate Donut,5.04,17,14,0,1172.31,56,1,1,Continental,Rain,Medium,Bike,46.9,2,0,1
+1519,user_070,Margherita Pizza,11.42,6,14,1,1347.88,66,0,2,Indian,Sunny,Low,Bike,48.5,3,0,2
+1520,user_049,Paneer Tikka,11.39,21,18,0,332.94,69,0,3,Fast Food,Storm,High,Bicycle,83.5,1,0,3
+1521,user_080,Sushi Roll,6.97,16,10,1,1384.12,35,0,0,South Indian,Rain,Medium,Bicycle,57.3,2,0,5
+1522,user_091,Ice Cream Cone,10.56,7,9,0,251.59,42,0,0,Chinese,Rain,Low,Bicycle,47.2,5,0,5
+1523,user_009,Sushi Roll,7.85,28,20,0,1129.42,36,0,0,Indian,Cloudy,High,Bicycle,65.6,1,0,4
+1524,user_065,Paneer Tikka,4.3,21,14,1,988.03,13,0,1,South Indian,Rain,Low,Bicycle,49.3,4,0,1
+1525,user_078,Paneer Tikka,4.15,14,12,0,726.33,62,0,3,South Indian,Sunny,Low,Scooter,30.5,1,1,4
+1526,user_067,Chocolate Donut,6.93,27,11,0,385.89,13,0,0,Continental,Sunny,Medium,Bicycle,52.4,4,0,1
+1527,user_004,Sushi Roll,8.96,21,14,0,382.75,25,1,0,South Indian,Storm,Medium,Scooter,68.0,1,0,3
+1528,user_075,Ice Cream Cone,7.26,18,13,0,558.01,19,0,1,Chinese,Rain,Medium,Bicycle,52.9,2,0,3
+1529,user_055,Chocolate Donut,5.88,29,23,1,1080.56,42,0,0,Chinese,Storm,Medium,Bicycle,75.1,5,0,5
+1530,user_029,Sushi Roll,6.43,11,18,1,320.63,59,1,3,Chinese,Sunny,Low,Bike,41.4,5,0,1
+1531,user_025,Paneer Tikka,4.18,21,23,1,618.86,38,0,1,Continental,Rain,High,Bicycle,61.2,5,0,2
+1532,user_098,Veg Fried Rice,3.07,27,17,0,1282.46,61,0,3,Continental,Sunny,High,Scooter,51.3,1,1,2
+1533,user_092,Sushi Roll,6.3,17,12,0,377.79,7,1,0,Italian,Cloudy,High,Bicycle,54.5,1,0,2
+1534,user_092,Chocolate Donut,11.59,16,11,0,1134.4,61,0,3,Italian,Rain,Medium,Bike,66.1,1,0,5
+1535,user_088,Chocolate Donut,7.51,16,15,0,1180.63,51,0,3,South Indian,Storm,Low,Scooter,52.8,5,0,2
+1536,user_059,Veg Fried Rice,4.72,10,14,0,1410.64,36,0,3,Italian,Rain,Low,Bike,35.9,3,0,2
+1537,user_098,Paneer Tikka,3.3,24,18,0,1084.79,58,1,2,Chinese,Sunny,High,Bike,49.9,2,0,4
+1538,user_072,Veg Fried Rice,8.57,6,14,1,196.94,19,0,0,Continental,Sunny,Low,Scooter,43.6,2,0,3
+1539,user_014,Sushi Roll,11.06,11,20,0,408.92,36,0,1,Fast Food,Rain,High,Scooter,65.5,1,0,4
+1540,user_012,Chocolate Donut,10.81,21,12,1,1393.78,49,0,1,South Indian,Sunny,Medium,Scooter,68.6,1,0,4
+1541,user_005,Ice Cream Cone,5.02,15,12,1,469.42,75,0,3,Fast Food,Rain,Low,Bicycle,48.1,3,1,1
+1542,user_019,Chocolate Donut,8.17,17,11,1,1205.88,40,1,0,South Indian,Storm,High,Bike,79.7,3,0,4
+1543,user_012,Paneer Tikka,8.5,11,9,0,1483.69,40,0,1,Continental,Cloudy,High,Bike,57.2,2,0,1
+1544,user_023,Veg Fried Rice,1.26,19,15,0,829.46,0,0,2,South Indian,Sunny,High,Bicycle,43.6,5,0,3
+1545,user_082,Chocolate Donut,11.35,29,21,0,351.59,6,0,1,Continental,Rain,Low,Scooter,62.0,3,0,4
+1546,user_045,Veg Fried Rice,11.04,5,17,1,816.58,10,1,1,Indian,Cloudy,Medium,Scooter,61.1,4,0,4
+1547,user_095,Margherita Pizza,10.98,12,8,0,203.11,11,1,2,Continental,Rain,Medium,Bike,59.9,2,0,5
+1548,user_061,Chocolate Donut,6.29,9,19,0,232.53,74,0,2,Fast Food,Storm,Low,Bicycle,43.9,4,0,1
+1549,user_028,Chocolate Donut,8.44,8,15,0,812.72,61,0,1,Continental,Sunny,Medium,Scooter,44.6,5,0,4
+1550,user_056,Chocolate Donut,5.06,29,22,0,1195.24,20,0,3,South Indian,Rain,Low,Bike,47.0,2,0,5
+1551,user_078,Ice Cream Cone,5.65,17,8,0,219.88,50,0,2,Continental,Sunny,High,Bicycle,49.0,5,0,4
+1552,user_049,Sushi Roll,2.06,15,8,0,971.48,61,0,3,Italian,Cloudy,Medium,Bicycle,35.6,5,0,5
+1553,user_071,Veg Fried Rice,0.84,7,14,1,1385.84,37,1,3,Chinese,Rain,High,Bicycle,43.7,4,0,5
+1554,user_006,Paneer Tikka,4.54,7,19,0,848.14,56,1,0,Indian,Cloudy,High,Scooter,47.3,3,0,1
+1555,user_081,Margherita Pizza,7.84,21,8,0,1427.05,71,0,3,Indian,Cloudy,Medium,Scooter,54.4,4,0,2
+1556,user_022,Veg Fried Rice,10.59,15,8,1,987.07,8,0,3,South Indian,Cloudy,Low,Bike,61.0,1,0,4
+1557,user_064,Ice Cream Cone,10.29,18,14,1,946.62,15,0,0,Continental,Rain,Low,Bike,61.6,1,1,1
+1558,user_090,Sushi Roll,5.37,13,23,0,1082.45,73,0,1,Chinese,Rain,Low,Scooter,38.3,3,0,1
+1559,user_047,Ice Cream Cone,11.55,16,17,0,1361.81,63,0,3,Continental,Rain,Medium,Scooter,63.3,4,0,3
+1560,user_096,Sushi Roll,3.73,25,14,0,700.79,70,0,3,Italian,Cloudy,Medium,Scooter,46.9,5,0,3
+1561,user_067,Sushi Roll,11.36,25,15,0,324.03,53,0,1,South Indian,Cloudy,High,Scooter,74.5,4,0,2
+1562,user_085,Ice Cream Cone,0.55,21,16,0,1361.53,37,1,3,Indian,Storm,Medium,Scooter,48.7,5,0,3
+1563,user_069,Sushi Roll,6.66,16,20,1,133.29,39,0,0,Chinese,Storm,High,Bicycle,74.0,1,0,4
+1564,user_076,Sushi Roll,2.48,29,16,1,944.91,25,0,3,Chinese,Sunny,Low,Scooter,44.2,4,0,3
+1565,user_044,Paneer Tikka,1.23,9,13,0,569.12,44,1,0,Continental,Sunny,Low,Bicycle,20.4,1,0,5
+1566,user_093,Ice Cream Cone,1.24,19,11,1,935.28,29,0,3,Indian,Rain,Low,Scooter,41.1,3,0,1
+1567,user_049,Margherita Pizza,3.66,10,19,0,661.55,23,0,2,Chinese,Cloudy,High,Scooter,43.0,4,0,1
+1568,user_056,Paneer Tikka,6.58,22,10,0,1100.88,44,0,2,Continental,Sunny,High,Scooter,59.6,3,0,5
+1569,user_054,Margherita Pizza,10.87,14,23,0,581.63,45,0,1,Chinese,Rain,Low,Bike,54.1,1,0,2
+1570,user_093,Ice Cream Cone,5.59,17,13,1,233.66,17,0,2,South Indian,Sunny,Medium,Scooter,52.9,3,0,4
+1571,user_030,Paneer Tikka,3.46,8,21,1,815.63,56,0,0,Italian,Sunny,Low,Scooter,32.8,1,0,2
+1572,user_070,Margherita Pizza,1.35,28,12,1,791.7,7,0,0,Indian,Cloudy,High,Bicycle,61.2,5,0,4
+1573,user_012,Ice Cream Cone,11.45,11,17,0,492.56,29,0,0,Fast Food,Cloudy,High,Bike,64.2,3,0,2
+1574,user_047,Sushi Roll,5.11,16,22,0,164.68,18,0,1,Indian,Cloudy,Medium,Bicycle,42.6,3,1,4
+1575,user_026,Ice Cream Cone,8.76,14,17,1,926.66,36,0,1,Fast Food,Cloudy,High,Bicycle,71.1,5,0,2
+1576,user_053,Margherita Pizza,8.39,10,11,0,1030.26,74,0,0,Fast Food,Rain,Low,Bike,45.0,1,0,4
+1577,user_007,Ice Cream Cone,10.96,11,23,0,1300.13,65,1,3,South Indian,Cloudy,Medium,Scooter,53.9,5,1,2
+1578,user_004,Sushi Roll,3.33,23,12,0,1359.85,41,0,3,South Indian,Cloudy,Low,Bike,38.0,4,1,5
+1579,user_002,Margherita Pizza,3.86,24,8,0,1136.68,10,0,1,South Indian,Storm,Medium,Bike,54.8,3,0,2
+1580,user_041,Veg Fried Rice,6.19,24,20,1,147.9,27,0,2,Continental,Storm,High,Bicycle,80.1,1,0,4
+1581,user_069,Ice Cream Cone,3.63,24,12,0,1193.22,26,0,3,Fast Food,Sunny,Low,Bicycle,37.0,3,0,2
+1582,user_008,Paneer Tikka,10.05,26,17,0,285.03,22,1,2,Fast Food,Sunny,Low,Bike,50.9,2,0,2
+1583,user_087,Chocolate Donut,6.79,16,11,0,1214.53,22,1,1,Chinese,Sunny,Low,Bike,39.3,1,0,4
+1584,user_076,Ice Cream Cone,8.28,26,17,0,220.34,61,0,3,Chinese,Storm,Low,Bike,63.5,4,0,4
+1585,user_031,Sushi Roll,4.57,7,19,1,459.77,12,0,3,Fast Food,Storm,Low,Bike,50.8,4,1,1
+1586,user_047,Chocolate Donut,0.57,16,23,1,213.3,14,0,0,Continental,Rain,Low,Bike,37.4,3,0,2
+1587,user_087,Veg Fried Rice,1.82,10,21,0,734.93,63,1,3,South Indian,Storm,Medium,Scooter,42.2,1,0,2
+1588,user_064,Margherita Pizza,2.05,17,22,0,1170.88,48,0,3,Fast Food,Cloudy,High,Scooter,46.3,1,0,1
+1589,user_023,Chocolate Donut,1.04,28,21,0,295.71,36,0,0,Chinese,Storm,High,Scooter,60.0,4,0,2
+1590,user_038,Veg Fried Rice,1.77,30,15,0,739.91,12,0,1,Continental,Cloudy,Low,Scooter,40.2,1,0,1
+1591,user_050,Veg Fried Rice,10.7,18,23,0,466.7,3,0,3,South Indian,Storm,High,Bicycle,77.2,5,0,1
+1592,user_011,Sushi Roll,3.16,5,13,0,489.63,28,0,1,Chinese,Storm,High,Bicycle,49.8,2,0,2
+1593,user_088,Margherita Pizza,11.25,17,11,1,561.76,28,0,0,Continental,Sunny,High,Bicycle,75.5,1,0,1
+1594,user_052,Ice Cream Cone,3.73,8,9,0,826.03,2,1,0,South Indian,Storm,Low,Bike,38.6,5,0,4
+1595,user_008,Sushi Roll,10.12,21,13,0,1018.64,73,0,2,Italian,Storm,High,Bicycle,79.5,4,0,2
+1596,user_002,Chocolate Donut,10.32,30,10,1,570.05,53,0,0,Indian,Storm,Low,Bike,79.1,5,0,4
+1597,user_096,Chocolate Donut,5.19,8,11,1,335.43,59,0,2,Chinese,Rain,Medium,Bike,51.6,4,0,4
+1598,user_075,Paneer Tikka,11.01,21,20,1,199.44,73,0,1,South Indian,Rain,High,Scooter,81.4,5,0,5
+1599,user_089,Margherita Pizza,0.65,7,21,0,696.43,63,0,1,Chinese,Sunny,Low,Bike,14.2,2,0,1
+1600,user_096,Sushi Roll,4.29,23,19,0,151.28,5,0,0,Chinese,Sunny,Medium,Bicycle,42.3,2,0,5
+1601,user_028,Veg Fried Rice,11.63,12,12,0,1052.12,75,0,0,Italian,Cloudy,Medium,Bicycle,56.4,3,0,2
+1602,user_054,Margherita Pizza,1.3,24,11,0,1080.79,23,0,0,Italian,Rain,Low,Scooter,36.8,3,0,2
+1603,user_030,Paneer Tikka,6.73,12,18,1,900.03,33,0,0,Continental,Cloudy,Medium,Bike,56.2,5,0,4
+1604,user_076,Chocolate Donut,9.38,20,17,1,936.94,66,0,2,Chinese,Sunny,High,Bike,72.1,5,1,3
+1605,user_098,Paneer Tikka,8.89,22,21,1,1479.38,22,0,3,South Indian,Storm,Low,Bicycle,69.5,2,0,4
+1606,user_002,Ice Cream Cone,7.65,11,13,1,1408.03,57,1,1,South Indian,Sunny,Low,Bike,42.6,2,0,3
+1607,user_032,Margherita Pizza,11.37,8,15,0,1063.68,67,0,1,Chinese,Cloudy,High,Bike,64.9,1,0,4
+1608,user_036,Margherita Pizza,1.65,30,19,0,534.01,34,1,2,Italian,Rain,Low,Bike,39.1,1,1,1
+1609,user_002,Veg Fried Rice,10.79,7,17,0,265.22,65,0,0,Continental,Rain,Medium,Scooter,57.8,4,0,1
+1610,user_042,Paneer Tikka,7.63,7,9,0,1356.16,59,1,2,Italian,Storm,Medium,Bike,57.0,2,0,5
+1611,user_023,Paneer Tikka,9.47,5,13,0,1000.21,40,0,2,Chinese,Storm,Low,Bicycle,49.3,5,0,2
+1612,user_033,Paneer Tikka,8.14,18,10,0,939.93,21,0,1,Fast Food,Storm,High,Scooter,70.3,4,1,5
+1613,user_025,Sushi Roll,4.01,13,21,0,1015.19,19,0,3,Chinese,Sunny,High,Bike,43.7,2,0,2
+1614,user_005,Veg Fried Rice,3.15,12,21,0,460.3,60,0,3,Chinese,Rain,High,Bicycle,46.9,5,0,3
+1615,user_003,Veg Fried Rice,2.53,24,19,0,1422.6,70,0,0,Italian,Cloudy,Medium,Bike,43.8,2,0,2
+1616,user_013,Chocolate Donut,11.09,25,20,0,1311.88,31,0,3,South Indian,Rain,High,Scooter,74.9,2,0,3
+1617,user_059,Margherita Pizza,6.51,5,16,0,152.69,75,0,2,Indian,Rain,Medium,Bike,41.4,5,0,3
+1618,user_083,Paneer Tikka,5.49,19,21,0,924.66,74,0,0,Continental,Storm,High,Scooter,65.5,1,0,5
+1619,user_051,Chocolate Donut,1.44,5,19,0,1448.72,27,0,2,Indian,Sunny,Medium,Bicycle,25.9,4,1,4
+1620,user_093,Ice Cream Cone,6.74,21,13,1,691.33,2,0,3,Fast Food,Rain,Low,Bicycle,55.5,3,0,2
+1621,user_053,Chocolate Donut,11.81,23,15,0,823.97,2,0,2,Italian,Cloudy,Medium,Bicycle,65.6,1,0,4
+1622,user_043,Chocolate Donut,9.12,13,11,0,1361.74,71,0,3,Italian,Rain,Low,Bike,49.9,5,0,3
+1623,user_010,Ice Cream Cone,8.35,12,21,0,854.48,62,0,1,Indian,Cloudy,Medium,Bike,51.8,3,0,2
+1624,user_011,Margherita Pizza,5.18,22,22,0,1315.44,49,1,2,South Indian,Rain,High,Bike,57.7,1,1,5
+1625,user_068,Chocolate Donut,9.77,25,23,1,391.75,37,0,2,South Indian,Storm,High,Scooter,86.8,4,0,1
+1626,user_066,Veg Fried Rice,11.37,28,20,1,691.45,32,0,2,Chinese,Storm,Medium,Scooter,85.3,5,0,2
+1627,user_058,Sushi Roll,2.23,12,16,0,619.1,53,1,0,Chinese,Sunny,High,Bike,38.7,2,0,3
+1628,user_071,Veg Fried Rice,10.74,17,23,0,443.0,50,0,2,Fast Food,Storm,Medium,Bike,70.9,5,0,4
+1629,user_059,Sushi Roll,3.8,12,8,1,1417.33,64,0,1,Italian,Storm,Medium,Bicycle,57.4,2,0,2
+1630,user_077,Chocolate Donut,3.74,13,19,0,1320.97,2,0,3,Fast Food,Storm,Medium,Scooter,49.0,3,1,2
+1631,user_036,Ice Cream Cone,9.32,25,9,0,1187.74,7,0,0,Italian,Sunny,Low,Scooter,52.5,1,0,4
+1632,user_044,Margherita Pizza,3.28,14,14,0,1111.29,43,1,2,Italian,Storm,Medium,Bicycle,49.9,4,0,2
+1633,user_009,Paneer Tikka,11.03,29,15,0,118.87,4,0,0,Fast Food,Storm,Low,Bicycle,74.0,5,0,3
+1634,user_088,Sushi Roll,8.43,24,14,1,802.61,75,0,2,South Indian,Rain,Medium,Bike,71.8,1,0,4
+1635,user_060,Ice Cream Cone,4.02,19,21,1,695.07,11,0,3,Italian,Storm,Medium,Bike,62.4,1,0,4
+1636,user_092,Margherita Pizza,0.68,16,15,0,1096.82,47,0,2,Continental,Storm,High,Bike,49.0,5,1,2
+1637,user_023,Margherita Pizza,5.36,14,10,1,1297.51,40,0,3,Indian,Cloudy,High,Bicycle,61.3,5,0,3
+1638,user_033,Chocolate Donut,6.62,17,18,0,145.12,62,0,1,Indian,Rain,Low,Bike,42.7,5,0,2
+1639,user_062,Ice Cream Cone,0.53,15,15,0,947.99,36,1,1,Italian,Storm,Medium,Scooter,45.3,2,0,3
+1640,user_025,Paneer Tikka,10.44,20,12,0,523.42,26,1,1,Indian,Storm,Medium,Scooter,73.6,1,0,3
+1641,user_078,Sushi Roll,11.66,29,18,0,545.59,10,0,2,South Indian,Rain,Low,Scooter,66.3,1,0,5
+1642,user_015,Chocolate Donut,10.69,30,22,1,1462.85,21,0,3,South Indian,Sunny,High,Bicycle,79.7,5,0,3
+1643,user_026,Veg Fried Rice,10.32,23,10,1,408.47,68,0,0,South Indian,Cloudy,Low,Bicycle,64.2,1,0,3
+1644,user_007,Veg Fried Rice,11.79,10,11,0,536.46,20,1,2,Fast Food,Cloudy,Medium,Bike,57.9,2,0,2
+1645,user_007,Paneer Tikka,3.89,7,18,0,514.01,51,1,1,Indian,Rain,Low,Scooter,28.1,3,0,2
+1646,user_099,Sushi Roll,5.67,22,18,1,223.13,12,0,3,Indian,Cloudy,Low,Scooter,50.7,5,0,4
+1647,user_079,Veg Fried Rice,4.24,14,16,0,267.55,71,0,1,Fast Food,Storm,Low,Bicycle,45.0,1,1,3
+1648,user_049,Ice Cream Cone,11.25,28,10,0,1225.17,2,0,0,Chinese,Sunny,Medium,Scooter,67.2,4,0,1
+1649,user_064,Sushi Roll,9.7,8,20,1,666.3,18,0,1,Indian,Cloudy,Low,Bicycle,49.8,1,0,2
+1650,user_030,Margherita Pizza,11.48,5,19,0,840.71,34,0,0,Continental,Storm,High,Bicycle,72.7,1,0,4
+1651,user_079,Chocolate Donut,8.59,10,12,0,304.07,5,0,3,Chinese,Cloudy,High,Bicycle,60.0,3,0,3
+1652,user_067,Chocolate Donut,1.52,15,8,0,360.77,5,0,0,Chinese,Storm,Low,Bike,39.5,2,0,4
+1653,user_052,Ice Cream Cone,11.26,10,18,1,467.01,53,0,2,Indian,Rain,High,Bike,76.5,3,0,1
+1654,user_043,Ice Cream Cone,11.68,23,19,0,807.08,55,0,2,Continental,Sunny,Medium,Bike,60.5,1,0,4
+1655,user_007,Chocolate Donut,6.35,21,12,0,719.92,48,0,1,Chinese,Cloudy,High,Bicycle,57.0,4,0,2
+1656,user_011,Veg Fried Rice,10.48,22,8,0,635.07,35,0,2,South Indian,Sunny,Low,Bike,52.6,4,0,2
+1657,user_092,Veg Fried Rice,8.79,13,17,1,1299.57,66,0,2,South Indian,Sunny,Low,Scooter,50.5,5,1,3
+1658,user_053,Chocolate Donut,8.91,16,14,0,426.7,56,1,1,Indian,Sunny,Medium,Scooter,51.0,1,0,1
+1659,user_053,Sushi Roll,8.9,20,20,1,110.96,71,0,3,South Indian,Rain,High,Bike,77.1,5,0,2
+1660,user_015,Veg Fried Rice,6.65,10,14,0,1321.69,20,0,1,South Indian,Cloudy,Medium,Bicycle,45.9,1,0,2
+1661,user_065,Paneer Tikka,6.36,15,20,0,697.93,38,0,3,Chinese,Rain,Low,Bike,42.3,4,0,3
+1662,user_042,Sushi Roll,7.11,23,18,0,764.92,18,1,2,Italian,Cloudy,Medium,Scooter,55.7,1,0,5
+1663,user_050,Ice Cream Cone,3.66,27,13,0,740.3,35,1,0,Continental,Cloudy,High,Bicycle,58.3,3,0,4
+1664,user_010,Sushi Roll,9.58,24,21,0,790.23,32,0,2,Fast Food,Rain,Low,Bicycle,57.4,3,0,3
+1665,user_008,Paneer Tikka,3.23,28,20,0,111.11,6,0,1,Indian,Storm,Medium,Bicycle,57.8,5,0,2
+1666,user_085,Veg Fried Rice,8.0,9,13,0,341.57,35,1,2,Indian,Sunny,High,Scooter,52.9,2,0,4
+1667,user_039,Veg Fried Rice,6.48,13,8,0,710.25,6,0,0,Fast Food,Storm,High,Bike,62.9,2,0,1
+1668,user_003,Sushi Roll,9.64,21,15,1,658.78,62,1,2,Italian,Cloudy,Medium,Bicycle,66.8,3,0,5
+1669,user_096,Margherita Pizza,6.07,13,20,0,1403.95,51,0,1,Chinese,Storm,Low,Bicycle,48.2,1,0,3
+1670,user_046,Sushi Roll,8.67,16,14,0,672.28,19,0,2,South Indian,Sunny,Low,Bicycle,44.3,2,0,5
+1671,user_062,Ice Cream Cone,10.56,22,16,0,294.26,20,0,3,Chinese,Sunny,High,Scooter,65.4,5,0,3
+1672,user_048,Sushi Roll,9.43,5,10,0,1263.67,43,1,0,Continental,Storm,Low,Scooter,51.7,1,0,2
+1673,user_087,Margherita Pizza,7.45,10,18,0,574.67,12,0,2,South Indian,Rain,Medium,Bike,49.3,2,0,5
+1674,user_091,Margherita Pizza,4.86,15,17,0,915.29,4,0,2,Fast Food,Rain,Medium,Scooter,44.6,5,0,2
+1675,user_089,Margherita Pizza,10.39,30,17,1,889.15,18,0,2,Fast Food,Storm,High,Scooter,95.6,1,0,1
+1676,user_030,Sushi Roll,1.94,6,16,0,1029.59,14,1,2,Italian,Cloudy,Medium,Bicycle,30.9,4,0,2
+1677,user_035,Ice Cream Cone,6.06,10,23,0,593.36,46,0,2,Continental,Sunny,High,Scooter,46.6,1,0,3
+1678,user_003,Ice Cream Cone,4.8,11,19,0,967.4,40,1,1,Indian,Storm,High,Scooter,58.9,3,0,4
+1679,user_053,Margherita Pizza,1.62,18,15,0,663.43,19,0,2,Continental,Rain,Medium,Scooter,40.4,1,0,2
+1680,user_064,Ice Cream Cone,5.85,13,23,1,660.63,75,0,3,Continental,Rain,Medium,Bike,55.5,1,0,2
+1681,user_060,Paneer Tikka,7.08,6,14,0,825.48,27,0,2,Italian,Sunny,High,Scooter,46.1,4,1,5
+1682,user_083,Sushi Roll,7.58,5,9,0,1022.67,5,0,3,Fast Food,Sunny,Low,Bike,33.9,4,0,4
+1683,user_100,Margherita Pizza,6.58,15,21,1,1051.87,50,0,1,South Indian,Storm,High,Bicycle,71.6,3,0,4
+1684,user_018,Veg Fried Rice,6.1,12,14,0,615.22,45,0,3,Fast Food,Cloudy,Medium,Bike,41.9,1,0,3
+1685,user_082,Sushi Roll,9.16,24,15,0,110.22,34,1,3,Indian,Cloudy,Low,Scooter,56.2,3,1,4
+1686,user_099,Ice Cream Cone,8.86,18,8,0,718.28,8,0,2,Fast Food,Cloudy,Medium,Scooter,55.9,1,0,1
+1687,user_094,Chocolate Donut,4.69,9,16,0,645.76,3,0,2,Fast Food,Cloudy,Medium,Bicycle,37.1,4,0,1
+1688,user_021,Chocolate Donut,9.82,26,10,1,279.79,25,0,1,Chinese,Storm,Medium,Bicycle,79.2,2,0,1
+1689,user_035,Chocolate Donut,11.75,15,19,0,1234.02,39,0,2,South Indian,Storm,High,Bicycle,78.6,3,0,2
+1690,user_025,Veg Fried Rice,11.13,8,8,1,829.08,68,0,2,Chinese,Rain,High,Scooter,69.9,4,0,3
+1691,user_036,Chocolate Donut,7.9,8,10,0,1066.02,27,0,3,Chinese,Sunny,Low,Bicycle,35.4,1,0,3
+1692,user_022,Veg Fried Rice,3.5,21,14,0,441.36,31,0,0,Fast Food,Cloudy,Low,Bike,39.8,1,0,4
+1693,user_070,Margherita Pizza,9.44,14,22,0,756.2,61,1,0,Indian,Cloudy,Low,Bicycle,50.3,4,0,4
+1694,user_067,Chocolate Donut,6.05,7,9,0,991.11,23,0,3,Chinese,Rain,Low,Scooter,33.9,3,0,3
+1695,user_014,Veg Fried Rice,10.69,26,10,1,326.57,38,0,3,Indian,Storm,High,Bike,90.5,4,0,4
+1696,user_030,Sushi Roll,7.51,5,12,0,641.67,32,0,0,Indian,Rain,High,Bicycle,56.1,4,0,3
+1697,user_051,Chocolate Donut,1.11,22,8,0,196.81,47,0,0,Continental,Sunny,High,Bicycle,41.3,5,0,4
+1698,user_018,Margherita Pizza,1.27,12,11,0,992.66,50,0,2,Italian,Cloudy,Low,Scooter,28.3,4,0,4
+1699,user_097,Veg Fried Rice,4.72,13,17,0,820.16,18,0,1,South Indian,Sunny,High,Bicycle,44.1,3,0,2
+1700,user_099,Ice Cream Cone,3.25,30,19,0,556.78,10,0,2,Continental,Sunny,Low,Scooter,41.6,4,0,1
+1701,user_082,Veg Fried Rice,10.93,29,23,1,223.8,69,1,0,Indian,Cloudy,High,Bike,85.1,3,0,5
+1702,user_053,Veg Fried Rice,10.42,19,22,0,239.95,63,1,3,South Indian,Sunny,Low,Scooter,50.5,2,1,1
+1703,user_081,Veg Fried Rice,11.23,17,18,1,106.74,11,0,2,South Indian,Rain,Low,Bike,64.2,2,0,2
+1704,user_029,Sushi Roll,9.19,19,18,1,1169.55,51,0,3,Chinese,Storm,Medium,Bicycle,77.4,1,0,5
+1705,user_054,Ice Cream Cone,3.18,7,22,0,994.67,60,0,0,Continental,Storm,High,Bicycle,50.2,2,0,3
+1706,user_070,Paneer Tikka,3.98,13,19,0,1355.67,5,0,3,Fast Food,Rain,Medium,Bike,43.4,2,0,4
+1707,user_014,Paneer Tikka,5.73,29,9,0,1288.19,46,0,2,Indian,Rain,Medium,Bike,59.4,4,0,4
+1708,user_050,Ice Cream Cone,4.66,26,14,0,1140.45,53,0,1,South Indian,Storm,Medium,Scooter,60.9,4,1,3
+1709,user_002,Chocolate Donut,2.84,5,20,1,952.4,33,0,3,South Indian,Rain,Medium,Bicycle,41.8,3,0,5
+1710,user_059,Chocolate Donut,1.28,21,19,0,285.1,52,0,3,Continental,Cloudy,High,Bicycle,44.1,4,0,4
+1711,user_057,Margherita Pizza,5.17,17,19,0,411.95,59,0,3,Indian,Cloudy,High,Bicycle,51.2,1,1,1
+1712,user_019,Margherita Pizza,0.87,22,15,0,1453.57,21,0,1,Chinese,Storm,Low,Bike,40.0,2,1,3
+1713,user_025,Sushi Roll,10.73,17,22,0,892.4,33,0,0,Italian,Storm,Low,Scooter,62.1,3,0,5
+1714,user_072,Sushi Roll,2.07,15,17,1,439.42,6,1,3,Fast Food,Rain,Low,Bicycle,41.8,3,0,5
+1715,user_019,Veg Fried Rice,7.15,29,8,1,1170.54,66,0,2,Fast Food,Rain,Low,Bike,60.2,3,0,3
+1716,user_004,Ice Cream Cone,4.7,30,13,0,141.81,71,0,3,Chinese,Storm,Medium,Scooter,64.1,4,0,1
+1717,user_076,Veg Fried Rice,1.36,20,12,1,147.86,11,0,2,Chinese,Cloudy,Low,Bike,39.8,4,0,5
+1718,user_015,Chocolate Donut,10.0,27,20,0,206.8,20,0,2,Fast Food,Storm,Low,Bicycle,69.7,2,0,3
+1719,user_063,Sushi Roll,9.24,22,18,1,879.39,0,0,0,Italian,Sunny,Medium,Bike,62.4,1,0,1
+1720,user_068,Chocolate Donut,8.59,29,12,1,105.08,62,0,2,Chinese,Sunny,Low,Bicycle,62.5,1,0,1
+1721,user_036,Margherita Pizza,5.86,25,9,1,1135.61,12,0,3,Indian,Rain,Medium,Scooter,64.2,5,0,2
+1722,user_031,Ice Cream Cone,9.32,14,14,0,1128.92,24,1,2,Continental,Storm,Low,Scooter,57.1,4,1,4
+1723,user_069,Sushi Roll,10.44,15,11,0,723.61,19,1,3,South Indian,Sunny,Medium,Bike,53.5,3,0,5
+1724,user_017,Paneer Tikka,8.81,23,11,0,705.2,61,0,0,Continental,Storm,Low,Bike,62.8,3,1,5
+1725,user_021,Veg Fried Rice,2.22,23,11,1,729.95,0,0,1,Chinese,Rain,Low,Bike,47.2,5,0,3
+1726,user_059,Sushi Roll,10.19,30,11,1,946.1,56,1,1,South Indian,Rain,Medium,Bike,80.3,4,0,3
+1727,user_074,Chocolate Donut,7.2,10,22,0,639.67,44,0,1,Chinese,Rain,High,Scooter,57.2,2,0,2
+1728,user_067,Chocolate Donut,10.64,13,13,0,515.89,39,1,2,Continental,Storm,High,Scooter,76.9,5,0,5
+1729,user_007,Margherita Pizza,5.17,27,16,1,1291.97,28,0,0,Fast Food,Rain,Medium,Bike,64.8,5,0,5
+1730,user_046,Chocolate Donut,5.92,18,15,1,1445.41,3,0,2,Continental,Sunny,High,Scooter,57.5,1,0,4
+1731,user_077,Margherita Pizza,8.49,27,9,0,1266.61,16,0,1,Fast Food,Cloudy,Medium,Bike,63.7,2,0,5
+1732,user_051,Sushi Roll,8.31,9,10,0,753.47,13,0,0,Indian,Rain,High,Bike,59.6,2,0,3
+1733,user_095,Sushi Roll,0.65,5,22,0,987.79,66,0,1,Fast Food,Rain,Medium,Bicycle,26.4,3,0,3
+1734,user_011,Sushi Roll,10.09,29,15,0,1006.33,41,0,3,Chinese,Cloudy,High,Bicycle,77.0,4,0,5
+1735,user_073,Paneer Tikka,2.38,14,9,0,750.96,30,0,0,Indian,Cloudy,Low,Scooter,27.0,2,0,1
+1736,user_085,Paneer Tikka,10.17,14,17,1,521.55,57,0,1,Fast Food,Rain,Medium,Scooter,68.3,3,0,2
+1737,user_029,Veg Fried Rice,7.38,28,14,0,1087.46,7,0,3,Continental,Cloudy,Low,Scooter,54.8,3,0,3
+1738,user_029,Sushi Roll,10.32,28,22,1,1189.02,75,0,2,Chinese,Storm,High,Bike,90.4,4,0,2
+1739,user_020,Sushi Roll,6.04,13,23,1,576.54,26,1,1,Chinese,Sunny,Low,Bike,41.7,1,0,3
+1740,user_017,Sushi Roll,2.31,12,11,0,422.21,5,0,0,Indian,Rain,Low,Bicycle,29.6,2,0,1
+1741,user_088,Ice Cream Cone,10.38,6,17,1,1225.56,34,0,0,Fast Food,Sunny,Medium,Scooter,53.8,2,0,3
+1742,user_012,Margherita Pizza,2.3,16,19,0,1298.19,16,0,0,Fast Food,Rain,Low,Bike,35.6,5,1,1
+1743,user_016,Chocolate Donut,11.55,29,21,1,1463.75,60,1,3,Italian,Cloudy,High,Bicycle,88.3,3,0,2
+1744,user_092,Chocolate Donut,10.16,18,15,1,268.45,52,1,0,Chinese,Cloudy,Medium,Scooter,68.0,5,0,3
+1745,user_054,Veg Fried Rice,1.34,6,22,0,504.83,7,0,3,Chinese,Sunny,Low,Scooter,17.6,3,0,4
+1746,user_098,Chocolate Donut,11.59,5,11,1,1378.07,64,1,0,Indian,Rain,Low,Bicycle,54.1,1,0,1
+1747,user_050,Margherita Pizza,6.4,21,11,0,880.18,68,0,0,Continental,Cloudy,High,Bike,58.4,4,0,4
+1748,user_049,Sushi Roll,1.52,26,20,0,594.51,53,0,0,South Indian,Storm,High,Bicycle,64.0,1,0,5
+1749,user_086,Sushi Roll,0.89,20,22,1,1428.94,62,1,0,South Indian,Cloudy,Medium,Scooter,46.6,5,1,2
+1750,user_067,Veg Fried Rice,3.75,19,19,0,822.07,3,0,1,Continental,Cloudy,Medium,Bike,41.0,4,0,1
+1751,user_066,Ice Cream Cone,2.85,19,21,0,1348.38,33,0,2,Continental,Rain,Medium,Scooter,43.8,4,0,4
+1752,user_027,Sushi Roll,10.77,7,15,0,694.98,45,0,2,Italian,Sunny,High,Scooter,57.8,3,0,1
+1753,user_061,Ice Cream Cone,7.27,9,23,0,122.76,4,1,2,South Indian,Sunny,High,Bicycle,49.0,2,0,4
+1754,user_087,Margherita Pizza,6.19,22,8,1,773.44,75,0,3,Chinese,Sunny,High,Bike,61.5,3,0,1
+1755,user_096,Ice Cream Cone,4.81,14,9,1,571.82,3,0,2,Chinese,Rain,High,Bike,59.6,1,0,5
+1756,user_099,Sushi Roll,5.77,21,15,0,814.0,17,0,0,South Indian,Cloudy,High,Scooter,57.5,1,0,5
+1757,user_092,Sushi Roll,3.85,15,11,0,320.34,39,0,1,Chinese,Sunny,Low,Bike,33.0,4,0,4
+1758,user_100,Sushi Roll,4.96,21,20,0,966.88,24,0,3,South Indian,Storm,Medium,Scooter,56.0,3,1,1
+1759,user_011,Ice Cream Cone,3.08,14,19,1,154.53,48,0,3,Indian,Cloudy,Low,Bike,41.6,1,0,5
+1760,user_006,Ice Cream Cone,10.28,10,11,0,1181.08,64,0,0,South Indian,Sunny,Medium,Bike,48.7,4,0,2
+1761,user_018,Chocolate Donut,9.37,20,20,0,988.84,4,0,3,Chinese,Cloudy,Medium,Bicycle,60.2,4,1,5
+1762,user_060,Margherita Pizza,2.16,30,22,1,1467.91,71,1,3,Italian,Rain,Medium,Scooter,55.5,1,0,1
+1763,user_034,Paneer Tikka,10.13,8,15,0,1378.76,4,0,3,Italian,Rain,Low,Bike,48.0,5,0,5
+1764,user_079,Margherita Pizza,5.72,30,18,1,1203.14,64,0,0,Fast Food,Sunny,Medium,Bike,62.3,5,0,4
+1765,user_026,Paneer Tikka,6.94,26,11,0,1187.89,37,1,0,Continental,Cloudy,Medium,Bicycle,54.9,1,0,1
+1766,user_040,Sushi Roll,4.43,7,22,0,1076.37,29,1,0,South Indian,Sunny,Medium,Bike,32.6,5,0,1
+1767,user_028,Paneer Tikka,3.66,6,8,0,1229.34,49,0,2,South Indian,Rain,Medium,Bike,37.3,5,0,2
+1768,user_035,Paneer Tikka,5.95,29,15,1,313.45,41,0,3,Indian,Rain,Medium,Scooter,66.8,1,0,2
+1769,user_079,Sushi Roll,7.55,21,10,0,729.69,29,1,0,Fast Food,Rain,Medium,Bicycle,57.8,4,0,2
+1770,user_063,Chocolate Donut,4.93,12,15,1,334.96,57,0,0,Continental,Storm,Medium,Bike,60.9,5,1,1
+1771,user_037,Paneer Tikka,7.43,25,9,0,565.2,52,0,1,Continental,Sunny,Low,Bike,45.0,4,1,3
+1772,user_002,Ice Cream Cone,3.95,22,15,0,630.0,74,0,2,Fast Food,Rain,High,Scooter,56.3,5,1,4
+1773,user_026,Paneer Tikka,0.55,7,22,0,722.32,28,0,2,Indian,Sunny,Low,Scooter,16.7,3,0,5
+1774,user_038,Paneer Tikka,8.59,18,19,1,1265.01,4,0,0,Indian,Sunny,Low,Scooter,50.1,1,0,3
+1775,user_014,Chocolate Donut,3.18,26,8,1,826.58,72,0,2,South Indian,Storm,Medium,Scooter,64.4,2,0,2
+1776,user_050,Ice Cream Cone,10.58,29,11,0,177.56,74,0,3,Continental,Cloudy,Medium,Bike,68.5,3,0,5
+1777,user_020,Margherita Pizza,2.99,23,19,0,1316.67,54,0,1,Fast Food,Storm,Low,Bike,46.2,4,0,5
+1778,user_031,Sushi Roll,2.26,20,14,0,1022.39,49,0,0,Fast Food,Rain,High,Bike,49.2,1,0,1
+1779,user_092,Paneer Tikka,4.7,22,20,0,997.52,61,0,2,Fast Food,Storm,Medium,Bike,57.9,2,1,2
+1780,user_069,Ice Cream Cone,6.91,11,22,0,1408.25,47,0,3,Italian,Sunny,Medium,Bicycle,40.8,2,0,1
+1781,user_013,Ice Cream Cone,4.65,5,20,0,1285.74,29,0,1,Indian,Rain,High,Bicycle,44.6,2,0,4
+1782,user_086,Paneer Tikka,10.09,25,11,1,176.66,3,0,1,Continental,Cloudy,Medium,Scooter,71.1,1,1,1
+1783,user_001,Paneer Tikka,10.23,19,12,0,369.54,33,0,0,Indian,Rain,Medium,Bike,59.7,1,0,2
+1784,user_034,Ice Cream Cone,7.68,29,16,0,1052.56,71,0,3,South Indian,Rain,High,Scooter,68.3,2,1,5
+1785,user_010,Veg Fried Rice,3.32,18,12,0,1298.51,46,0,3,Indian,Storm,High,Scooter,57.3,2,1,2
+1786,user_034,Paneer Tikka,11.82,14,21,0,270.19,49,1,1,Indian,Storm,Low,Bike,65.3,2,0,5
+1787,user_074,Ice Cream Cone,7.7,23,10,1,192.56,59,0,0,Chinese,Storm,High,Bike,84.4,2,0,5
+1788,user_075,Sushi Roll,2.11,22,18,0,308.86,51,0,0,Continental,Cloudy,High,Bike,47.7,5,0,2
+1789,user_094,Veg Fried Rice,3.46,14,21,0,1057.31,35,0,1,Chinese,Rain,Low,Bicycle,36.3,4,0,5
+1790,user_043,Sushi Roll,3.06,6,19,0,696.52,3,0,0,Indian,Sunny,Low,Scooter,20.8,4,0,5
+1791,user_094,Sushi Roll,2.42,20,20,0,842.91,6,1,2,Continental,Sunny,High,Scooter,45.5,2,1,2
+1792,user_001,Margherita Pizza,8.83,17,18,1,653.38,2,1,1,Fast Food,Cloudy,Low,Scooter,54.9,3,1,3
+1793,user_083,Margherita Pizza,11.66,30,16,0,899.75,45,0,2,Continental,Storm,Medium,Bike,82.7,1,0,4
+1794,user_084,Chocolate Donut,2.99,17,21,0,1448.45,58,1,3,Italian,Sunny,Low,Bike,27.3,3,0,1
+1795,user_066,Ice Cream Cone,10.28,11,12,1,391.19,1,0,2,Indian,Cloudy,Medium,Bicycle,61.8,2,1,5
+1796,user_055,Sushi Roll,5.86,10,17,1,1219.12,5,0,1,Chinese,Rain,High,Bicycle,58.1,4,0,5
+1797,user_009,Chocolate Donut,0.58,24,13,0,728.86,2,0,1,Italian,Cloudy,Low,Bike,32.5,3,0,4
+1798,user_047,Paneer Tikka,1.26,24,9,0,1123.92,41,0,0,South Indian,Storm,Low,Bicycle,45.1,1,1,5
+1799,user_058,Margherita Pizza,8.67,9,12,0,700.98,22,1,0,Indian,Rain,High,Bicycle,56.1,4,1,2
+1800,user_027,Veg Fried Rice,3.16,27,11,0,1366.18,34,0,2,Italian,Sunny,Low,Bicycle,35.0,4,0,4
+1801,user_087,Sushi Roll,1.79,18,8,0,1093.25,28,1,3,South Indian,Cloudy,High,Bike,46.7,5,0,2
+1802,user_095,Sushi Roll,3.41,5,8,1,645.35,55,0,3,Chinese,Sunny,Medium,Scooter,34.1,5,0,1
+1803,user_041,Paneer Tikka,7.17,18,21,1,1262.19,21,0,1,Italian,Sunny,Medium,Scooter,54.3,1,0,5
+1804,user_071,Paneer Tikka,2.74,15,18,0,1271.04,42,0,1,South Indian,Storm,Low,Bicycle,42.5,2,0,5
+1805,user_044,Ice Cream Cone,4.0,16,14,0,1389.73,7,0,2,South Indian,Cloudy,Medium,Bicycle,42.2,4,0,5
+1806,user_070,Veg Fried Rice,4.29,10,13,1,1243.9,40,0,3,Italian,Sunny,Low,Bike,37.7,4,0,4
+1807,user_070,Chocolate Donut,7.26,12,10,1,127.82,45,0,0,Indian,Cloudy,Low,Scooter,49.8,5,0,3
+1808,user_057,Sushi Roll,8.58,27,22,0,1175.43,46,0,1,Chinese,Cloudy,High,Bike,66.6,3,0,4
+1809,user_019,Chocolate Donut,5.67,23,16,1,1216.47,28,1,2,South Indian,Sunny,Low,Bicycle,49.8,4,0,3
+1810,user_085,Margherita Pizza,7.05,16,13,1,1455.17,73,0,0,Continental,Sunny,Low,Scooter,48.6,1,0,1
+1811,user_065,Ice Cream Cone,9.43,6,15,0,110.87,65,1,3,Chinese,Cloudy,Medium,Bicycle,48.4,1,1,1
+1812,user_014,Ice Cream Cone,9.02,28,18,0,444.98,73,0,3,Continental,Storm,Medium,Scooter,73.6,5,1,4
+1813,user_099,Sushi Roll,9.1,21,15,0,1047.28,18,0,3,Indian,Cloudy,Low,Bicycle,51.5,1,0,5
+1814,user_079,Ice Cream Cone,10.96,23,17,1,111.97,0,0,3,Fast Food,Storm,High,Bike,91.0,5,0,3
+1815,user_099,Sushi Roll,10.5,14,17,0,487.95,5,0,1,Italian,Storm,High,Bicycle,76.5,2,0,2
+1816,user_081,Ice Cream Cone,5.0,30,9,1,1127.08,31,0,1,Italian,Storm,Medium,Bicycle,75.0,5,0,4
+1817,user_028,Sushi Roll,5.68,29,9,0,412.16,63,0,0,South Indian,Storm,Medium,Bicycle,64.8,5,0,4
+1818,user_004,Ice Cream Cone,1.63,26,8,0,1276.28,59,0,0,Continental,Cloudy,Low,Scooter,38.6,2,0,4
+1819,user_078,Sushi Roll,2.69,27,12,1,1096.24,41,0,1,South Indian,Cloudy,Medium,Bicycle,57.1,4,0,5
+1820,user_091,Sushi Roll,9.3,9,11,1,1401.58,50,0,1,Italian,Sunny,High,Bike,62.3,3,0,3
+1821,user_043,Paneer Tikka,1.12,9,15,0,1456.01,31,0,3,South Indian,Storm,Low,Scooter,30.5,4,0,3
+1822,user_034,Sushi Roll,11.87,9,16,0,151.45,52,1,2,Italian,Rain,Medium,Bicycle,56.4,4,0,4
+1823,user_095,Chocolate Donut,3.37,26,11,0,935.89,18,0,0,Fast Food,Sunny,Low,Bike,38.7,3,1,2
+1824,user_048,Sushi Roll,8.67,5,18,1,610.55,37,0,2,Chinese,Cloudy,High,Bicycle,60.7,1,0,3
+1825,user_018,Chocolate Donut,2.94,15,21,0,700.19,63,0,2,South Indian,Rain,Low,Bike,36.4,2,0,2
+1826,user_055,Veg Fried Rice,0.91,21,8,0,349.12,31,0,3,South Indian,Sunny,Medium,Bicycle,35.3,2,0,2
+1827,user_093,Paneer Tikka,4.81,15,18,0,1047.15,51,1,0,Continental,Cloudy,Low,Bike,36.1,4,1,1
+1828,user_094,Paneer Tikka,2.9,14,14,0,956.24,58,0,3,Chinese,Sunny,Low,Bike,29.4,1,0,2
+1829,user_062,Paneer Tikka,10.15,28,13,0,934.78,73,0,1,Continental,Cloudy,High,Bicycle,71.6,3,0,2
+1830,user_080,Veg Fried Rice,2.17,12,18,1,1013.31,56,0,1,Fast Food,Sunny,Low,Bicycle,31.5,1,0,4
+1831,user_074,Veg Fried Rice,1.21,11,9,0,311.02,66,0,0,Continental,Storm,Low,Bicycle,37.5,2,0,3
+1832,user_003,Ice Cream Cone,7.17,9,21,0,1136.91,34,0,0,Italian,Storm,High,Scooter,65.3,4,0,3
+1833,user_069,Sushi Roll,9.89,15,8,1,347.64,59,1,3,Fast Food,Cloudy,High,Bicycle,73.4,4,0,4
+1834,user_020,Chocolate Donut,5.77,6,9,0,1491.61,11,1,3,Indian,Rain,Medium,Scooter,44.3,2,0,5
+1835,user_067,Chocolate Donut,8.64,29,9,0,628.72,15,0,0,Chinese,Cloudy,Medium,Bicycle,61.9,4,1,3
+1836,user_082,Paneer Tikka,2.81,27,12,1,1275.06,51,0,3,Fast Food,Storm,High,Bicycle,75.7,5,0,4
+1837,user_052,Paneer Tikka,11.96,9,10,0,879.3,46,1,2,South Indian,Cloudy,Low,Bike,51.2,3,1,5
+1838,user_006,Chocolate Donut,6.9,21,22,0,715.99,15,0,3,South Indian,Sunny,High,Bicycle,56.9,1,0,1
+1839,user_083,Sushi Roll,3.1,18,21,1,1465.06,74,0,3,Continental,Sunny,Medium,Scooter,45.9,4,0,1
+1840,user_047,Paneer Tikka,11.15,23,13,1,1395.22,6,0,0,Continental,Sunny,Medium,Bike,70.9,4,0,1
+1841,user_023,Veg Fried Rice,7.0,10,23,0,1060.51,29,0,1,Italian,Sunny,Low,Scooter,31.7,1,0,3
+1842,user_033,Margherita Pizza,8.47,26,19,0,1304.13,42,0,3,South Indian,Storm,Medium,Bicycle,69.3,4,0,2
+1843,user_088,Sushi Roll,3.73,17,10,1,497.9,44,0,1,Fast Food,Rain,High,Bicycle,59.9,1,0,2
+1844,user_049,Paneer Tikka,9.58,30,18,0,1152.23,73,0,3,Chinese,Storm,High,Bike,83.2,1,0,3
+1845,user_066,Paneer Tikka,1.03,16,14,0,829.35,50,0,0,Fast Food,Sunny,Medium,Scooter,29.4,5,0,3
+1846,user_032,Sushi Roll,8.25,19,12,0,457.69,42,1,3,South Indian,Storm,Low,Scooter,56.2,3,0,4
+1847,user_079,Veg Fried Rice,11.57,27,18,1,825.31,9,0,2,Continental,Sunny,Low,Bike,65.3,4,0,5
+1848,user_089,Veg Fried Rice,7.13,8,8,0,800.11,26,1,3,Chinese,Cloudy,Low,Bike,38.8,2,0,1
+1849,user_067,Chocolate Donut,4.48,20,11,1,1027.78,17,1,2,Chinese,Cloudy,High,Scooter,61.0,2,0,5
+1850,user_059,Paneer Tikka,3.44,28,23,0,855.77,57,0,0,Chinese,Sunny,Medium,Scooter,44.0,5,0,5
+1851,user_024,Chocolate Donut,1.4,10,22,1,798.65,68,1,2,Italian,Storm,Low,Bike,41.6,2,0,4
+1852,user_001,Paneer Tikka,11.32,15,12,0,510.47,42,0,3,South Indian,Storm,High,Bicycle,79.4,1,0,5
+1853,user_049,Margherita Pizza,11.57,18,8,0,354.79,58,0,0,Continental,Cloudy,Medium,Bike,65.5,5,0,1
+1854,user_052,Margherita Pizza,6.0,12,12,0,690.71,44,0,0,Chinese,Rain,High,Scooter,57.3,4,0,2
+1855,user_058,Ice Cream Cone,7.55,21,17,0,142.36,40,0,0,Indian,Storm,Low,Bicycle,56.8,2,0,2
+1856,user_059,Sushi Roll,2.53,25,21,0,1101.66,62,1,3,Chinese,Sunny,Low,Scooter,34.6,2,0,2
+1857,user_054,Paneer Tikka,6.75,5,18,1,788.16,23,0,3,Indian,Sunny,Low,Bicycle,38.6,1,0,3
+1858,user_023,Sushi Roll,4.57,15,12,0,1092.11,37,1,0,Italian,Rain,High,Scooter,50.9,5,0,1
+1859,user_089,Veg Fried Rice,11.14,24,17,1,481.51,75,0,2,Chinese,Storm,Medium,Bicycle,81.7,5,0,4
+1860,user_021,Paneer Tikka,8.2,26,14,1,334.59,69,0,3,Indian,Rain,Low,Bike,60.2,2,0,4
+1861,user_095,Chocolate Donut,11.19,28,8,0,772.74,49,1,2,Fast Food,Storm,Medium,Bike,76.7,2,0,2
+1862,user_029,Sushi Roll,3.1,13,19,0,712.68,10,0,0,Chinese,Sunny,High,Scooter,41.3,5,0,3
+1863,user_068,Sushi Roll,11.47,9,23,1,1302.29,57,0,0,Fast Food,Cloudy,Medium,Scooter,61.3,3,0,2
+1864,user_021,Sushi Roll,8.2,9,9,0,338.3,44,0,3,Indian,Cloudy,Medium,Bike,50.3,1,0,2
+1865,user_038,Paneer Tikka,6.49,28,11,0,1205.65,28,0,3,Italian,Rain,Medium,Scooter,61.2,4,0,4
+1866,user_002,Sushi Roll,9.52,14,16,0,659.62,58,1,3,Fast Food,Sunny,Medium,Bicycle,52.6,3,0,5
+1867,user_078,Sushi Roll,9.08,11,19,0,362.38,22,0,0,Continental,Rain,High,Bicycle,64.2,2,0,5
+1868,user_063,Chocolate Donut,5.37,10,8,0,434.81,33,0,2,Fast Food,Storm,Low,Bike,47.2,4,0,5
+1869,user_065,Chocolate Donut,11.36,6,10,1,415.54,31,0,0,South Indian,Rain,Low,Bike,57.8,2,0,4
+1870,user_047,Margherita Pizza,7.68,15,14,0,1347.53,70,0,0,Chinese,Cloudy,Low,Scooter,40.9,1,0,4
+1871,user_047,Veg Fried Rice,1.99,25,21,0,729.79,21,0,3,Italian,Cloudy,Medium,Scooter,40.9,3,0,5
+1872,user_042,Ice Cream Cone,3.9,20,15,0,576.88,43,0,2,Italian,Storm,High,Bicycle,65.6,1,0,4
+1873,user_085,Sushi Roll,4.69,14,12,1,1356.6,71,1,2,Chinese,Sunny,Medium,Bike,49.2,3,1,1
+1874,user_008,Margherita Pizza,1.61,7,9,0,954.36,23,1,2,Fast Food,Cloudy,Low,Scooter,22.9,3,0,2
+1875,user_031,Margherita Pizza,0.8,28,10,0,1184.45,18,0,0,Fast Food,Storm,High,Scooter,58.7,3,0,2
+1876,user_092,Paneer Tikka,2.49,11,9,0,1498.14,55,1,0,Continental,Rain,Medium,Bike,37.4,1,0,3
+1877,user_084,Margherita Pizza,7.2,6,12,0,1090.36,36,0,3,Continental,Cloudy,Medium,Scooter,43.8,3,1,3
+1878,user_061,Paneer Tikka,7.33,30,14,0,259.39,38,0,1,Italian,Storm,Low,Bike,61.9,5,0,2
+1879,user_099,Margherita Pizza,5.42,18,10,0,222.06,63,1,1,South Indian,Storm,High,Bike,62.8,1,1,2
+1880,user_075,Chocolate Donut,7.31,14,21,1,884.68,20,0,0,South Indian,Sunny,Low,Bike,46.4,5,0,3
+1881,user_072,Ice Cream Cone,1.74,23,14,0,1316.4,4,0,0,Italian,Cloudy,Low,Bike,35.5,2,0,1
+1882,user_084,Margherita Pizza,7.7,20,10,0,175.37,38,0,0,Fast Food,Cloudy,Low,Scooter,49.7,1,1,5
+1883,user_034,Veg Fried Rice,10.47,8,19,1,434.85,26,0,0,Indian,Storm,Medium,Bike,72.4,2,0,4
+1884,user_010,Chocolate Donut,5.96,17,14,0,582.92,63,0,1,Indian,Storm,Low,Scooter,49.9,4,1,1
+1885,user_098,Veg Fried Rice,7.89,28,20,0,207.56,7,0,3,Fast Food,Sunny,Low,Bicycle,52.2,1,0,2
+1886,user_032,Margherita Pizza,4.47,24,22,1,493.31,50,0,1,Indian,Storm,Medium,Scooter,69.1,2,0,1
+1887,user_026,Margherita Pizza,6.51,5,13,0,1193.89,74,0,0,Indian,Storm,Low,Bicycle,42.4,1,0,2
+1888,user_043,Veg Fried Rice,6.65,20,8,1,510.41,69,0,1,Italian,Cloudy,Low,Scooter,53.4,2,0,5
+1889,user_015,Margherita Pizza,4.24,22,11,0,1273.85,18,0,2,Fast Food,Cloudy,Low,Bicycle,41.5,3,0,5
+1890,user_073,Ice Cream Cone,2.4,29,14,0,429.29,63,0,1,Fast Food,Sunny,Low,Scooter,36.6,4,0,2
+1891,user_035,Paneer Tikka,5.23,19,20,0,609.73,39,0,2,Chinese,Sunny,Low,Scooter,36.5,4,0,2
+1892,user_066,Sushi Roll,1.71,15,8,0,583.29,21,0,3,Fast Food,Sunny,Low,Bike,24.2,1,0,5
+1893,user_069,Chocolate Donut,1.41,19,11,1,349.57,14,0,1,Indian,Sunny,High,Scooter,51.0,1,1,1
+1894,user_081,Sushi Roll,1.38,21,20,0,950.6,51,0,0,Italian,Storm,Low,Bike,43.8,3,0,3
+1895,user_087,Sushi Roll,3.34,21,18,0,1154.28,29,0,0,Italian,Cloudy,High,Scooter,55.0,1,0,3
+1896,user_100,Margherita Pizza,0.83,12,15,0,1489.47,11,1,3,Italian,Rain,High,Scooter,42.3,2,1,5
+1897,user_048,Ice Cream Cone,1.64,28,9,1,1452.27,56,0,1,Fast Food,Storm,Medium,Bicycle,62.0,5,0,5
+1898,user_053,Ice Cream Cone,0.84,27,16,1,946.38,10,0,2,Italian,Storm,Low,Bicycle,50.2,1,1,1
+1899,user_043,Ice Cream Cone,3.63,28,18,1,1445.69,59,1,3,Chinese,Rain,High,Bicycle,65.7,4,0,1
+1900,user_090,Sushi Roll,7.55,17,21,1,698.85,42,0,0,Italian,Cloudy,High,Scooter,70.7,4,0,2
+1901,user_085,Sushi Roll,0.64,18,18,1,1453.58,8,0,3,Fast Food,Rain,Low,Bicycle,36.4,3,0,5
+1902,user_057,Paneer Tikka,5.21,11,22,1,871.12,20,0,3,Chinese,Cloudy,Medium,Bicycle,51.0,1,1,5
+1903,user_100,Veg Fried Rice,7.82,15,17,0,727.86,9,0,1,Indian,Cloudy,High,Bicycle,56.3,3,0,5
+1904,user_028,Chocolate Donut,8.61,25,13,1,1286.93,31,0,2,Italian,Sunny,High,Scooter,73.7,5,0,5
+1905,user_059,Ice Cream Cone,11.93,8,23,0,1023.36,6,0,3,Fast Food,Rain,Medium,Bicycle,60.7,4,0,1
+1906,user_074,Paneer Tikka,8.88,7,11,1,1270.11,59,0,2,Indian,Rain,High,Bicycle,63.5,1,0,4
+1907,user_039,Margherita Pizza,4.89,25,17,1,214.42,13,0,1,Indian,Sunny,Medium,Scooter,52.1,5,0,4
+1908,user_072,Paneer Tikka,12.0,26,12,1,775.99,37,0,3,Chinese,Rain,High,Bike,87.0,1,0,3
+1909,user_075,Paneer Tikka,9.14,28,21,1,1179.25,3,0,1,Chinese,Cloudy,Medium,Bike,73.0,4,0,4
+1910,user_098,Ice Cream Cone,10.97,11,12,0,869.04,27,0,2,Fast Food,Sunny,Low,Bicycle,44.9,4,0,1
+1911,user_100,Paneer Tikka,9.07,5,21,0,1264.75,75,0,0,Continental,Sunny,Low,Bike,35.9,2,0,4
+1912,user_087,Ice Cream Cone,10.17,29,21,0,1088.82,73,0,1,South Indian,Cloudy,Low,Bike,58.4,3,0,4
+1913,user_051,Sushi Roll,11.24,10,22,0,961.97,44,1,3,Continental,Rain,High,Scooter,67.9,3,0,2
+1914,user_006,Margherita Pizza,1.53,24,17,0,813.76,64,1,2,Fast Food,Storm,Medium,Scooter,51.6,5,0,3
+1915,user_033,Sushi Roll,2.56,24,13,0,1488.37,28,1,1,Chinese,Cloudy,Low,Bike,39.3,4,0,3
+1916,user_030,Sushi Roll,8.73,6,10,0,1498.73,59,0,2,Fast Food,Cloudy,Low,Bike,41.7,1,0,4
+1917,user_004,Paneer Tikka,5.85,28,19,1,770.09,15,1,1,South Indian,Rain,Low,Bicycle,58.1,5,0,2
+1918,user_099,Veg Fried Rice,6.16,12,15,1,403.94,33,1,2,Fast Food,Storm,High,Bike,72.0,2,0,4
+1919,user_089,Veg Fried Rice,4.38,23,17,1,391.06,4,1,1,Chinese,Cloudy,Medium,Bicycle,57.4,1,1,2
+1920,user_066,Margherita Pizza,5.63,13,16,1,376.52,29,0,1,Continental,Cloudy,Medium,Bike,53.3,5,0,3
+1921,user_083,Ice Cream Cone,10.74,25,19,0,1390.69,34,0,3,Fast Food,Sunny,Low,Scooter,52.0,5,0,1
+1922,user_063,Ice Cream Cone,0.69,25,15,0,978.97,37,0,2,Fast Food,Storm,High,Bicycle,57.1,2,1,4
+1923,user_034,Ice Cream Cone,2.87,9,12,1,980.93,57,1,3,South Indian,Cloudy,Medium,Scooter,42.6,3,0,5
+1924,user_003,Margherita Pizza,7.44,24,13,1,1374.25,59,0,1,South Indian,Cloudy,High,Bicycle,73.5,1,0,1
+1925,user_095,Ice Cream Cone,4.47,16,20,0,1191.13,3,1,0,South Indian,Rain,High,Bicycle,52.8,4,0,1
+1926,user_093,Veg Fried Rice,5.92,14,10,0,1260.37,73,0,3,Fast Food,Storm,Low,Scooter,47.1,5,0,1
+1927,user_074,Ice Cream Cone,5.9,10,21,1,313.79,41,0,3,Chinese,Rain,Low,Scooter,44.2,4,0,2
+1928,user_084,Sushi Roll,3.82,11,14,0,878.86,44,0,2,South Indian,Rain,High,Scooter,47.7,4,0,1
+1929,user_029,Ice Cream Cone,1.12,28,13,1,1293.04,2,0,3,Fast Food,Sunny,High,Scooter,58.0,4,0,3
+1930,user_009,Chocolate Donut,8.6,10,20,1,338.02,26,0,3,Continental,Storm,High,Scooter,74.1,2,0,1
+1931,user_039,Chocolate Donut,6.81,18,14,1,654.86,2,0,1,Indian,Sunny,Low,Bicycle,50.5,2,0,4
+1932,user_054,Sushi Roll,3.71,20,19,0,1488.41,7,0,0,South Indian,Rain,High,Scooter,54.9,4,1,5
+1933,user_089,Margherita Pizza,9.87,27,22,0,480.66,55,0,2,Indian,Sunny,Medium,Scooter,59.1,4,0,5
+1934,user_039,Ice Cream Cone,0.84,15,22,0,644.59,44,0,0,Indian,Rain,Low,Bicycle,28.9,4,0,4
+1935,user_042,Paneer Tikka,3.54,6,12,1,948.72,51,0,1,Indian,Cloudy,Medium,Scooter,42.1,4,1,2
+1936,user_043,Margherita Pizza,11.45,10,11,0,471.3,28,0,1,Indian,Storm,Medium,Scooter,65.8,5,0,2
+1937,user_049,Chocolate Donut,6.3,7,8,0,107.15,69,1,2,Indian,Rain,Medium,Bike,45.9,4,0,3
+1938,user_044,Paneer Tikka,5.57,19,15,0,702.44,74,1,0,South Indian,Sunny,Low,Scooter,36.8,2,0,5
+1939,user_067,Veg Fried Rice,6.84,18,15,0,1094.22,8,0,0,Continental,Storm,High,Scooter,66.0,3,0,2
+1940,user_044,Chocolate Donut,8.72,17,14,0,101.78,28,0,2,Chinese,Rain,Low,Bicycle,51.2,1,1,5
+1941,user_096,Ice Cream Cone,3.88,16,10,1,1298.61,12,0,0,Indian,Sunny,Low,Bike,41.4,5,1,5
+1942,user_074,Chocolate Donut,8.83,6,22,0,1327.92,43,1,0,Italian,Sunny,Low,Scooter,37.3,5,0,1
+1943,user_047,Paneer Tikka,0.59,5,23,1,998.81,18,0,1,South Indian,Storm,High,Scooter,53.2,5,0,1
+1944,user_099,Sushi Roll,3.03,9,9,0,203.92,24,0,2,South Indian,Storm,Low,Bike,35.9,2,1,1
+1945,user_014,Paneer Tikka,5.92,16,13,0,831.01,44,0,3,Chinese,Storm,High,Bike,63.5,1,0,4
+1946,user_016,Veg Fried Rice,11.04,17,21,0,928.67,47,0,3,Continental,Cloudy,High,Bike,67.4,1,1,1
+1947,user_075,Ice Cream Cone,8.17,9,23,0,1308.87,29,0,1,Continental,Sunny,High,Bike,49.9,2,0,5
+1948,user_082,Paneer Tikka,3.04,30,20,0,498.28,43,0,0,Continental,Cloudy,Low,Scooter,44.7,5,0,5
+1949,user_100,Paneer Tikka,1.52,9,8,1,1156.35,27,0,0,Indian,Rain,Medium,Bike,41.2,4,0,3
+1950,user_036,Veg Fried Rice,8.46,20,19,0,1369.85,32,1,1,Italian,Storm,Low,Bicycle,57.8,5,0,1
+1951,user_072,Margherita Pizza,9.01,21,19,0,148.62,16,0,3,Fast Food,Sunny,High,Bicycle,60.8,4,0,5
+1952,user_023,Sushi Roll,11.8,7,14,1,527.07,2,0,2,Continental,Sunny,Medium,Scooter,59.1,4,0,5
+1953,user_052,Paneer Tikka,10.6,30,23,0,583.56,5,1,2,Italian,Storm,Medium,Scooter,78.5,5,0,3
+1954,user_050,Chocolate Donut,0.66,30,12,0,1446.7,49,1,3,Continental,Storm,High,Scooter,64.4,1,1,5
+1955,user_048,Chocolate Donut,6.5,13,13,1,1231.08,51,0,3,Fast Food,Storm,Low,Bike,57.2,1,1,4
+1956,user_036,Margherita Pizza,1.22,16,14,1,1250.6,63,0,1,Continental,Storm,High,Scooter,58.8,2,0,3
+1957,user_014,Sushi Roll,0.51,15,9,0,1143.17,66,0,2,Chinese,Rain,High,Scooter,43.4,1,0,3
+1958,user_003,Sushi Roll,10.82,15,15,0,378.91,11,1,0,Chinese,Sunny,High,Scooter,62.6,3,0,3
+1959,user_036,Ice Cream Cone,8.76,8,10,1,109.28,10,0,2,Continental,Cloudy,Low,Bike,52.0,2,0,3
+1960,user_039,Paneer Tikka,10.93,11,12,1,1053.28,59,0,3,Indian,Storm,High,Bike,82.6,5,1,1
+1961,user_073,Chocolate Donut,3.0,24,12,1,1416.45,66,1,0,Indian,Storm,High,Bike,72.2,1,0,3
+1962,user_100,Sushi Roll,7.59,30,12,0,709.31,27,0,2,Chinese,Storm,Medium,Scooter,71.0,4,0,4
+1963,user_017,Ice Cream Cone,2.15,28,18,0,1160.07,63,0,1,Chinese,Rain,High,Bicycle,54.9,3,0,2
+1964,user_095,Veg Fried Rice,8.31,29,13,0,361.19,3,0,1,Italian,Sunny,Low,Scooter,49.6,3,0,5
+1965,user_093,Ice Cream Cone,5.94,17,12,0,1381.11,5,0,3,Fast Food,Cloudy,Low,Scooter,39.5,5,0,1
+1966,user_013,Ice Cream Cone,10.18,11,9,1,1103.5,49,0,1,Continental,Storm,Medium,Bike,69.8,2,0,4
+1967,user_077,Chocolate Donut,7.81,8,17,1,121.32,49,1,2,Italian,Sunny,Medium,Scooter,49.3,5,0,3
+1968,user_032,Sushi Roll,2.96,24,22,0,1213.98,61,1,0,Continental,Storm,Medium,Scooter,56.3,3,0,2
+1969,user_092,Veg Fried Rice,0.79,6,19,1,1144.84,38,1,2,South Indian,Storm,High,Scooter,53.8,4,0,5
+1970,user_074,Veg Fried Rice,6.52,7,12,0,1273.02,60,0,0,Continental,Storm,High,Bike,62.9,2,1,4
+1971,user_021,Margherita Pizza,11.06,21,13,0,278.59,36,0,0,South Indian,Rain,Low,Scooter,61.1,2,0,2
+1972,user_051,Veg Fried Rice,10.62,5,22,1,505.77,26,0,2,South Indian,Rain,Medium,Bicycle,62.4,5,0,3
+1973,user_058,Chocolate Donut,5.78,12,12,1,663.77,52,0,2,Fast Food,Storm,High,Scooter,69.3,1,0,2
+1974,user_072,Sushi Roll,7.92,9,22,0,269.29,27,0,3,South Indian,Cloudy,Low,Bike,42.3,5,1,2
+1975,user_052,Ice Cream Cone,2.77,5,20,0,1368.83,46,0,3,Fast Food,Rain,High,Bike,41.8,1,0,1
+1976,user_067,Ice Cream Cone,3.4,13,17,1,387.82,43,0,2,Italian,Rain,Low,Bike,42.1,5,1,4
+1977,user_091,Ice Cream Cone,0.83,17,15,1,1149.11,59,0,0,Italian,Sunny,Low,Scooter,31.8,1,0,4
+1978,user_080,Margherita Pizza,4.39,16,23,0,1396.0,70,0,2,Italian,Sunny,Low,Bicycle,32.6,3,1,5
+1979,user_047,Veg Fried Rice,8.43,15,14,1,906.68,22,0,3,Chinese,Sunny,Low,Scooter,49.1,4,0,3
+1980,user_071,Ice Cream Cone,4.05,20,17,0,459.57,9,0,1,South Indian,Storm,Low,Bike,49.8,5,1,2
+1981,user_079,Paneer Tikka,7.48,26,18,1,1235.98,51,1,0,Fast Food,Storm,Low,Bike,66.1,1,1,3
+1982,user_001,Ice Cream Cone,2.79,13,20,1,799.15,20,0,2,South Indian,Sunny,Medium,Scooter,44.0,5,1,1
+1983,user_085,Paneer Tikka,4.09,25,20,0,1473.08,73,0,2,Fast Food,Rain,Medium,Bicycle,53.6,4,0,4
+1984,user_040,Margherita Pizza,5.7,6,13,1,917.65,50,1,1,South Indian,Storm,Medium,Bicycle,59.0,4,0,1
+1985,user_021,Chocolate Donut,2.32,13,22,0,1375.64,60,1,2,Italian,Storm,High,Bicycle,53.1,4,0,1
+1986,user_076,Chocolate Donut,7.61,19,18,1,1046.3,26,0,1,Indian,Sunny,High,Scooter,66.7,4,1,4
+1987,user_076,Sushi Roll,6.52,26,14,0,946.93,25,0,3,South Indian,Storm,Low,Bike,61.4,4,0,2
+1988,user_067,Chocolate Donut,4.9,9,20,1,786.0,63,0,2,Fast Food,Rain,Medium,Scooter,50.1,3,0,4
+1989,user_092,Ice Cream Cone,5.59,7,12,1,588.42,30,0,3,South Indian,Rain,High,Bicycle,60.3,3,0,3
+1990,user_034,Sushi Roll,7.41,5,8,0,882.82,34,0,3,Indian,Rain,Low,Scooter,36.9,2,0,2
+1991,user_052,Veg Fried Rice,0.87,20,14,0,834.97,47,1,1,Fast Food,Rain,Medium,Bicycle,37.4,5,0,2
+1992,user_036,Paneer Tikka,3.98,28,19,0,834.81,35,0,0,Continental,Sunny,Low,Scooter,39.4,4,0,1
+1993,user_069,Chocolate Donut,8.63,5,21,0,539.92,5,0,1,Continental,Storm,Low,Bike,48.5,5,0,2
+1994,user_026,Veg Fried Rice,5.41,27,23,1,1476.83,50,0,0,Chinese,Rain,Medium,Scooter,61.9,2,0,3
+1995,user_062,Veg Fried Rice,8.65,29,11,0,905.79,8,1,0,Indian,Rain,High,Bike,70.1,4,0,5
+1996,user_034,Sushi Roll,3.52,19,14,0,766.09,60,1,1,Italian,Sunny,Medium,Scooter,42.1,1,0,3
+1997,user_024,Chocolate Donut,6.57,11,8,0,1297.02,2,0,2,Fast Food,Rain,Medium,Bicycle,48.1,2,0,4
+1998,user_093,Chocolate Donut,1.2,7,11,0,991.11,69,0,0,South Indian,Storm,Medium,Scooter,41.5,5,0,2
+1999,user_032,Chocolate Donut,3.42,24,21,0,1002.45,66,0,0,South Indian,Sunny,Low,Bike,36.5,2,0,5
+2000,user_004,Chocolate Donut,11.76,20,16,0,910.29,5,0,3,Fast Food,Sunny,Medium,Bicycle,62.5,3,1,1

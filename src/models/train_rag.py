@@ -1,14 +1,18 @@
 """
 NourishNet AI - RAG Customer Support Pipeline
-LangChain + FAISS + HuggingFace Embeddings
+Builds a FAISS vector store from support documents.
 """
 
-from pathlib import Path
-from langchain_core.documents import Document
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from __future__ import annotations
 
-MODEL_DIR = Path("models/saved")
+from pathlib import Path
+
+from langchain_core.documents import Document
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+MODEL_DIR = ROOT_DIR / "models" / "saved" / "rag"
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 DOCUMENTS = [
@@ -29,23 +33,27 @@ DOCUMENTS = [
     "NourishNet offers a loyalty program where every Rs 100 spent earns 10 NourishPoints.",
 ]
 
-if __name__ == "__main__":
-    print("Building RAG vector store...")
 
+def build_vector_store():
     docs = [Document(page_content=text) for text in DOCUMENTS]
-
-    embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
-
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectorstore = FAISS.from_documents(docs, embeddings)
-    vectorstore.save_local(str(MODEL_DIR / "nourishnet_vectorstore"))
+    output_path = MODEL_DIR / "nourishnet_vectorstore"
+    vectorstore.save_local(str(output_path))
+    return vectorstore
 
-    print(f"Vector store saved. Total documents indexed: {len(DOCUMENTS)}")
 
-    # Test retrieval
+def main():
+    print("Building RAG vector store...")
+    vectorstore = build_vector_store()
+    print(f"Vector store saved to {MODEL_DIR}")
+
     query = "How do I cancel my order?"
     results = vectorstore.similarity_search(query, k=2)
     print(f"\nTest query: {query}")
-    for i, r in enumerate(results):
-        print(f"Result {i+1}: {r.page_content}")
+    for i, result in enumerate(results, 1):
+        print(f"Result {i}: {result.page_content}")
+
+
+if __name__ == "__main__":
+    main()

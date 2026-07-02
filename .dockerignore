@@ -22,3 +22,13 @@ docker-compose.yml
 
 # models
 models/saved/
+.git
+.venv
+__pycache__
+.pytest_cache
+.mypy_cache
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env

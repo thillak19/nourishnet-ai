@@ -1,121 +1,119 @@
-"""
-NourishNet AI - Synthetic Food Delivery Dataset Generator
-Generates a realistic dataset for delivery time prediction and customer churn modeling.
-"""
+from __future__ import annotations
 
-import numpy as np
-import pandas as pd
-from faker import Faker
+import csv
 import random
+from pathlib import Path
 
-np.random.seed(42)
+ROOT_DIR = Path(__file__).resolve().parents[2]
+RAW_DIR = ROOT_DIR / "data" / "raw"
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+
 random.seed(42)
-fake = Faker()
 
-N_ORDERS = 8000
-N_CUSTOMERS = 1500
-
-CUISINES = ["Indian", "Chinese", "Italian", "Fast Food", "South Indian", "Continental", "Desserts", "Beverages"]
-WEATHER = ["Clear", "Rain", "Storm", "Cloudy"]
-TRAFFIC = ["Low", "Medium", "High", "Jam"]
-VEHICLE = ["Bike", "Scooter", "Bicycle"]
-
-
-def generate_customers(n):
-    customers = []
-    for i in range(n):
-        signup_orders = np.random.poisson(12) + 1
-        avg_rating_given = round(np.random.normal(4.2, 0.6), 1)
-        avg_rating_given = min(5.0, max(1.0, avg_rating_given))
-        customers.append({
-            "customer_id": f"CUST{i:05d}",
-            "total_past_orders": signup_orders,
-            "avg_rating_given": avg_rating_given,
-            "is_premium_member": np.random.choice([0, 1], p=[0.7, 0.3]),
-            "complaints_last_90d": np.random.poisson(0.3),
-        })
-    return pd.DataFrame(customers)
+CUISINES = ["Indian", "Chinese", "Italian", "Fast Food", "South Indian", "Continental"]
+WEATHER = ["Sunny", "Cloudy", "Rain", "Storm"]
+TRAFFIC = ["Low", "Medium", "High"]
+VEHICLES = ["Bike", "Scooter", "Bicycle"]
+FOOD_ITEMS = [
+    "Paneer Tikka",
+    "Margherita Pizza",
+    "Sushi Roll",
+    "Chocolate Donut",
+    "Veg Fried Rice",
+    "Ice Cream Cone",
+]
+USER_IDS = [f"user_{i:03d}" for i in range(1, 101)]
 
 
-def generate_orders(n, customers_df):
-    orders = []
-    for i in range(n):
-        cust = customers_df.sample(1).iloc[0]
-        distance_km = round(np.random.gamma(2.5, 1.4), 2)
-        distance_km = min(distance_km, 20.0)
-        weather = np.random.choice(WEATHER, p=[0.55, 0.25, 0.05, 0.15])
-        traffic = np.random.choice(TRAFFIC, p=[0.3, 0.35, 0.25, 0.10])
-        vehicle = np.random.choice(VEHICLE, p=[0.6, 0.3, 0.1])
-        prep_time = round(np.random.gamma(3, 4), 1)
-        hour_of_day = np.random.choice(range(24), p=_hourly_demand_weights())
-        is_peak = 1 if hour_of_day in [12, 13, 19, 20, 21] else 0
+def generate_order_row(order_id: int) -> dict:
+    cuisine = random.choice(CUISINES)
+    weather = random.choice(WEATHER)
+    traffic_level = random.choice(TRAFFIC)
+    vehicle_type = random.choice(VEHICLES)
+    is_peak_hour = int(random.random() < 0.35)
+    distance_km = round(random.uniform(0.5, 12.0), 2)
+    restaurant_prep_time_min = random.randint(5, 30)
+    order_value_inr = round(random.uniform(100, 1500), 2)
+    customer_total_past_orders = random.randint(0, 75)
+    customer_is_premium = int(random.random() < 0.25)
+    customer_complaints_90d = random.randint(0, 3)
 
-        base_time = 8 + distance_km * 2.8
-        weather_penalty = {"Clear": 0, "Cloudy": 1, "Rain": 6, "Storm": 14}[weather]
-        traffic_penalty = {"Low": 0, "Medium": 4, "High": 9, "Jam": 18}[traffic]
-        vehicle_factor = {"Bike": 1.0, "Scooter": 1.05, "Bicycle": 1.6}[vehicle]
-        peak_penalty = 6 if is_peak else 0
+    weather_penalty = {"Sunny": 0, "Cloudy": 4, "Rain": 6, "Storm": 14}[weather]
+    traffic_penalty = {"Low": 0, "Medium": 7, "High": 15}[traffic_level]
+    peak_penalty = 8 if is_peak_hour else 0
 
-        delivery_time = (base_time + weather_penalty + traffic_penalty + peak_penalty) * vehicle_factor
-        delivery_time += prep_time * 0.4
-        delivery_time += np.random.normal(0, 3.5)
-        delivery_time = max(10, round(delivery_time, 1))
+    delivery_time_min = round(
+        10
+        + 2.5 * distance_km
+        + 0.7 * restaurant_prep_time_min
+        + weather_penalty
+        + traffic_penalty
+        + peak_penalty
+        + random.uniform(-3, 3),
+        1,
+    )
 
-        rating = 5 - (delivery_time > 45) * np.random.choice([0, 1, 2], p=[0.4, 0.4, 0.2])
-        rating = max(1, min(5, rating + np.random.choice([0, 0, 1, -1])))
+    customer_rating = random.randint(1, 5)
+    churned = int(random.random() < 0.12 + 0.05 * (customer_complaints_90d > 0))
 
-        churn_score = (
-            (delivery_time > 50) * 0.3
-            + (rating <= 2) * 0.35
-            + (cust["complaints_last_90d"] > 1) * 0.25
-            + (cust["total_past_orders"] < 3) * 0.2
-            - (cust["is_premium_member"]) * 0.15
-            + np.random.normal(0, 0.15)
-        )
-        churned = 1 if churn_score > 0.22 else 0
-
-        orders.append({
-            "order_id": f"ORD{i:06d}",
-            "customer_id": cust["customer_id"],
-            "cuisine_type": np.random.choice(CUISINES),
-            "distance_km": distance_km,
-            "weather": weather,
-            "traffic_level": traffic,
-            "vehicle_type": vehicle,
-            "restaurant_prep_time_min": prep_time,
-            "hour_of_day": hour_of_day,
-            "is_peak_hour": is_peak,
-            "order_value_inr": round(np.random.gamma(3, 110), 2),
-            "delivery_time_min": delivery_time,
-            "customer_rating": rating,
-            "customer_total_past_orders": cust["total_past_orders"],
-            "customer_is_premium": cust["is_premium_member"],
-            "customer_complaints_90d": cust["complaints_last_90d"],
-            "churned": churned,
-        })
-    return pd.DataFrame(orders)
+    return {
+        "order_id": order_id,
+        "user_id": random.choice(USER_IDS),
+        "food_name": random.choice(FOOD_ITEMS),
+        "distance_km": distance_km,
+        "restaurant_prep_time_min": restaurant_prep_time_min,
+        "hour_of_day": random.randint(8, 23),
+        "is_peak_hour": is_peak_hour,
+        "order_value_inr": order_value_inr,
+        "customer_total_past_orders": customer_total_past_orders,
+        "customer_is_premium": customer_is_premium,
+        "customer_complaints_90d": customer_complaints_90d,
+        "cuisine_type": cuisine,
+        "weather": weather,
+        "traffic_level": traffic_level,
+        "vehicle_type": vehicle_type,
+        "delivery_time_min": delivery_time_min,
+        "customer_rating": customer_rating,
+        "churned": churned,
+        "rating": random.randint(1, 5),
+    }
 
 
-def _hourly_demand_weights():
-    w = np.ones(24)
-    for h in [12, 13, 19, 20, 21]:
-        w[h] = 4
-    for h in [7, 8, 9, 23, 0, 1, 2, 3, 4, 5]:
-        w[h] = 0.3
-    return w / w.sum()
+def generate_dataset(n: int = 2000, output_file: Path | str | None = None) -> Path:
+    output_path = Path(output_file) if output_file is not None else RAW_DIR / "orders.csv"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    fieldnames = [
+        "order_id",
+        "user_id",
+        "food_name",
+        "distance_km",
+        "restaurant_prep_time_min",
+        "hour_of_day",
+        "is_peak_hour",
+        "order_value_inr",
+        "customer_total_past_orders",
+        "customer_is_premium",
+        "customer_complaints_90d",
+        "cuisine_type",
+        "weather",
+        "traffic_level",
+        "vehicle_type",
+        "delivery_time_min",
+        "customer_rating",
+        "churned",
+        "rating",
+    ]
+
+    with output_path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for order_id in range(1, n + 1):
+            writer.writerow(generate_order_row(order_id))
+
+    return output_path
 
 
 if __name__ == "__main__":
-    print("Generating customers...")
-    customers_df = generate_customers(N_CUSTOMERS)
-
-    print("Generating orders...")
-    orders_df = generate_orders(N_ORDERS, customers_df)
-
-    customers_df.to_csv("data/raw/customers.csv", index=False)
-    orders_df.to_csv("data/raw/orders.csv", index=False)
-
-    print(f"Done. customers.csv: {len(customers_df)} rows | orders.csv: {len(orders_df)} rows")
-    print("\nOrders sample:")
-    print(orders_df.head())
-    print("\nChurn rate:", round(orders_df['churned'].mean(), 3))
+    output_path = generate_dataset(2000)
+    print(f"Generated dataset at: {output_path}")
